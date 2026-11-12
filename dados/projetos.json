@@ -1,0 +1,182 @@
+[
+  {
+    "codigo": "PEC 45/2019",
+    "id_votacao": "2196833-373",
+    "titulo": "Reforma Tributária (2º Turno)",
+    "descricao_curta": "Aprovação em segundo turno da unificação de impostos sobre o consumo no IBS e na CBS.",
+    "np_sim": 75,
+    "np_nao": 25,
+    "rp": 1.0
+  },
+  {
+    "codigo": "PLP 93/2023",
+    "id_votacao": "2357053-47",
+    "titulo": "Novo Arcabouço Fiscal",
+    "descricao_curta": "Aprovação do substitutivo que instituiu o regime fiscal sustentável em substituição ao Teto de Gastos.",
+    "np_sim": 70,
+    "np_nao": 30,
+    "rp": 1.0
+  },
+  {
+    "codigo": "PLP 68/2024",
+    "id_votacao": "2430143-72",
+    "titulo": "Regulamentação da Reforma Tributária",
+    "descricao_curta": "Definição das alíquotas, cesta básica nacional e regras de transição do IBS e da CBS.",
+    "np_sim": 75,
+    "np_nao": 25,
+    "rp": 0.95
+  },
+  {
+    "codigo": "PL 1087/2025",
+    "id_votacao": "2487436-169",
+    "titulo": "Isenção do IR até R$ 5 mil",
+    "descricao_curta": "Ampliação da faixa de isenção do Imposto de Renda Pessoa Física com tributação mínima de altas rendas.",
+    "np_sim": 85,
+    "np_nao": 15,
+    "rp": 0.95
+  },
+  {
+    "codigo": "PL 914/2024",
+    "id_votacao": "2422697-129",
+    "titulo": "Programa Mover / Taxa das Blusinhas",
+    "descricao_curta": "Aprovação das emendas do Senado ao programa de mobilidade verde e tributação de compras internacionais.",
+    "np_sim": 55,
+    "np_nao": 45,
+    "rp": 0.8
+  },
+  {
+    "codigo": "PL 3626/2023",
+    "id_votacao": "2374400-110",
+    "titulo": "Regulamentação e Taxação das Bets",
+    "descricao_curta": "Aprovação das regras de tributação e funcionamento para apostas esportivas de quota fixa e jogos online.",
+    "np_sim": 70,
+    "np_nao": 30,
+    "rp": 0.85
+  },
+  {
+    "codigo": "PL 4173/2023",
+    "id_votacao": "2383287-43",
+    "titulo": "Taxação de Offshores e Fundos Exclusivos",
+    "descricao_curta": "Tributação periódica de investimentos no exterior e de fundos exclusivos de alta renda.",
+    "np_sim": 75,
+    "np_nao": 25,
+    "rp": 0.85
+  },
+  {
+    "codigo": "PL 2903/2023",
+    "id_votacao": "345311-270",
+    "titulo": "Marco Temporal das Terras Indígenas",
+    "descricao_curta": "Estabelecimento da data de promulgação da Constituição de 1988 como critério para demarcação.",
+    "np_sim": 40,
+    "np_nao": 60,
+    "rp": 0.9
+  },
+  {
+    "codigo": "PL 4614/2024",
+    "id_votacao": "2473375-59",
+    "titulo": "Pacote de Corte de Gastos / BPC",
+    "descricao_curta": "Regras de contenção de despesas obrigatórias, reajuste do salário mínimo e critérios do BPC.",
+    "np_sim": 60,
+    "np_nao": 40,
+    "rp": 0.9
+  },
+  {
+    "codigo": "PL 2162/2023",
+    "id_votacao": "2358548-89",
+    "titulo": "PL da Dosimetria / Revisão de Penas",
+    "descricao_curta": "Alterações na Lei de Execução Penal e no Código Penal sobre progressão de regime e cálculo de penas.",
+    "np_sim": 35,
+    "np_nao": 65,
+    "rp": 0.85
+  },
+  {
+    "codigo": "PEC 18/2025",
+    "id_votacao": "2500080-330",
+    "titulo": "PEC da Segurança Pública (2º Turno)",
+    "descricao_curta": "Integração constitucional das forças policiais e ampliação das atribuições da União na segurança.",
+    "np_sim": 80,
+    "np_nao": 20,
+    "rp": 0.95
+  },
+  {
+    "codigo": "PL 5582/2025",
+    "id_votacao": "2579832-62",
+    "titulo": "Marco Legal contra o Crime Organizado",
+    "descricao_curta": "Endurecimento penal e financeiro contra facções criminosas e milícias (PL Antifacção).",
+    "np_sim": 85,
+    "np_nao": 15,
+    "rp": 0.95
+  },
+  {
+    "codigo": "PEC 9/2023",
+    "id_votacao": "2352476-168",
+    "titulo": "PEC da Anistia Partidária (2º Turno)",
+    "descricao_curta": "Perdão a multas de partidos políticos que descumpriram cotas raciais e de gênero em eleições.",
+    "np_sim": 15,
+    "np_nao": 85,
+    "rp": 0.9
+  },
+  {
+    "codigo": "PEC 3/2021",
+    "id_votacao": "2270800-160",
+    "titulo": "PEC das Prerrogativas (2º Turno)",
+    "descricao_curta": "Ampliação de garantias e regras restritivas para prisão e abertura de processos contra parlamentares.",
+    "np_sim": 20,
+    "np_nao": 80,
+    "rp": 0.9
+  },
+  {
+    "codigo": "PL 2159/2021",
+    "id_votacao": "257161-337",
+    "titulo": "Lei Geral do Licenciamento Ambiental",
+    "descricao_curta": "Padronização e flexibilização de regras para obtenção de licenças ambientais no país.",
+    "np_sim": 45,
+    "np_nao": 55,
+    "rp": 0.85
+  },
+  {
+    "codigo": "PL 5230/2023",
+    "id_votacao": "2399598-112",
+    "titulo": "Reforma do Novo Ensino Médio",
+    "descricao_curta": "Aprovação do substitutivo do Senado revisando a carga horária básica e os itinerários formativos.",
+    "np_sim": 80,
+    "np_nao": 20,
+    "rp": 0.85
+  },
+  {
+    "codigo": "PLP 136/2023",
+    "id_votacao": "2372071-41",
+    "titulo": "Compensação do ICMS aos Estados",
+    "descricao_curta": "Acordo federativo para recomposição de perdas de arrecadação de estados e municípios.",
+    "np_sim": 75,
+    "np_nao": 25,
+    "rp": 0.75
+  },
+  {
+    "codigo": "PL 2384/2023",
+    "id_votacao": "2360503-74",
+    "titulo": "Voto de Qualidade no CARF (Destaque)",
+    "descricao_curta": "Destaque para suprimir dispositivo do projeto sobre o voto de desempate favorável à Fazenda Nacional.",
+    "np_sim": 35,
+    "np_nao": 65,
+    "rp": 0.75
+  },
+  {
+    "codigo": "PLP 210/2024",
+    "id_votacao": "2473389-58",
+    "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+    "descricao_curta": "Autorização para bloqueio de emendas e acionamento de gatilhos fiscais em caso de déficit.",
+    "np_sim": 75,
+    "np_nao": 25,
+    "rp": 0.85
+  },
+  {
+    "codigo": "PLP 128/2025",
+    "id_votacao": "2520670-52",
+    "titulo": "Revisão de Benefícios Fiscais e JCP",
+    "descricao_curta": "Corte linear de incentivos tributários e ajuste de alíquotas sobre JCP e fintechs.",
+    "np_sim": 70,
+    "np_nao": 30,
+    "rp": 0.8
+  }
+]

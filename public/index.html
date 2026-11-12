@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ranking Parlamentar — MVP 57ª Legislatura</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div>
+        <span class="eyebrow">Observatório Legislativo • MVP</span>
+        <h1>Ranking Parlamentar</h1>
+        <p class="subtitle" id="periodo-referencia">Avaliação experimental de 40 deputados em 20 votações nominais</p>
+      </div>
+      <div class="meta-badge">
+        <span class="meta-label">Última atualização</span>
+        <strong id="atualizado-em">—</strong>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="summary-grid" aria-label="Resumo do experimento">
+      <article class="summary-card">
+        <span class="card-label">Média das Notas</span>
+        <strong class="card-value" id="media-notas">—</strong>
+        <span class="card-hint" id="total-avaliados">0 parlamentares avaliados</span>
+      </article>
+      <article class="summary-card">
+        <span class="card-label">Total de Faltas no Grupo</span>
+        <strong class="card-value" id="total-faltas">—</strong>
+        <span class="card-hint" id="detalhe-faltas-grupo">Justificadas e não justificadas</span>
+      </article>
+      <article class="summary-card">
+        <span class="card-label">Soma Total de Gastos</span>
+        <strong class="card-value" id="soma-gastos">—</strong>
+        <span class="card-hint" id="detalhe-gastos-grupo">CEAP + Verba de Gabinete</span>
+      </article>
+    </section>
+
+    <section class="controls-bar" aria-label="Controles e filtros">
+      <div class="control-group control-search">
+        <label for="filtro-busca">Buscar parlamentar</label>
+        <input type="search" id="filtro-busca" placeholder="Digite o nome do deputado..." autocomplete="off" />
+      </div>
+      <div class="control-group">
+        <label for="filtro-partido">Partido</label>
+        <select id="filtro-partido">
+          <option value="">Todos os partidos</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filtro-uf">UF</label>
+        <select id="filtro-uf">
+          <option value="">Todas as UFs</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="ordenacao">Ordenação</label>
+        <select id="ordenacao">
+          <option value="nota_desc">Maior Nota (Ranking Oficial)</option>
+          <option value="nota_asc">Menor Nota</option>
+          <option value="faltas_desc">Mais Faltas</option>
+          <option value="gasto_desc">Maior Gasto Total</option>
+          <option value="gasto_asc">Menor Gasto Total</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="table-section" aria-label="Tabela de classificação">
+      <div id="estado-mensagem" class="status-banner" hidden></div>
+      <div class="table-wrapper">
+        <table class="ranking-table">
+          <thead>
+            <tr>
+              <th class="col-pos">Posição</th>
+              <th class="col-parlamentar">Parlamentar</th>
+              <th class="col-nota">Nota Final</th>
+              <th class="col-faltas">Faltas</th>
+              <th class="col-gastos">Gastos</th>
+            </tr>
+          </thead>
+          <tbody id="ranking-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal-backdrop" class="modal-backdrop" hidden>
+    <div
+      id="modal-detalhes"
+      class="modal-dialog"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-nome"
+    >
+      <header class="modal-header">
+        <div class="modal-profile">
+          <img id="modal-foto" src="" alt="" class="avatar avatar-lg" />
+          <div>
+            <div class="modal-title-row">
+              <span id="modal-posicao" class="pos-pill">#1</span>
+              <h2 id="modal-nome">Nome do Deputado</h2>
+            </div>
+            <p id="modal-partido-uf" class="badge-party">PARTIDO - UF</p>
+          </div>
+        </div>
+        <button type="button" id="modal-fechar" class="btn-close" aria-label="Fechar detalhes">&times;</button>
+      </header>
+
+      <div class="modal-body">
+        <section class="modal-section">
+          <h3>Decomposição da Nota</h3>
+          <div class="blocks-grid">
+            <div class="block-card block-a">
+              <span class="block-title">Bloco A — Atividade</span>
+              <strong class="block-score" id="modal-bloco-a">+0,00</strong>
+              <span class="block-sub" id="modal-bloco-a-sub">V: 0,00 • PRE: 0,00</span>
+              <div class="mini-bar"><span id="bar-bloco-a"></span></div>
+            </div>
+            <div class="block-card block-b">
+              <span class="block-title">Bloco B — Bônus / Penalidades</span>
+              <strong class="block-score" id="modal-bloco-b">+0,00</strong>
+              <span class="block-sub" id="modal-bloco-b-sub">PL: 0,00 • AL: 0,00 • PRO: 0,00</span>
+              <div class="mini-bar"><span id="bar-bloco-b"></span></div>
+            </div>
+            <div class="block-card block-c">
+              <span class="block-title">Bloco C — Custos</span>
+              <strong class="block-score" id="modal-bloco-c">-0,00</strong>
+              <span class="block-sub" id="modal-bloco-c-sub">G: 0,00 • D: 0,00 • PRI: 0,00</span>
+              <div class="mini-bar"><span id="bar-bloco-c"></span></div>
+            </div>
+            <div class="block-card block-final">
+              <span class="block-title">Nota Final Travada [0–10]</span>
+              <strong class="block-score" id="modal-nota-final">0,00</strong>
+              <span class="block-sub" id="modal-nota-bruta">Nota bruta: 0,00</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="modal-section">
+          <h3>Auditoria dos 20 Projetos</h3>
+          <div class="audit-table-wrapper">
+            <table class="audit-table">
+              <thead>
+                <tr>
+                  <th>Proposição</th>
+                  <th class="num">Peso (RP)</th>
+                  <th>Voto Registrado</th>
+                  <th class="num">Pontuação (NP)</th>
+                </tr>
+              </thead>
+              <tbody id="modal-votos-tbody"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
