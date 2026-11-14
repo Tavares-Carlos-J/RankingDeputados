@@ -9,6 +9,13 @@
 
 ## Registro de Execuções
 
+### Entrada #3
+- **Versão do Projeto:** `v0.1.0-mvp`
+- **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)
+- **Data e Hora da Ação:** 2026-11-14 14:12
+- **O que foi feito:** Executada a Etapa 0.2: movidos os 5 documentos legados (`plano__ranking.md`, `Regras-agentes.md`, `Relatos.md`, `MAPA_PROJETO.md`, `lista_previa.md`) para `lixeira/2026-11-14/`, reescrito o `README.md` da raiz e criados os `README.md` curtos em `dados/`, `scripts/`, `public/`, `tests/` e `lixeira/`.
+- **Próximo Passo:** Executar **Fase 0 — Etapa 0.3 (Configuração do sistema e aviso de Modo Teste)** do `ROADMAP.md`.
+
 ### Entrada #2
 - **Versão do Projeto:** `v0.1.0-mvp`
 - **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)

@@ -37,9 +37,9 @@ flowchart LR
 - **Aceite:** a tag existe e os arquivos de referência têm o mesmo checksum dos originais.
 
 ### Etapa 0.2 — Consolidação documental e `README.md` por pasta
-- [ ] Conferir se todo conteúdo útil de `plano__ranking.md`, `Regras-agentes.md`, `Relatos.md`, `MAPA_PROJETO.md` e `lista_previa.md` está coberto por `PROMPT_GERAL.md`, `PLANO_EVOLUCAO.md`, `RELATORIO_AGENTE.md` e `ROADMAP.md`.
-- [ ] Mover esses 5 documentos legados para `lixeira/AAAA-MM-DD/`.
-- [ ] Atualizar o `README.md` da raiz e criar um `README.md` curto (15 a 30 linhas) em `dados/`, `scripts/` e `public/` `[PE §1.5, §2.1]`.
+- [x] Conferir se todo conteúdo útil de `plano__ranking.md`, `Regras-agentes.md`, `Relatos.md`, `MAPA_PROJETO.md` e `lista_previa.md` está coberto por `PROMPT_GERAL.md`, `PLANO_EVOLUCAO.md`, `RELATORIO_AGENTE.md` e `ROADMAP.md`.
+- [x] Mover esses 5 documentos legados para `lixeira/AAAA-MM-DD/`.
+- [x] Atualizar o `README.md` da raiz e criar um `README.md` curto (15 a 30 linhas) em `dados/`, `scripts/` e `public/` `[PE §1.5, §2.1]`.
 - **Aceite:** raiz limpa com os 4 documentos principais + `README.md`; toda pasta existente possui seu `README.md`.
 
 ### Etapa 0.3 — Configuração do sistema e aviso de Modo Teste
