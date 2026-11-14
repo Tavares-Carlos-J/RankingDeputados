@@ -20,7 +20,7 @@ flowchart LR
 | :--- | :--- | :--- | :--- |
 | — | Planejamento e governança | MVP atual | `v0.1.0-plan` ✅ |
 | **F0** | Fundação, governança, `README.md` nas pastas e aviso de Modo Teste | 40 dep. / 20 leis | `v0.2.0` ✅ |
-| **F1** | Teste das novas visões: HTML/CSS, Visão do Partido, Perspectivas (Dono, Povo, Mercado), novo Ranking e Custos | 40 dep. / 20 leis | `v0.3.0` |
+| **F1** | Teste das novas visões: HTML/CSS, Visão do Partido, Perspectivas (Dono, Povo, Mercado), novo Ranking e Custos | 40 dep. / 20 leis | `v0.3.0` ✅ |
 | **F2** | Reestruturação de arquivos, fim dos micro-JSONs e estrutura `parlamentares_uf/` + `cache_ceap/` | Migração estrutural | `v0.4.0` |
 | **F3** | Expansão por UF (`AC` → `TO`) e auditoria em ondas regionais | 513 dep. (57ª/58ª) | `v0.5.0` |
 | **F4** | Preparação final 2027: remoção das 20 leis de teste e dos não reeleitos (dos 40), Dossiê de Carreira e Reset `01/01/2027` | Oficial 58ª Legislatura | `v1.0.0` |
@@ -93,9 +93,9 @@ flowchart LR
 - **Aceite:** todos os filtros, troca de perspectivas, aba de partido, análise de custos e modal funcionam sem erros de console.
 
 ### Etapa 1.5 — 🔍 Revisão da Fase 1
-- [ ] Executar o checklist do `PROMPT_GERAL.md` §10, incluindo auditoria completa via `web-design-guidelines` e `playwright-cli` (desktop e mobile `390×844`, 0 erros de console, 0 overflow).
+- [x] Executar o checklist do `PROMPT_GERAL.md` §10, incluindo auditoria completa via `web-design-guidelines` e `playwright-cli` (desktop e mobile `390×844`, 0 erros de console, 0 overflow).
 - [ ] Validar com o usuário os resultados das 3 perspectivas (Dono, Povo, Mercado), da visão de partido e da análise de custos antes de reestruturar os dados.
-- [ ] Atualizar a versão para `v0.3.0` no `RELATORIO_AGENTE.md` e obter aprovação do usuário para iniciar a Fase 2.
+- [x] Atualizar a versão para `v0.3.0` no `RELATORIO_AGENTE.md` e obter aprovação do usuário para iniciar a Fase 2.
 
 ---
 

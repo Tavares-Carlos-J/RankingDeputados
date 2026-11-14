@@ -9,6 +9,13 @@
 
 ## Registro de Execuções
 
+### Entrada #10
+- **Versão do Projeto:** `v0.3.0`
+- **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)
+- **Data e Hora da Ação:** 2026-11-14 14:49
+- **O que foi feito:** Concluída a Revisão da Fase 1 (Etapa 1.5): auditoria via `playwright-cli` em desktop (`1280×800`) e mobile (`390×844`) com 0 erros/avisos de console, 0 overflow horizontal, troca das 4 perspectivas (`visao_dono`, `povo`, `mercado`, `apenas_cc`), abas de partido/custos, filtro por projeto e modal com restauração de foco; versão atualizada para `v0.3.0` e publicada no `main` para teste no `vercel.app`.
+- **Próximo Passo:** Aguardar validação do usuário no `vercel.app` e aprovação explícita para iniciar **Fase 2 — Etapa 2.1 (Eliminação dos micro-arquivos JSON)** do `ROADMAP.md`.
+
 ### Entrada #9
 - **Versão do Projeto:** `v0.2.0`
 - **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)
