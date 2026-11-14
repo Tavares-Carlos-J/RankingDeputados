@@ -86,10 +86,10 @@ flowchart LR
 - **Aceite:** layout aprovado em desktop e mobile (`390×844`) sem overflow horizontal.
 
 ### Etapa 1.4 — Lógica da nova interface (`public/app.js`)
-- [ ] Implementar a troca instantânea de **Perspectiva** reordenando o ranking com os 5 critérios de desempate `[PE §5.4]`.
-- [ ] Renderizar a **Visão do Partido** (divergência interna, votos alinhados vs. dissidentes e custo médio por legenda) e a **Nova Análise de Custos**.
-- [ ] Atualizar o modal de detalhes do parlamentar exibindo o gabarito da perspectiva ativa ("Acertou" `1` / "Errou" `0`) nos 20 projetos e a decomposição $N_P$ + $N_{CC}$.
-- [ ] Sincronizar perspectiva, busca, UF, partido, aba ativa e ordenação via `URLSearchParams`.
+- [x] Implementar a troca instantânea de **Perspectiva** reordenando o ranking com os 5 critérios de desempate `[PE §5.4]`.
+- [x] Renderizar a **Visão do Partido** (divergência interna, votos alinhados vs. dissidentes e custo médio por legenda) e a **Nova Análise de Custos**.
+- [x] Atualizar o modal de detalhes do parlamentar exibindo o gabarito da perspectiva ativa ("Acertou" `1` / "Errou" `0`) nos 20 projetos e a decomposição $N_P$ + $N_{CC}$.
+- [x] Sincronizar perspectiva, busca, UF, partido, aba ativa e ordenação via `URLSearchParams`.
 - **Aceite:** todos os filtros, troca de perspectivas, aba de partido, análise de custos e modal funcionam sem erros de console.
 
 ### Etapa 1.5 — 🔍 Revisão da Fase 1
