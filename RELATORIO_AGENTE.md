@@ -9,6 +9,13 @@
 
 ## Registro de Execuções
 
+### Entrada #4
+- **Versão do Projeto:** `v0.1.0-mvp`
+- **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)
+- **Data e Hora da Ação:** 2026-11-14 14:13
+- **O que foi feito:** Executada a Etapa 0.3: criado `dados/configuracao_sistema.json` (`DADOS_DE_TESTE`), atualizado `scripts/calcular.py` para exportar `modo_operacao` e `aviso_legal` no `metadata` de `public/ranking_final.json`, regerado o JSON final (40 deputados, 20 projetos) e atualizado `.gitignore`.
+- **Próximo Passo:** Executar **Fase 0 — Etapa 0.4 (Revisão da Fase 0)** do `ROADMAP.md`.
+
 ### Entrada #3
 - **Versão do Projeto:** `v0.1.0-mvp`
 - **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)

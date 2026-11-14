@@ -43,9 +43,9 @@ flowchart LR
 - **Aceite:** raiz limpa com os 4 documentos principais + `README.md`; toda pasta existente possui seu `README.md`.
 
 ### Etapa 0.3 — Configuração do sistema e aviso de Modo Teste
-- [ ] Criar `dados/configuracao_sistema.json` com `"modo_operacao": "DADOS_DE_TESTE"`, ano vigente e parâmetros globais `[PE §2.1, §3.1]`.
-- [ ] Incluir no `metadata` de `public/ranking_final.json` os campos `"modo_operacao": "DADOS_DE_TESTE"` e `"aviso_legal"` `[PE §3.1]`.
-- [ ] Atualizar `.gitignore` para cobrir `.playwright-cli/` e caches temporários pesados.
+- [x] Criar `dados/configuracao_sistema.json` com `"modo_operacao": "DADOS_DE_TESTE"`, ano vigente e parâmetros globais `[PE §2.1, §3.1]`.
+- [x] Incluir no `metadata` de `public/ranking_final.json` os campos `"modo_operacao": "DADOS_DE_TESTE"` e `"aviso_legal"` `[PE §3.1]`.
+- [x] Atualizar `.gitignore` para cobrir `.playwright-cli/` e caches temporários pesados.
 - **Aceite:** `configuracao_sistema.json` criado e validado; `.gitignore` atualizado.
 
 ### Etapa 0.4 — 🔍 Revisão da Fase 0

@@ -21,6 +21,7 @@ DEPUTADOS_PATH = DADOS_DIR / "deputados.json"
 PROJETOS_PATH = DADOS_DIR / "projetos.json"
 TETOS_CEAP_PATH = DADOS_DIR / "tetos_ceap_2026.json"
 CACHE_BRUTO_PATH = DADOS_DIR / "cache_bruto.json"
+CONFIG_SISTEMA_PATH = DADOS_DIR / "configuracao_sistema.json"
 RANKING_FINAL_PATH = PUBLIC_DIR / "ranking_final.json"
 
 PERIODO_REFERENCIA = "1º Semestre 2026"
@@ -247,9 +248,16 @@ def processar_ranking(
         item["posicao"] = idx
         del item["_sort_key"]
 
+    config_sistema = load_json(CONFIG_SISTEMA_PATH) if CONFIG_SISTEMA_PATH.exists() else {}
+
     return {
         "metadata": {
             "atualizado_em": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
+            "modo_operacao": config_sistema.get("modo_operacao", "DADOS_DE_TESTE"),
+            "aviso_legal": config_sistema.get(
+                "aviso_legal",
+                "Ambiente de homologação e calibragem metodológica (57ª Legislatura). O ranking oficial terá início em 01/01/2027 com notas zeradas.",
+            ),
             "total_deputados": len(registros),
             "total_projetos": len(projetos_cfg),
             "periodo_referencia": PERIODO_REFERENCIA,

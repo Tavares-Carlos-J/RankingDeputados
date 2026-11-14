@@ -1,0 +1,14 @@
+{
+  "modo_operacao": "DADOS_DE_TESTE",
+  "legislatura_ativa": 57,
+  "ano_vigente": 2026,
+  "data_reset_oficial": "2027-01-01",
+  "data_posse_legislatura": "2027-02-01",
+  "aviso_legal": "Ambiente de homologação e calibragem metodológica (57ª Legislatura). O ranking oficial terá início em 01/01/2027 com notas zeradas.",
+  "parametros_globais": {
+    "meses_avaliados": 6,
+    "piso_gabinete_mensal": 35000.0,
+    "teto_gabinete_mensal": 133170.54,
+    "total_privilegios_monitorados": 5
+  }
+}

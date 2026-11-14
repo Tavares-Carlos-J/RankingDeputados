@@ -1,6 +1,8 @@
 {
   "metadata": {
-    "atualizado_em": "2026-11-14T10:54:38-03:00",
+    "atualizado_em": "2026-11-14T14:13:04-03:00",
+    "modo_operacao": "DADOS_DE_TESTE",
+    "aviso_legal": "Ambiente de homologação e calibragem metodológica (57ª Legislatura). O ranking oficial terá início em 01/01/2027 com notas zeradas.",
     "total_deputados": 40,
     "total_projetos": 20,
     "periodo_referencia": "1º Semestre 2026"
