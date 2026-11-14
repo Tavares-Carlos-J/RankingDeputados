@@ -5,6 +5,7 @@
     metadata: null,
     ranking: [],
     byId: new Map(),
+    lastFocusedEl: null,
   };
 
   const AVATAR_FALLBACK =
@@ -15,6 +16,9 @@
   const dtFormatter = new Intl.DateTimeFormat("pt-BR", { dateStyle: "short", timeStyle: "short" });
 
   const els = {
+    siteHeader: document.getElementById("site-header"),
+    conteudoPrincipal: document.getElementById("conteudo-principal"),
+    siteFooter: document.getElementById("site-footer"),
     periodoReferencia: document.getElementById("periodo-referencia"),
     atualizadoEm: document.getElementById("atualizado-em"),
     mediaNotas: document.getElementById("media-notas"),
@@ -27,6 +31,8 @@
     filtroPartido: document.getElementById("filtro-partido"),
     filtroUf: document.getElementById("filtro-uf"),
     ordenacao: document.getElementById("ordenacao"),
+    contagemResultados: document.getElementById("contagem-resultados"),
+    btnLimparFiltros: document.getElementById("btn-limpar-filtros"),
     estadoMensagem: document.getElementById("estado-mensagem"),
     tbody: document.getElementById("ranking-tbody"),
     modalBackdrop: document.getElementById("modal-backdrop"),
@@ -177,11 +183,72 @@
     return filtrada;
   }
 
+  function sincronizarUrl() {
+    const params = new URLSearchParams();
+    const busca = els.filtroBusca.value.trim();
+    const partido = els.filtroPartido.value;
+    const uf = els.filtroUf.value;
+    const ordem = els.ordenacao.value;
+
+    if (busca) params.set("busca", busca);
+    if (partido) params.set("partido", partido);
+    if (uf) params.set("uf", uf);
+    if (ordem && ordem !== "nota_desc") params.set("ordem", ordem);
+
+    const query = params.toString();
+    const novaUrl = query ? `${window.location.pathname}?${query}` : window.location.pathname;
+    window.history.replaceState(null, "", novaUrl);
+  }
+
+  function aplicarFiltrosDaUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const busca = params.get("busca");
+    const partido = params.get("partido");
+    const uf = params.get("uf");
+    const ordem = params.get("ordem");
+
+    if (busca) els.filtroBusca.value = busca;
+    if (partido && [...els.filtroPartido.options].some((o) => o.value === partido)) {
+      els.filtroPartido.value = partido;
+    }
+    if (uf && [...els.filtroUf.options].some((o) => o.value === uf)) {
+      els.filtroUf.value = uf;
+    }
+    if (ordem && [...els.ordenacao.options].some((o) => o.value === ordem)) {
+      els.ordenacao.value = ordem;
+    }
+  }
+
+  function limparFiltros() {
+    els.filtroBusca.value = "";
+    els.filtroPartido.value = "";
+    els.filtroUf.value = "";
+    els.ordenacao.value = "nota_desc";
+    renderizarTabela();
+    els.filtroBusca.focus();
+  }
+
   function renderizarTabela() {
     const lista = obterListaFiltradaEOrdenada();
     els.tbody.innerHTML = "";
+    sincronizarUrl();
 
-    if (state.ranking.length === 0) return;
+    const temFiltroAtivo =
+      Boolean(els.filtroBusca.value.trim()) ||
+      Boolean(els.filtroPartido.value) ||
+      Boolean(els.filtroUf.value) ||
+      els.ordenacao.value !== "nota_desc";
+    els.btnLimparFiltros.hidden = !temFiltroAtivo;
+
+    if (state.ranking.length === 0) {
+      els.contagemResultados.textContent = "";
+      return;
+    }
+
+    els.contagemResultados.textContent =
+      lista.length === state.ranking.length
+        ? `Exibindo todos os ${state.ranking.length} parlamentares`
+        : `Exibindo ${lista.length} de ${state.ranking.length} parlamentares`;
 
     if (lista.length === 0) {
       mostrarMensagem("Nenhum parlamentar encontrado para os filtros selecionados.");
@@ -200,17 +267,17 @@
 
       return `
         <tr data-id="${escapeHtml(dep.id_camara)}" tabindex="0" role="button" aria-label="Ver detalhes de ${escapeHtml(dep.nome)}">
-          <td><span class="pos-badge ${topClass}">#${escapeHtml(dep.posicao)}</span></td>
-          <td>
+          <td data-label="Posição"><span class="pos-badge ${topClass}">#${escapeHtml(dep.posicao)}</span></td>
+          <td data-label="Parlamentar">
             <div class="parlamentar-cell">
-              <img class="avatar" src="${escapeHtml(dep.foto_url || AVATAR_FALLBACK)}" alt="${escapeHtml(dep.nome)}" loading="lazy" decoding="async" />
+              <img class="avatar" src="${escapeHtml(dep.foto_url || AVATAR_FALLBACK)}" alt="${escapeHtml(dep.nome)}" width="44" height="44" loading="lazy" decoding="async" />
               <div>
                 <span class="parlamentar-nome">${escapeHtml(dep.nome)}</span>
                 <span class="badge-party">${escapeHtml(dep.partido)} - ${escapeHtml(dep.uf)}</span>
               </div>
             </div>
           </td>
-          <td>
+          <td data-label="Nota Final">
             <div class="nota-wrap">
               <span class="nota-valor ${faixa}">${formatNum(nota)}</span>
               <div class="progress-track">
@@ -218,11 +285,11 @@
               </div>
             </div>
           </td>
-          <td>
+          <td data-label="Faltas">
             <span class="cell-main">${escapeHtml(resumo.faltas_totais ?? 0)} faltas</span>
             <span class="cell-sub">${escapeHtml(resumo.faltas_nao_justificadas ?? 0)} não just. / ${escapeHtml(resumo.faltas_justificadas ?? 0)} just.</span>
           </td>
-          <td title="${escapeHtml(tooltipGastos)}">
+          <td data-label="Gastos" title="${escapeHtml(tooltipGastos)}">
             <span class="cell-main">${formatBRL(resumo.gasto_total_reais)}</span>
             <span class="cell-sub">CEAP ${formatBRL(resumo.gasto_ceap_reais)} • Gab. ${formatBRL(resumo.gasto_gabinete_reais)}</span>
           </td>
@@ -232,7 +299,14 @@
     els.tbody.innerHTML = rowsHtml.join("");
   }
 
+  function definirInertFundo(ativo) {
+    [els.siteHeader, els.conteudoPrincipal, els.siteFooter].forEach((el) => {
+      if (el && "inert" in el) el.inert = ativo;
+    });
+  }
+
   function abrirModal(dep) {
+    state.lastFocusedEl = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     const blocos = dep.blocos || {};
     const ind = dep.indicadores || {};
 
@@ -281,13 +355,19 @@
 
     els.modalVotosTbody.appendChild(frag);
     els.modalBackdrop.hidden = false;
+    definirInertFundo(true);
     document.body.style.overflow = "hidden";
     els.modalFechar.focus();
   }
 
   function fecharModal() {
     els.modalBackdrop.hidden = true;
+    definirInertFundo(false);
     document.body.style.overflow = "";
+    if (state.lastFocusedEl && typeof state.lastFocusedEl.focus === "function") {
+      state.lastFocusedEl.focus();
+    }
+    state.lastFocusedEl = null;
   }
 
   function abrirPorElemento(target) {
@@ -302,6 +382,7 @@
     els.filtroPartido.addEventListener("change", renderizarTabela);
     els.filtroUf.addEventListener("change", renderizarTabela);
     els.ordenacao.addEventListener("change", renderizarTabela);
+    els.btnLimparFiltros.addEventListener("click", limparFiltros);
 
     els.tbody.addEventListener("click", (event) => abrirPorElemento(event.target));
     els.tbody.addEventListener("keydown", (event) => {
@@ -349,6 +430,7 @@
       });
       preencherResumo();
       popularFiltros();
+      aplicarFiltrosDaUrl();
       renderizarTabela();
     } catch (erro) {
       preencherResumo();

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "coletado_em": "2026-11-12T16:50:58-03:00",
+    "coletado_em": "2026-11-14T10:54:37-03:00",
     "ano_referencia": 2026,
     "meses_avaliados": 6,
     "total_deputados": 40,
@@ -14,7 +14,7 @@
       "partido": "UNIÃO",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220569.jpg",
-      "gasto_ceap_reais": -202429.35,
+      "gasto_ceap_reais": 273623.31,
       "orgaos": [
         {
           "sigla_orgao": "CEOBSTET",
@@ -81,7 +81,7 @@
       "partido": "PL",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220568.jpg",
-      "gasto_ceap_reais": -133574.44,
+      "gasto_ceap_reais": 133574.44,
       "orgaos": [
         {
           "sigla_orgao": "CEDES",
@@ -155,7 +155,7 @@
       "partido": "MDB",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/160598.jpg",
-      "gasto_ceap_reais": -243115.79,
+      "gasto_ceap_reais": 243115.79,
       "orgaos": [
         {
           "sigla_orgao": "CEXOBRAS",
@@ -299,7 +299,7 @@
       "partido": "PODE",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204419.jpg",
-      "gasto_ceap_reais": -258939.3,
+      "gasto_ceap_reais": 258939.3,
       "orgaos": [
         {
           "sigla_orgao": "PLP23424",
@@ -331,7 +331,7 @@
       "partido": "UNIÃO",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204391.jpg",
-      "gasto_ceap_reais": -286903.99,
+      "gasto_ceap_reais": 294882.35,
       "orgaos": [
         {
           "sigla_orgao": "CVT",
@@ -363,7 +363,7 @@
       "partido": "PT",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220565.jpg",
-      "gasto_ceap_reais": -231821.65,
+      "gasto_ceap_reais": 231821.65,
       "orgaos": [
         {
           "sigla_orgao": "SEMULHER",
@@ -423,7 +423,7 @@
       "partido": "PP",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/121948.jpg",
-      "gasto_ceap_reais": -239332.06,
+      "gasto_ceap_reais": 239332.06,
       "orgaos": [
         {
           "sigla_orgao": "CAPADR",
@@ -462,7 +462,7 @@
       "partido": "MDB",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/178876.jpg",
-      "gasto_ceap_reais": -215258.55,
+      "gasto_ceap_reais": 215258.55,
       "orgaos": [
         {
           "sigla_orgao": "PEC01421",
@@ -501,7 +501,7 @@
       "partido": "PSDB",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204390.jpg",
-      "gasto_ceap_reais": -251587.01,
+      "gasto_ceap_reais": 251587.01,
       "orgaos": [
         {
           "sigla_orgao": "PLP23424",
@@ -533,7 +533,7 @@
       "partido": "MDB",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204412.jpg",
-      "gasto_ceap_reais": -221419.62,
+      "gasto_ceap_reais": 229479.04,
       "orgaos": [
         {
           "sigla_orgao": "CEXTUBER",
@@ -586,7 +586,7 @@
       "partido": "PT",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/74371.jpg",
-      "gasto_ceap_reais": -252787.23,
+      "gasto_ceap_reais": 252787.23,
       "orgaos": [
         {
           "sigla_orgao": "CEXOBRAS",
@@ -632,7 +632,7 @@
       "partido": "PL",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/166402.jpg",
-      "gasto_ceap_reais": -301345.75,
+      "gasto_ceap_reais": 301345.75,
       "orgaos": [
         {
           "sigla_orgao": "SEMULHER",
@@ -664,7 +664,7 @@
       "partido": "REPUBLICANOS",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220572.jpg",
-      "gasto_ceap_reais": -346547.91,
+      "gasto_ceap_reais": 346547.91,
       "orgaos": [
         {
           "sigla_orgao": "SEMULHER",
@@ -710,7 +710,7 @@
       "partido": "PSD",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220571.jpg",
-      "gasto_ceap_reais": -95550.98,
+      "gasto_ceap_reais": 95550.98,
       "orgaos": [
         {
           "sigla_orgao": "PEC00523",
@@ -805,7 +805,7 @@
       "partido": "PSDB",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220567.jpg",
-      "gasto_ceap_reais": -284863.08,
+      "gasto_ceap_reais": 284863.08,
       "orgaos": [
         {
           "sigla_orgao": "BANEGRA",
@@ -837,7 +837,7 @@
       "partido": "PSD",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220570.jpg",
-      "gasto_ceap_reais": -249410.26,
+      "gasto_ceap_reais": 279685.14,
       "orgaos": [
         {
           "sigla_orgao": "CEXTUBER",
@@ -883,7 +883,7 @@
       "partido": "REPUBLICANOS",
       "uf": "GO",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220566.jpg",
-      "gasto_ceap_reais": -208540.33,
+      "gasto_ceap_reais": 208540.33,
       "orgaos": [
         {
           "sigla_orgao": "SEMULHER",
@@ -929,7 +929,7 @@
       "partido": "PL",
       "uf": "MG",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/209787.jpg",
-      "gasto_ceap_reais": -77911.4,
+      "gasto_ceap_reais": 282285.84,
       "orgaos": [
         {
           "sigla_orgao": "PEC00523",
@@ -982,7 +982,7 @@
       "partido": "PL",
       "uf": "DF",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204374.jpg",
-      "gasto_ceap_reais": -238818.07,
+      "gasto_ceap_reais": 252520.09,
       "orgaos": [
         {
           "sigla_orgao": "SEMULHER",
@@ -1063,7 +1063,7 @@
       "partido": "NOVO",
       "uf": "RS",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/156190.jpg",
-      "gasto_ceap_reais": -65642.82,
+      "gasto_ceap_reais": 194675.36,
       "orgaos": [
         {
           "sigla_orgao": "CEXCIRS",
@@ -1165,7 +1165,7 @@
       "partido": "PL",
       "uf": "SC",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204369.jpg",
-      "gasto_ceap_reais": -12304.08,
+      "gasto_ceap_reais": 182653.74,
       "orgaos": [
         {
           "sigla_orgao": "SEMULHER",
@@ -1218,7 +1218,7 @@
       "partido": "PL",
       "uf": "CE",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220657.jpg",
-      "gasto_ceap_reais": -95091.74,
+      "gasto_ceap_reais": 219355.94,
       "orgaos": [
         {
           "sigla_orgao": "BANEGRA",
@@ -1250,7 +1250,7 @@
       "partido": "PL",
       "uf": "SP",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/160601.jpg",
-      "gasto_ceap_reais": -244153.09,
+      "gasto_ceap_reais": 328186.67,
       "orgaos": [
         {
           "sigla_orgao": "CREDN",
@@ -1289,7 +1289,7 @@
       "partido": "PL",
       "uf": "PR",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204411.jpg",
-      "gasto_ceap_reais": -96024.86,
+      "gasto_ceap_reais": 269346.46,
       "orgaos": [
         {
           "sigla_orgao": "CEDIRDIG",
@@ -1314,7 +1314,7 @@
       "partido": "NOVO",
       "uf": "SP",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220633.jpg",
-      "gasto_ceap_reais": -251620.61,
+      "gasto_ceap_reais": 286376.69,
       "orgaos": [
         {
           "sigla_orgao": "CREDN",
@@ -1356,7 +1356,7 @@
       "partido": "PSOL",
       "uf": "SP",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220645.jpg",
-      "gasto_ceap_reais": 110671.13,
+      "gasto_ceap_reais": 294696.45,
       "orgaos": [
         {
           "sigla_orgao": "SEMULHER",
@@ -1437,7 +1437,7 @@
       "partido": "PT",
       "uf": "PR",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/107283.jpg",
-      "gasto_ceap_reais": -567.82,
+      "gasto_ceap_reais": 154015.6,
       "orgaos": [
         {
           "sigla_orgao": "SEMULHER",
@@ -1455,7 +1455,7 @@
       "partido": "REDE",
       "uf": "SP",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220637.jpg",
-      "gasto_ceap_reais": 77430.84,
+      "gasto_ceap_reais": 144204.6,
       "orgaos": [
         {
           "sigla_orgao": "SEMULHER",
@@ -1501,7 +1501,7 @@
       "partido": "PSOL",
       "uf": "SP",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204535.jpg",
-      "gasto_ceap_reais": -44374.9,
+      "gasto_ceap_reais": 290999.68,
       "orgaos": [
         {
           "sigla_orgao": "CEOBSTET",
@@ -1603,7 +1603,7 @@
       "partido": "PT",
       "uf": "RS",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/74398.jpg",
-      "gasto_ceap_reais": -279248.74,
+      "gasto_ceap_reais": 342471.48,
       "orgaos": [
         {
           "sigla_orgao": "SEMULHER",
@@ -1719,7 +1719,7 @@
       "partido": "PT",
       "uf": "MG",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/74161.jpg",
-      "gasto_ceap_reais": 34312.07,
+      "gasto_ceap_reais": 297419.41,
       "orgaos": [
         {
           "sigla_orgao": "CEDES",
@@ -1814,7 +1814,7 @@
       "partido": "PSOL",
       "uf": "MG",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220623.jpg",
-      "gasto_ceap_reais": -58989.72,
+      "gasto_ceap_reais": 262942.54,
       "orgaos": [
         {
           "sigla_orgao": "CEXMABRU",
@@ -1909,7 +1909,7 @@
       "partido": "PP",
       "uf": "AL",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/160541.jpg",
-      "gasto_ceap_reais": 42651.11,
+      "gasto_ceap_reais": 149262.15,
       "orgaos": [
         {
           "sigla_orgao": "BANEGRA",
@@ -1927,7 +1927,7 @@
       "partido": "REPUBLICANOS",
       "uf": "PB",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/160674.jpg",
-      "gasto_ceap_reais": -213064.29,
+      "gasto_ceap_reais": 246697.69,
       "orgaos": [
         {
           "sigla_orgao": "MESA",
@@ -1959,7 +1959,7 @@
       "partido": "PSB",
       "uf": "SP",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204534.jpg",
-      "gasto_ceap_reais": -241197.46,
+      "gasto_ceap_reais": 300450.0,
       "orgaos": [
         {
           "sigla_orgao": "SEMULHER",
@@ -2033,7 +2033,7 @@
       "partido": "MISSÃO",
       "uf": "SP",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204536.jpg",
-      "gasto_ceap_reais": 55337.45,
+      "gasto_ceap_reais": 150753.57,
       "orgaos": [
         {
           "sigla_orgao": "CFT",
@@ -2065,7 +2065,7 @@
       "partido": "REPUBLICANOS",
       "uf": "SP",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/73441.jpg",
-      "gasto_ceap_reais": 42711.55,
+      "gasto_ceap_reais": 170926.25,
       "orgaos": [
         {
           "sigla_orgao": "MERCOSUL",
@@ -2118,7 +2118,7 @@
       "partido": "MDB",
       "uf": "SP",
       "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/178975.jpg",
-      "gasto_ceap_reais": -162864.97,
+      "gasto_ceap_reais": 229501.15,
       "orgaos": [
         {
           "sigla_orgao": "CREDN",

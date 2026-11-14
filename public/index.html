@@ -3,11 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ranking Parlamentar (MVP — 57ª Legislatura): avaliação experimental de 40 deputados federais em 20 votações nominais, presença e custos com dados abertos da Câmara." />
+  <meta name="theme-color" content="#0f172a" />
   <title>Ranking Parlamentar — MVP 57ª Legislatura</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f172a'/%3E%3Cpath d='M8 22V14h4v8H8zm6 0V9h4v13h-4zm6 0v-6h4v6h-4z' fill='%2393c5fd'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://www.camara.leg.br" crossorigin />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+  <header class="site-header" id="site-header">
     <div class="container header-content">
       <div>
         <span class="eyebrow">Observatório Legislativo • MVP</span>
@@ -21,7 +26,7 @@
     </div>
   </header>
 
-  <main class="container">
+  <main id="conteudo-principal" class="container">
     <section class="summary-grid" aria-label="Resumo do experimento">
       <article class="summary-card">
         <span class="card-label">Média das Notas</span>
@@ -43,23 +48,23 @@
     <section class="controls-bar" aria-label="Controles e filtros">
       <div class="control-group control-search">
         <label for="filtro-busca">Buscar parlamentar</label>
-        <input type="search" id="filtro-busca" placeholder="Digite o nome do deputado..." autocomplete="off" />
+        <input type="search" id="filtro-busca" name="busca" placeholder="Digite o nome do deputado…" autocomplete="off" />
       </div>
       <div class="control-group">
         <label for="filtro-partido">Partido</label>
-        <select id="filtro-partido">
+        <select id="filtro-partido" name="partido">
           <option value="">Todos os partidos</option>
         </select>
       </div>
       <div class="control-group">
         <label for="filtro-uf">UF</label>
-        <select id="filtro-uf">
+        <select id="filtro-uf" name="uf">
           <option value="">Todas as UFs</option>
         </select>
       </div>
       <div class="control-group">
         <label for="ordenacao">Ordenação</label>
-        <select id="ordenacao">
+        <select id="ordenacao" name="ordenacao">
           <option value="nota_desc">Maior Nota (Ranking Oficial)</option>
           <option value="nota_asc">Menor Nota</option>
           <option value="faltas_desc">Mais Faltas</option>
@@ -70,7 +75,11 @@
     </section>
 
     <section class="table-section" aria-label="Tabela de classificação">
-      <div id="estado-mensagem" class="status-banner" hidden></div>
+      <div class="results-bar">
+        <span id="contagem-resultados" class="results-count" aria-live="polite"></span>
+        <button type="button" id="btn-limpar-filtros" class="btn-clear" hidden>Limpar filtros</button>
+      </div>
+      <div id="estado-mensagem" class="status-banner" role="status" aria-live="polite" hidden></div>
       <div class="table-wrapper">
         <table class="ranking-table">
           <thead>
@@ -88,6 +97,13 @@
     </section>
   </main>
 
+  <footer class="site-footer" id="site-footer">
+    <div class="container footer-content">
+      <p>Dados coletados via API Dados Abertos da Câmara dos Deputados (57ª Legislatura) e curadoria documental do MVP.</p>
+      <p>Nota final em escala [0,00 – 10,00] composta por Bloco A (Atividade), Bloco B (Bônus/Penalidades) e Bloco C (Custos).</p>
+    </div>
+  </footer>
+
   <div id="modal-backdrop" class="modal-backdrop" hidden>
     <div
       id="modal-detalhes"
@@ -98,7 +114,7 @@
     >
       <header class="modal-header">
         <div class="modal-profile">
-          <img id="modal-foto" src="" alt="" class="avatar avatar-lg" />
+          <img id="modal-foto" src="" alt="" width="64" height="64" class="avatar avatar-lg" />
           <div>
             <div class="modal-title-row">
               <span id="modal-posicao" class="pos-pill">#1</span>

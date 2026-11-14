@@ -104,7 +104,13 @@ def coletar_despesas_ceap(
                 continue
             valor = item.get("valorLiquido")
             if valor is not None:
-                total_liquido += float(valor)
+                vl = float(valor)
+                vd = float(item.get("valorDocumento") or 0.0)
+                # A API da Câmara retorna alguns lançamentos de 2026 com valorDocumento > 0 e valorLiquido negativo;
+                # estornos reais possuem valorDocumento < 0.
+                if vd > 0 and vl < 0:
+                    vl = abs(vl)
+                total_liquido += vl
 
         next_url = next(
             (link.get("href") for link in payload.get("links", []) if link.get("rel") == "next"),

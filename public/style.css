@@ -38,6 +38,25 @@ body {
   margin: 0 auto;
 }
 
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0.75rem;
+  z-index: 2000;
+  background: var(--primary);
+  color: #ffffff;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skip-link:focus-visible {
+  left: 1rem;
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
 .site-header {
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
   color: #f8fafc;
@@ -67,6 +86,7 @@ body {
   margin: 0;
   font-size: clamp(1.5rem, 2.5vw, 2rem);
   line-height: 1.2;
+  text-wrap: balance;
 }
 
 .subtitle {
@@ -163,13 +183,52 @@ body {
   font-size: 0.92rem;
   color: var(--text);
   background: var(--surface-muted);
+  touch-action: manipulation;
 }
 
-.control-group input:focus,
-.control-group select:focus {
+.control-group input:focus-visible,
+.control-group select:focus-visible {
   outline: 2px solid var(--primary);
   outline-offset: 1px;
   background: var(--surface);
+}
+
+.results-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.results-count {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.btn-clear {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--primary);
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.btn-clear:hover {
+  background: var(--primary-soft);
+}
+
+.btn-clear:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
 }
 
 .table-section {
@@ -214,6 +273,7 @@ body {
 .ranking-table tbody tr {
   border-bottom: 1px solid var(--border);
   cursor: pointer;
+  touch-action: manipulation;
   transition: background-color 0.14s ease;
 }
 
@@ -222,6 +282,12 @@ body {
 }
 
 .ranking-table tbody tr:hover {
+  background: var(--primary-soft);
+}
+
+.ranking-table tbody tr:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: -2px;
   background: var(--primary-soft);
 }
 
@@ -267,6 +333,10 @@ body {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+}
+
+.parlamentar-cell > div {
+  min-width: 0;
 }
 
 .avatar {
@@ -415,6 +485,7 @@ body {
 .modal-title-row h2 {
   margin: 0;
   font-size: 1.25rem;
+  text-wrap: balance;
 }
 
 .pos-pill {
@@ -430,21 +501,29 @@ body {
   border: 1px solid var(--border);
   background: var(--surface);
   color: var(--text);
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   border-radius: 8px;
   font-size: 1.4rem;
   line-height: 1;
   cursor: pointer;
+  touch-action: manipulation;
+  flex-shrink: 0;
 }
 
 .btn-close:hover {
   background: #e2e8f0;
 }
 
+.btn-close:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
 .modal-body {
   padding: 1.25rem 1.5rem 1.5rem;
   overflow-y: auto;
+  overscroll-behavior: contain;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -593,4 +672,34 @@ body {
     padding: 0;
     border: none;
   }
+
+  .ranking-table td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+    margin-bottom: 0.15rem;
+  }
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  padding: 1.25rem 0;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+}
+
+.footer-content p {
+  margin: 0;
 }
