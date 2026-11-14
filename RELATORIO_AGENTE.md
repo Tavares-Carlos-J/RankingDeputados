@@ -9,6 +9,13 @@
 
 ## Registro de Execuções
 
+### Entrada #5
+- **Versão do Projeto:** `v0.2.0`
+- **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)
+- **Data e Hora da Ação:** 2026-11-14 14:14
+- **O que foi feito:** Concluída a Revisão da Fase 0 (Etapa 0.4): validados os 5 `README.md` de pastas, os 5 legados em `lixeira/2026-11-14/`, a integridade dos 40 deputados e 20 leis em `public/ranking_final.json` (`DADOS_DE_TESTE`) e a atualização da versão para `v0.2.0`.
+- **Próximo Passo:** Aguardar aprovação do usuário para iniciar a **Fase 1 — Etapa 1.1 (Novo motor de cálculo e nova análise de custos)** do `ROADMAP.md`.
+
 ### Entrada #4
 - **Versão do Projeto:** `v0.1.0-mvp`
 - **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)
