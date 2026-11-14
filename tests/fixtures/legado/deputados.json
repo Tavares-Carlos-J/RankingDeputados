@@ -1,0 +1,290 @@
+{
+  "parametros_globais": {
+    "meses_avaliados": 6,
+    "piso_gabinete_mensal": 35000.00,
+    "teto_gabinete_mensal": 133170.54,
+    "total_privilegios_monitorados": 5
+  },
+  "deputados": [
+    {
+      "id_camara": 220569,
+      "nome_referencia": "Silvye Alves",
+      "presenca": { "presencas_registradas": 44, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 480000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220568,
+      "nome_referencia": "Gustavo Gayer",
+      "presenca": { "presencas_registradas": 40, "ausencias_justificadas": 3, "ausencias_nao_justificadas": 3, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 520000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 0, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 1, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 160598,
+      "nome_referencia": "Flávia Morais",
+      "presenca": { "presencas_registradas": 45, "ausencias_justificadas": 1, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 590000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 2, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 204419,
+      "nome_referencia": "Glaustin da Fokus",
+      "presenca": { "presencas_registradas": 41, "ausencias_justificadas": 4, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 610000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 0, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 204391,
+      "nome_referencia": "José Nelto",
+      "presenca": { "presencas_registradas": 42, "ausencias_justificadas": 3, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 630000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220565,
+      "nome_referencia": "Delegada Adriana Accorsi",
+      "presenca": { "presencas_registradas": 44, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 540000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 1, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 121948,
+      "nome_referencia": "Adriano do Baldy",
+      "presenca": { "presencas_registradas": 41, "ausencias_justificadas": 3, "ausencias_nao_justificadas": 2, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 600000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 0, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 178876,
+      "nome_referencia": "Célio Silveira",
+      "presenca": { "presencas_registradas": 43, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 580000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 204390,
+      "nome_referencia": "Professor Alcides",
+      "presenca": { "presencas_registradas": 39, "ausencias_justificadas": 5, "ausencias_nao_justificadas": 2, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 620000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 0, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 204412,
+      "nome_referencia": "Dr. Zacharias Calil",
+      "presenca": { "presencas_registradas": 43, "ausencias_justificadas": 3, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 510000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 74371,
+      "nome_referencia": "Rubens Otoni",
+      "presenca": { "presencas_registradas": 44, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 650000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 166402,
+      "nome_referencia": "Magda Mofatto",
+      "presenca": { "presencas_registradas": 38, "ausencias_justificadas": 5, "ausencias_nao_justificadas": 3, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 640000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 0, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220572,
+      "nome_referencia": "Marussa Boldrin",
+      "presenca": { "presencas_registradas": 43, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 530000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220571,
+      "nome_referencia": "Daniel Agrobom",
+      "presenca": { "presencas_registradas": 42, "ausencias_justificadas": 3, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 550000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 0, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220567,
+      "nome_referencia": "Jeferson Rodrigues",
+      "presenca": { "presencas_registradas": 43, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 560000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220570,
+      "nome_referencia": "Dr. Ismael Alexandrino",
+      "presenca": { "presencas_registradas": 44, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 525000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220566,
+      "nome_referencia": "Lêda Borges",
+      "presenca": { "presencas_registradas": 42, "ausencias_justificadas": 3, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 570000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 209787,
+      "nome_referencia": "Nikolas Ferreira",
+      "presenca": { "presencas_registradas": 41, "ausencias_justificadas": 3, "ausencias_nao_justificadas": 2, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 490000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 2, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 204374,
+      "nome_referencia": "Bia Kicis",
+      "presenca": { "presencas_registradas": 43, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 595000.00, "privilegios_utilizados": [] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 1, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 156190,
+      "nome_referencia": "Marcel van Hattem",
+      "presenca": { "presencas_registradas": 45, "ausencias_justificadas": 1, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 410000.00, "privilegios_utilizados": [] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 2, "cargo_articulacao": "lider_bancada", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 204369,
+      "nome_referencia": "Caroline de Toni",
+      "presenca": { "presencas_registradas": 44, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 580000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 1, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220657,
+      "nome_referencia": "André Fernandes",
+      "presenca": { "presencas_registradas": 40, "ausencias_justificadas": 4, "ausencias_nao_justificadas": 2, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 510000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 0, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 1, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 160601,
+      "nome_referencia": "Pr. Marco Feliciano",
+      "presenca": { "presencas_registradas": 39, "ausencias_justificadas": 5, "ausencias_nao_justificadas": 2, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 640000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 0, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 204411,
+      "nome_referencia": "Filipe Barros",
+      "presenca": { "presencas_registradas": 42, "ausencias_justificadas": 3, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 590000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 1, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220633,
+      "nome_referencia": "Ricardo Salles",
+      "presenca": { "presencas_registradas": 38, "ausencias_justificadas": 5, "ausencias_nao_justificadas": 3, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 470000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 0, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220639,
+      "nome_referencia": "Guilherme Boulos",
+      "presenca": { "presencas_registradas": 36, "ausencias_justificadas": 8, "ausencias_nao_justificadas": 2, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 550000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 1, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220645,
+      "nome_referencia": "Erika Hilton",
+      "presenca": { "presencas_registradas": 42, "ausencias_justificadas": 3, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 610000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 1, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 107283,
+      "nome_referencia": "Gleisi Hoffmann",
+      "presenca": { "presencas_registradas": 34, "ausencias_justificadas": 11, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 620000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220637,
+      "nome_referencia": "Marina Silva",
+      "presenca": { "presencas_registradas": 30, "ausencias_justificadas": 16, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 210000.00, "privilegios_utilizados": [] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 0, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 204535,
+      "nome_referencia": "Sâmia Bomfim",
+      "presenca": { "presencas_registradas": 43, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 605000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 2, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 74398,
+      "nome_referencia": "Maria do Rosário",
+      "presenca": { "presencas_registradas": 43, "ausencias_justificadas": 3, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 660000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 2, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 74161,
+      "nome_referencia": "Reginaldo Lopes",
+      "presenca": { "presencas_registradas": 44, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 645000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 2, "relatoria_aprovada_qtd": 2, "fiscalizacao_concretizada_qtd": 1, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220623,
+      "nome_referencia": "Duda Salabert",
+      "presenca": { "presencas_registradas": 43, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 515000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 1, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 160541,
+      "nome_referencia": "Arthur Lira",
+      "presenca": { "presencas_registradas": 41, "ausencias_justificadas": 4, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 680000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 2, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 160674,
+      "nome_referencia": "Hugo Motta",
+      "presenca": { "presencas_registradas": 45, "ausencias_justificadas": 1, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 670000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "mesa_ou_comissao_permanente", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 204534,
+      "nome_referencia": "Tabata Amaral",
+      "presenca": { "presencas_registradas": 43, "ausencias_justificadas": 3, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 565000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 2, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 1, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 204536,
+      "nome_referencia": "Kim Kataguiri",
+      "presenca": { "presencas_registradas": 44, "ausencias_justificadas": 1, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 320000.00, "privilegios_utilizados": [] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 2, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 2, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 73441,
+      "nome_referencia": "Celso Russomanno",
+      "presenca": { "presencas_registradas": 40, "ausencias_justificadas": 4, "ausencias_nao_justificadas": 2, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 655000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 178975,
+      "nome_referencia": "Baleia Rossi",
+      "presenca": { "presencas_registradas": 42, "ausencias_justificadas": 3, "ausencias_nao_justificadas": 1, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 615000.00, "privilegios_utilizados": ["auxilio_moradia_ou_imovel_funcional"] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 1, "fiscalizacao_concretizada_qtd": 0, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    },
+    {
+      "id_camara": 220715,
+      "nome_referencia": "Amom Mandel",
+      "presenca": { "presencas_registradas": 44, "ausencias_justificadas": 2, "ausencias_nao_justificadas": 0, "total_sessoes_deliberativas": 46 },
+      "custos_manuais": { "gasto_gabinete_acumulado": 340000.00, "privilegios_utilizados": [] },
+      "bonus_penalidades_manuais": { "autoria_aprovada_qtd": 1, "relatoria_aprovada_qtd": 0, "fiscalizacao_concretizada_qtd": 2, "cargo_articulacao": "nenhum", "processos_transitados_julgado_qtd": 0 }
+    }
+  ]
+}

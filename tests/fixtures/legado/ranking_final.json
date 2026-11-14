@@ -1,0 +1,7090 @@
+{
+  "metadata": {
+    "atualizado_em": "2026-11-14T10:54:38-03:00",
+    "total_deputados": 40,
+    "total_projetos": 20,
+    "periodo_referencia": "1º Semestre 2026"
+  },
+  "ranking": [
+    {
+      "posicao": 1,
+      "id_camara": 220715,
+      "nome": "Amom Mandel",
+      "partido": "REPUBLICANOS",
+      "uf": "AM",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220715.jpg",
+      "nota_final": 8.36,
+      "nota_bruta": 8.36,
+      "blocos": {
+        "bloco_a": 8.32,
+        "bloco_b": 0.5,
+        "bloco_c": -0.46
+      },
+      "indicadores": {
+        "v_nota": 5.98,
+        "pre_nota": 9.78,
+        "pl_pontos": 0.5,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 2.21,
+        "d_nota": 0.88,
+        "pri_nota": 0.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 2,
+        "total_sessoes": 46,
+        "percentual_presenca": 95.7,
+        "gasto_ceap_reais": 29628.78,
+        "gasto_gabinete_reais": 340000.0,
+        "gasto_total_reais": 369628.78
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 2,
+      "id_camara": 204534,
+      "nome": "Tabata Amaral",
+      "partido": "PSB",
+      "uf": "SP",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204534.jpg",
+      "nota_final": 7.05,
+      "nota_bruta": 7.05,
+      "blocos": {
+        "bloco_a": 8.95,
+        "bloco_b": 0.9,
+        "bloco_c": -2.8
+      },
+      "indicadores": {
+        "v_nota": 6.72,
+        "pre_nota": 9.67,
+        "pl_pontos": 0.9,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.03,
+        "d_nota": 10.0,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 3,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 3,
+        "total_sessoes": 46,
+        "percentual_presenca": 93.5,
+        "gasto_ceap_reais": 300450.0,
+        "gasto_gabinete_reais": 565000.0,
+        "gasto_total_reais": 865450.0
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Não",
+          "np_obtido": 85,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Não",
+          "np_obtido": 55,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 3,
+      "id_camara": 156190,
+      "nome": "Marcel van Hattem",
+      "partido": "NOVO",
+      "uf": "RS",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/156190.jpg",
+      "nota_final": 6.96,
+      "nota_bruta": 6.96,
+      "blocos": {
+        "bloco_a": 7.29,
+        "bloco_b": 1.1,
+        "bloco_c": -1.43
+      },
+      "indicadores": {
+        "v_nota": 4.8,
+        "pre_nota": 9.89,
+        "pl_pontos": 0.7,
+        "al_pontos": 0.4,
+        "pro_desconto": 0.0,
+        "g_nota": 3.4,
+        "d_nota": 6.11,
+        "pri_nota": 0.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 1,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 1,
+        "total_sessoes": 46,
+        "percentual_presenca": 97.8,
+        "gasto_ceap_reais": 194675.36,
+        "gasto_gabinete_reais": 410000.0,
+        "gasto_total_reais": 604675.36
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Não",
+          "np_obtido": 15,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 4,
+      "id_camara": 74161,
+      "nome": "Reginaldo Lopes",
+      "partido": "PT",
+      "uf": "MG",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/74161.jpg",
+      "nota_final": 6.64,
+      "nota_bruta": 6.64,
+      "blocos": {
+        "bloco_a": 8.55,
+        "bloco_b": 1.1,
+        "bloco_c": -3.01
+      },
+      "indicadores": {
+        "v_nota": 6.24,
+        "pre_nota": 9.78,
+        "pl_pontos": 1.1,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 7.39,
+        "d_nota": 10.0,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 2,
+        "total_sessoes": 46,
+        "percentual_presenca": 95.7,
+        "gasto_ceap_reais": 297419.41,
+        "gasto_gabinete_reais": 645000.0,
+        "gasto_total_reais": 942419.41
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Não",
+          "np_obtido": 85,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Não",
+          "np_obtido": 10,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Não",
+          "np_obtido": 55,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 5,
+      "id_camara": 204536,
+      "nome": "Kim Kataguiri",
+      "partido": "MISSÃO",
+      "uf": "SP",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204536.jpg",
+      "nota_final": 6.61,
+      "nota_bruta": 6.61,
+      "blocos": {
+        "bloco_a": 6.67,
+        "bloco_b": 1.0,
+        "bloco_c": -1.05
+      },
+      "indicadores": {
+        "v_nota": 4.18,
+        "pre_nota": 9.67,
+        "pl_pontos": 1.0,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 1.87,
+        "d_nota": 5.16,
+        "pri_nota": 0.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 1,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 2,
+        "total_sessoes": 46,
+        "percentual_presenca": 95.7,
+        "gasto_ceap_reais": 150753.57,
+        "gasto_gabinete_reais": 320000.0,
+        "gasto_total_reais": 470753.57
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 6,
+      "id_camara": 220639,
+      "nome": "Guilherme Boulos",
+      "partido": "PSOL",
+      "uf": "SP",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220639.jpg",
+      "nota_final": 6.34,
+      "nota_bruta": 6.34,
+      "blocos": {
+        "bloco_a": 7.2,
+        "bloco_b": 0.4,
+        "bloco_c": -1.27
+      },
+      "indicadores": {
+        "v_nota": 5.11,
+        "pre_nota": 8.7,
+        "pl_pontos": 0.4,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 5.77,
+        "d_nota": 0.0,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 8,
+        "faltas_nao_justificadas": 2,
+        "faltas_totais": 10,
+        "total_sessoes": 46,
+        "percentual_presenca": 78.3,
+        "gasto_ceap_reais": 0.0,
+        "gasto_gabinete_reais": 550000.0,
+        "gasto_total_reais": 550000.0
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 7,
+      "id_camara": 160674,
+      "nome": "Hugo Motta",
+      "partido": "REPUBLICANOS",
+      "uf": "PB",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/160674.jpg",
+      "nota_final": 5.98,
+      "nota_bruta": 5.98,
+      "blocos": {
+        "bloco_a": 7.18,
+        "bloco_b": 1.5,
+        "bloco_c": -2.71
+      },
+      "indicadores": {
+        "v_nota": 4.68,
+        "pre_nota": 9.89,
+        "pl_pontos": 0.5,
+        "al_pontos": 1.0,
+        "pro_desconto": 0.0,
+        "g_nota": 7.81,
+        "d_nota": 7.56,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 1,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 1,
+        "total_sessoes": 46,
+        "percentual_presenca": 97.8,
+        "gasto_ceap_reais": 246697.69,
+        "gasto_gabinete_reais": 670000.0,
+        "gasto_total_reais": 916697.69
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 8,
+      "id_camara": 220565,
+      "nome": "Delegada Adriana Accorsi",
+      "partido": "PT",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220565.jpg",
+      "nota_final": 5.94,
+      "nota_bruta": 5.94,
+      "blocos": {
+        "bloco_a": 7.81,
+        "bloco_b": 0.6,
+        "bloco_c": -2.47
+      },
+      "indicadores": {
+        "v_nota": 5.42,
+        "pre_nota": 9.78,
+        "pl_pontos": 0.6,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 5.6,
+        "d_nota": 8.22,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 2,
+        "total_sessoes": 46,
+        "percentual_presenca": 95.7,
+        "gasto_ceap_reais": 231821.65,
+        "gasto_gabinete_reais": 540000.0,
+        "gasto_total_reais": 771821.65
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Não",
+          "np_obtido": 10,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 9,
+      "id_camara": 220645,
+      "nome": "Erika Hilton",
+      "partido": "PSOL",
+      "uf": "SP",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220645.jpg",
+      "nota_final": 5.92,
+      "nota_bruta": 5.92,
+      "blocos": {
+        "bloco_a": 8.24,
+        "bloco_b": 0.6,
+        "bloco_c": -2.92
+      },
+      "indicadores": {
+        "v_nota": 6.01,
+        "pre_nota": 9.46,
+        "pl_pontos": 0.6,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.79,
+        "d_nota": 10.0,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 3,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 4,
+        "total_sessoes": 46,
+        "percentual_presenca": 91.3,
+        "gasto_ceap_reais": 294696.45,
+        "gasto_gabinete_reais": 610000.0,
+        "gasto_total_reais": 904696.45
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Não",
+          "np_obtido": 85,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 40,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Não",
+          "np_obtido": 10,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 10,
+      "id_camara": 178975,
+      "nome": "Baleia Rossi",
+      "partido": "MDB",
+      "uf": "SP",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/178975.jpg",
+      "nota_final": 5.87,
+      "nota_bruta": 5.87,
+      "blocos": {
+        "bloco_a": 7.98,
+        "bloco_b": 0.5,
+        "bloco_c": -2.61
+      },
+      "indicadores": {
+        "v_nota": 5.72,
+        "pre_nota": 9.46,
+        "pl_pontos": 0.5,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.88,
+        "d_nota": 7.85,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 3,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 4,
+        "total_sessoes": 46,
+        "percentual_presenca": 91.3,
+        "gasto_ceap_reais": 229501.15,
+        "gasto_gabinete_reais": 615000.0,
+        "gasto_total_reais": 844501.15
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 11,
+      "id_camara": 74371,
+      "nome": "Rubens Otoni",
+      "partido": "PT",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/74371.jpg",
+      "nota_final": 5.78,
+      "nota_bruta": 5.78,
+      "blocos": {
+        "bloco_a": 8.14,
+        "bloco_b": 0.5,
+        "bloco_c": -2.87
+      },
+      "indicadores": {
+        "v_nota": 5.79,
+        "pre_nota": 9.78,
+        "pl_pontos": 0.5,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 7.47,
+        "d_nota": 8.97,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 2,
+        "total_sessoes": 46,
+        "percentual_presenca": 95.7,
+        "gasto_ceap_reais": 252787.23,
+        "gasto_gabinete_reais": 650000.0,
+        "gasto_total_reais": 902787.23
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Não",
+          "np_obtido": 85,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Não",
+          "np_obtido": 10,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Não",
+          "np_obtido": 55,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 12,
+      "id_camara": 74398,
+      "nome": "Maria do Rosário",
+      "partido": "PT",
+      "uf": "RS",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/74398.jpg",
+      "nota_final": 5.65,
+      "nota_bruta": 5.65,
+      "blocos": {
+        "bloco_a": 7.89,
+        "bloco_b": 0.8,
+        "bloco_c": -3.05
+      },
+      "indicadores": {
+        "v_nota": 5.54,
+        "pre_nota": 9.67,
+        "pl_pontos": 0.8,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 7.64,
+        "d_nota": 10.0,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 3,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 3,
+        "total_sessoes": 46,
+        "percentual_presenca": 93.5,
+        "gasto_ceap_reais": 342471.48,
+        "gasto_gabinete_reais": 660000.0,
+        "gasto_total_reais": 1002471.48
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Não",
+          "np_obtido": 85,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Não",
+          "np_obtido": 10,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Não",
+          "np_obtido": 55,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 13,
+      "id_camara": 204535,
+      "nome": "Sâmia Bomfim",
+      "partido": "PSOL",
+      "uf": "SP",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204535.jpg",
+      "nota_final": 5.59,
+      "nota_bruta": 5.59,
+      "blocos": {
+        "bloco_a": 7.99,
+        "bloco_b": 0.5,
+        "bloco_c": -2.9
+      },
+      "indicadores": {
+        "v_nota": 5.69,
+        "pre_nota": 9.57,
+        "pl_pontos": 0.5,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.71,
+        "d_nota": 9.95,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 3,
+        "total_sessoes": 46,
+        "percentual_presenca": 93.5,
+        "gasto_ceap_reais": 290999.68,
+        "gasto_gabinete_reais": 605000.0,
+        "gasto_total_reais": 895999.68
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Abstenção",
+          "np_obtido": 0,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Não",
+          "np_obtido": 85,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 40,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Não",
+          "np_obtido": 10,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Não",
+          "np_obtido": 55,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 14,
+      "id_camara": 178876,
+      "nome": "Célio Silveira",
+      "partido": "MDB",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/178876.jpg",
+      "nota_final": 5.3,
+      "nota_bruta": 5.3,
+      "blocos": {
+        "bloco_a": 7.49,
+        "bloco_b": 0.3,
+        "bloco_c": -2.49
+      },
+      "indicadores": {
+        "v_nota": 5.13,
+        "pre_nota": 9.57,
+        "pl_pontos": 0.3,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.28,
+        "d_nota": 7.64,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 3,
+        "total_sessoes": 46,
+        "percentual_presenca": 93.5,
+        "gasto_ceap_reais": 215258.55,
+        "gasto_gabinete_reais": 580000.0,
+        "gasto_total_reais": 795258.55
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 15,
+      "id_camara": 220566,
+      "nome": "Lêda Borges",
+      "partido": "REPUBLICANOS",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220566.jpg",
+      "nota_final": 5.25,
+      "nota_bruta": 5.25,
+      "blocos": {
+        "bloco_a": 7.37,
+        "bloco_b": 0.3,
+        "bloco_c": -2.43
+      },
+      "indicadores": {
+        "v_nota": 5.04,
+        "pre_nota": 9.46,
+        "pl_pontos": 0.3,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.11,
+        "d_nota": 7.4,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 3,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 4,
+        "total_sessoes": 46,
+        "percentual_presenca": 91.3,
+        "gasto_ceap_reais": 208540.33,
+        "gasto_gabinete_reais": 570000.0,
+        "gasto_total_reais": 778540.33
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 16,
+      "id_camara": 121948,
+      "nome": "Adriano do Baldy",
+      "partido": "PP",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/121948.jpg",
+      "nota_final": 5.18,
+      "nota_bruta": 5.18,
+      "blocos": {
+        "bloco_a": 7.84,
+        "bloco_b": 0.0,
+        "bloco_c": -2.67
+      },
+      "indicadores": {
+        "v_nota": 5.63,
+        "pre_nota": 9.24,
+        "pl_pontos": 0.0,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.62,
+        "d_nota": 8.49,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 3,
+        "faltas_nao_justificadas": 2,
+        "faltas_totais": 5,
+        "total_sessoes": 46,
+        "percentual_presenca": 89.1,
+        "gasto_ceap_reais": 239332.06,
+        "gasto_gabinete_reais": 600000.0,
+        "gasto_total_reais": 839332.06
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 17,
+      "id_camara": 220623,
+      "nome": "Duda Salabert",
+      "partido": "PSOL",
+      "uf": "MG",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220623.jpg",
+      "nota_final": 5.18,
+      "nota_bruta": 5.18,
+      "blocos": {
+        "bloco_a": 7.34,
+        "bloco_b": 0.4,
+        "bloco_c": -2.56
+      },
+      "indicadores": {
+        "v_nota": 4.96,
+        "pre_nota": 9.57,
+        "pl_pontos": 0.4,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 5.18,
+        "d_nota": 9.2,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 3,
+        "total_sessoes": 46,
+        "percentual_presenca": 93.5,
+        "gasto_ceap_reais": 262942.54,
+        "gasto_gabinete_reais": 515000.0,
+        "gasto_total_reais": 777942.54
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Não",
+          "np_obtido": 85,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Não",
+          "np_obtido": 10,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 18,
+      "id_camara": 160598,
+      "nome": "Flávia Morais",
+      "partido": "MDB",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/160598.jpg",
+      "nota_final": 5.07,
+      "nota_bruta": 5.07,
+      "blocos": {
+        "bloco_a": 6.93,
+        "bloco_b": 0.8,
+        "bloco_c": -2.66
+      },
+      "indicadores": {
+        "v_nota": 4.41,
+        "pre_nota": 9.89,
+        "pl_pontos": 0.8,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.45,
+        "d_nota": 8.62,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 1,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 1,
+        "total_sessoes": 46,
+        "percentual_presenca": 97.8,
+        "gasto_ceap_reais": 243115.79,
+        "gasto_gabinete_reais": 590000.0,
+        "gasto_total_reais": 833115.79
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Não",
+          "np_obtido": 15,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 19,
+      "id_camara": 220570,
+      "nome": "Dr. Ismael Alexandrino",
+      "partido": "PSD",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220570.jpg",
+      "nota_final": 5.05,
+      "nota_bruta": 5.05,
+      "blocos": {
+        "bloco_a": 7.24,
+        "bloco_b": 0.5,
+        "bloco_c": -2.69
+      },
+      "indicadores": {
+        "v_nota": 4.78,
+        "pre_nota": 9.78,
+        "pl_pontos": 0.5,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 5.35,
+        "d_nota": 9.92,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 2,
+        "total_sessoes": 46,
+        "percentual_presenca": 95.7,
+        "gasto_ceap_reais": 279685.14,
+        "gasto_gabinete_reais": 525000.0,
+        "gasto_total_reais": 804685.14
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 20,
+      "id_camara": 204412,
+      "nome": "Dr. Zacharias Calil",
+      "partido": "MDB",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204412.jpg",
+      "nota_final": 4.95,
+      "nota_bruta": 4.95,
+      "blocos": {
+        "bloco_a": 6.83,
+        "bloco_b": 0.5,
+        "bloco_c": -2.39
+      },
+      "indicadores": {
+        "v_nota": 4.37,
+        "pre_nota": 9.67,
+        "pl_pontos": 0.5,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 5.09,
+        "d_nota": 8.14,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 3,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 3,
+        "total_sessoes": 46,
+        "percentual_presenca": 93.5,
+        "gasto_ceap_reais": 229479.04,
+        "gasto_gabinete_reais": 510000.0,
+        "gasto_total_reais": 739479.04
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 21,
+      "id_camara": 220571,
+      "nome": "Daniel Agrobom",
+      "partido": "PSD",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220571.jpg",
+      "nota_final": 4.9,
+      "nota_bruta": 4.9,
+      "blocos": {
+        "bloco_a": 6.47,
+        "bloco_b": 0.2,
+        "bloco_c": -1.77
+      },
+      "indicadores": {
+        "v_nota": 4.04,
+        "pre_nota": 9.46,
+        "pl_pontos": 0.2,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 5.77,
+        "d_nota": 3.39,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 3,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 4,
+        "total_sessoes": 46,
+        "percentual_presenca": 91.3,
+        "gasto_ceap_reais": 95550.98,
+        "gasto_gabinete_reais": 550000.0,
+        "gasto_total_reais": 645550.98
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 22,
+      "id_camara": 73441,
+      "nome": "Celso Russomanno",
+      "partido": "REPUBLICANOS",
+      "uf": "SP",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/73441.jpg",
+      "nota_final": 4.88,
+      "nota_bruta": 4.88,
+      "blocos": {
+        "bloco_a": 6.99,
+        "bloco_b": 0.3,
+        "bloco_c": -2.41
+      },
+      "indicadores": {
+        "v_nota": 4.72,
+        "pre_nota": 9.13,
+        "pl_pontos": 0.3,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 7.55,
+        "d_nota": 5.85,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 4,
+        "faltas_nao_justificadas": 2,
+        "faltas_totais": 6,
+        "total_sessoes": 46,
+        "percentual_presenca": 87.0,
+        "gasto_ceap_reais": 170926.25,
+        "gasto_gabinete_reais": 655000.0,
+        "gasto_total_reais": 825926.25
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Não",
+          "np_obtido": 15,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 23,
+      "id_camara": 204374,
+      "nome": "Bia Kicis",
+      "partido": "PL",
+      "uf": "DF",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204374.jpg",
+      "nota_final": 4.79,
+      "nota_bruta": 4.79,
+      "blocos": {
+        "bloco_a": 6.67,
+        "bloco_b": 0.6,
+        "bloco_c": -2.48
+      },
+      "indicadores": {
+        "v_nota": 4.22,
+        "pre_nota": 9.57,
+        "pl_pontos": 0.6,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.54,
+        "d_nota": 10.0,
+        "pri_nota": 0.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 3,
+        "total_sessoes": 46,
+        "percentual_presenca": 93.5,
+        "gasto_ceap_reais": 252520.09,
+        "gasto_gabinete_reais": 595000.0,
+        "gasto_total_reais": 847520.09
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Não",
+          "np_obtido": 15,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Obstrução",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 24,
+      "id_camara": 220572,
+      "nome": "Marussa Boldrin",
+      "partido": "REPUBLICANOS",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220572.jpg",
+      "nota_final": 4.59,
+      "nota_bruta": 4.59,
+      "blocos": {
+        "bloco_a": 7.0,
+        "bloco_b": 0.3,
+        "bloco_c": -2.71
+      },
+      "indicadores": {
+        "v_nota": 4.59,
+        "pre_nota": 9.57,
+        "pl_pontos": 0.3,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 5.43,
+        "d_nota": 10.0,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 3,
+        "total_sessoes": 46,
+        "percentual_presenca": 93.5,
+        "gasto_ceap_reais": 346547.91,
+        "gasto_gabinete_reais": 530000.0,
+        "gasto_total_reais": 876547.91
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 25,
+      "id_camara": 220569,
+      "nome": "Silvye Alves",
+      "partido": "UNIÃO",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220569.jpg",
+      "nota_final": 4.41,
+      "nota_bruta": 4.41,
+      "blocos": {
+        "bloco_a": 6.65,
+        "bloco_b": 0.3,
+        "bloco_c": -2.54
+      },
+      "indicadores": {
+        "v_nota": 4.13,
+        "pre_nota": 9.78,
+        "pl_pontos": 0.3,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 4.58,
+        "d_nota": 9.71,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 2,
+        "total_sessoes": 46,
+        "percentual_presenca": 95.7,
+        "gasto_ceap_reais": 273623.31,
+        "gasto_gabinete_reais": 480000.0,
+        "gasto_total_reais": 753623.31
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 26,
+      "id_camara": 220567,
+      "nome": "Jeferson Rodrigues",
+      "partido": "PSDB",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220567.jpg",
+      "nota_final": 4.36,
+      "nota_bruta": 4.36,
+      "blocos": {
+        "bloco_a": 6.85,
+        "bloco_b": 0.3,
+        "bloco_c": -2.79
+      },
+      "indicadores": {
+        "v_nota": 4.42,
+        "pre_nota": 9.57,
+        "pl_pontos": 0.3,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 5.94,
+        "d_nota": 10.0,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 3,
+        "total_sessoes": 46,
+        "percentual_presenca": 93.5,
+        "gasto_ceap_reais": 284863.08,
+        "gasto_gabinete_reais": 560000.0,
+        "gasto_total_reais": 844863.08
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 27,
+      "id_camara": 204369,
+      "nome": "Caroline de Toni",
+      "partido": "PL",
+      "uf": "SC",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204369.jpg",
+      "nota_final": 4.28,
+      "nota_bruta": 4.28,
+      "blocos": {
+        "bloco_a": 5.91,
+        "bloco_b": 0.6,
+        "bloco_c": -2.22
+      },
+      "indicadores": {
+        "v_nota": 3.3,
+        "pre_nota": 9.78,
+        "pl_pontos": 0.6,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.28,
+        "d_nota": 5.86,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 2,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 2,
+        "total_sessoes": 46,
+        "percentual_presenca": 95.7,
+        "gasto_ceap_reais": 182653.74,
+        "gasto_gabinete_reais": 580000.0,
+        "gasto_total_reais": 762653.74
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Não",
+          "np_obtido": 15,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 28,
+      "id_camara": 204411,
+      "nome": "Filipe Barros",
+      "partido": "PL",
+      "uf": "PR",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204411.jpg",
+      "nota_final": 4.18,
+      "nota_bruta": 4.18,
+      "blocos": {
+        "bloco_a": 6.27,
+        "bloco_b": 0.6,
+        "bloco_c": -2.69
+      },
+      "indicadores": {
+        "v_nota": 3.82,
+        "pre_nota": 9.46,
+        "pl_pontos": 0.6,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.45,
+        "d_nota": 8.84,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 3,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 4,
+        "total_sessoes": 46,
+        "percentual_presenca": 91.3,
+        "gasto_ceap_reais": 269346.46,
+        "gasto_gabinete_reais": 590000.0,
+        "gasto_total_reais": 859346.46
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Sim",
+          "np_obtido": 85,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Obstrução",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 29,
+      "id_camara": 209787,
+      "nome": "Nikolas Ferreira",
+      "partido": "PL",
+      "uf": "MG",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/209787.jpg",
+      "nota_final": 4.16,
+      "nota_bruta": 4.16,
+      "blocos": {
+        "bloco_a": 6.25,
+        "bloco_b": 0.5,
+        "bloco_c": -2.59
+      },
+      "indicadores": {
+        "v_nota": 3.87,
+        "pre_nota": 9.24,
+        "pl_pontos": 0.5,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 4.75,
+        "d_nota": 9.87,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 3,
+        "faltas_nao_justificadas": 2,
+        "faltas_totais": 5,
+        "total_sessoes": 46,
+        "percentual_presenca": 89.1,
+        "gasto_ceap_reais": 282285.84,
+        "gasto_gabinete_reais": 490000.0,
+        "gasto_total_reais": 772285.84
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Não",
+          "np_obtido": 15,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 30,
+      "id_camara": 220568,
+      "nome": "Gustavo Gayer",
+      "partido": "PL",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220568.jpg",
+      "nota_final": 4.16,
+      "nota_bruta": 4.16,
+      "blocos": {
+        "bloco_a": 5.96,
+        "bloco_b": 0.1,
+        "bloco_c": -1.9
+      },
+      "indicadores": {
+        "v_nota": 3.62,
+        "pre_nota": 9.02,
+        "pl_pontos": 0.1,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 5.26,
+        "d_nota": 4.74,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 3,
+        "faltas_nao_justificadas": 3,
+        "faltas_totais": 6,
+        "total_sessoes": 46,
+        "percentual_presenca": 87.0,
+        "gasto_ceap_reais": 133574.44,
+        "gasto_gabinete_reais": 520000.0,
+        "gasto_total_reais": 653574.44
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Não",
+          "np_obtido": 15,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 31,
+      "id_camara": 160541,
+      "nome": "Arthur Lira",
+      "partido": "PP",
+      "uf": "AL",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/160541.jpg",
+      "nota_final": 4.03,
+      "nota_bruta": 4.03,
+      "blocos": {
+        "bloco_a": 5.62,
+        "bloco_b": 0.7,
+        "bloco_c": -2.3
+      },
+      "indicadores": {
+        "v_nota": 3.13,
+        "pre_nota": 9.35,
+        "pl_pontos": 0.7,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 7.98,
+        "d_nota": 4.68,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 4,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 5,
+        "total_sessoes": 46,
+        "percentual_presenca": 89.1,
+        "gasto_ceap_reais": 149262.15,
+        "gasto_gabinete_reais": 680000.0,
+        "gasto_total_reais": 829262.15
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 32,
+      "id_camara": 220657,
+      "nome": "André Fernandes",
+      "partido": "PL",
+      "uf": "CE",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220657.jpg",
+      "nota_final": 3.99,
+      "nota_bruta": 3.99,
+      "blocos": {
+        "bloco_a": 6.06,
+        "bloco_b": 0.1,
+        "bloco_c": -2.16
+      },
+      "indicadores": {
+        "v_nota": 3.69,
+        "pre_nota": 9.13,
+        "pl_pontos": 0.1,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 5.09,
+        "d_nota": 6.66,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 4,
+        "faltas_nao_justificadas": 2,
+        "faltas_totais": 6,
+        "total_sessoes": 46,
+        "percentual_presenca": 87.0,
+        "gasto_ceap_reais": 219355.94,
+        "gasto_gabinete_reais": 510000.0,
+        "gasto_total_reais": 729355.94
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Não",
+          "np_obtido": 15,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 90,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 33,
+      "id_camara": 107283,
+      "nome": "Gleisi Hoffmann",
+      "partido": "PT",
+      "uf": "PR",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/107283.jpg",
+      "nota_final": 3.96,
+      "nota_bruta": 3.96,
+      "blocos": {
+        "bloco_a": 5.86,
+        "bloco_b": 0.3,
+        "bloco_c": -2.2
+      },
+      "indicadores": {
+        "v_nota": 3.65,
+        "pre_nota": 8.59,
+        "pl_pontos": 0.3,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.96,
+        "d_nota": 5.05,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 11,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 12,
+        "total_sessoes": 46,
+        "percentual_presenca": 73.9,
+        "gasto_ceap_reais": 154015.6,
+        "gasto_gabinete_reais": 620000.0,
+        "gasto_total_reais": 774015.6
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Sim",
+          "np_obtido": 65,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Não",
+          "np_obtido": 55,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 34,
+      "id_camara": 204391,
+      "nome": "José Nelto",
+      "partido": "UNIÃO",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204391.jpg",
+      "nota_final": 3.92,
+      "nota_bruta": 3.92,
+      "blocos": {
+        "bloco_a": 6.59,
+        "bloco_b": 0.3,
+        "bloco_c": -2.97
+      },
+      "indicadores": {
+        "v_nota": 4.17,
+        "pre_nota": 9.46,
+        "pl_pontos": 0.3,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 7.13,
+        "d_nota": 10.0,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 3,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 4,
+        "total_sessoes": 46,
+        "percentual_presenca": 91.3,
+        "gasto_ceap_reais": 294882.35,
+        "gasto_gabinete_reais": 630000.0,
+        "gasto_total_reais": 924882.35
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Não",
+          "np_obtido": 55,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 35,
+      "id_camara": 204390,
+      "nome": "Professor Alcides",
+      "partido": "PSDB",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204390.jpg",
+      "nota_final": 3.15,
+      "nota_bruta": 3.15,
+      "blocos": {
+        "bloco_a": 5.94,
+        "bloco_b": 0.0,
+        "bloco_c": -2.78
+      },
+      "indicadores": {
+        "v_nota": 3.59,
+        "pre_nota": 9.02,
+        "pl_pontos": 0.0,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.96,
+        "d_nota": 8.93,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 5,
+        "faltas_nao_justificadas": 2,
+        "faltas_totais": 7,
+        "total_sessoes": 46,
+        "percentual_presenca": 84.8,
+        "gasto_ceap_reais": 251587.01,
+        "gasto_gabinete_reais": 620000.0,
+        "gasto_total_reais": 871587.01
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Obstrução",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 36,
+      "id_camara": 220633,
+      "nome": "Ricardo Salles",
+      "partido": "NOVO",
+      "uf": "SP",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220633.jpg",
+      "nota_final": 3.13,
+      "nota_bruta": 3.13,
+      "blocos": {
+        "bloco_a": 5.46,
+        "bloco_b": 0.2,
+        "bloco_c": -2.53
+      },
+      "indicadores": {
+        "v_nota": 3.13,
+        "pre_nota": 8.8,
+        "pl_pontos": 0.2,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 4.41,
+        "d_nota": 9.8,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 5,
+        "faltas_nao_justificadas": 3,
+        "faltas_totais": 8,
+        "total_sessoes": 46,
+        "percentual_presenca": 82.6,
+        "gasto_ceap_reais": 286376.69,
+        "gasto_gabinete_reais": 470000.0,
+        "gasto_total_reais": 756376.69
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Não",
+          "np_obtido": 15,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Sim",
+          "np_obtido": 80,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Abstenção",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Abstenção",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 37,
+      "id_camara": 204419,
+      "nome": "Glaustin da Fokus",
+      "partido": "PODE",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/204419.jpg",
+      "nota_final": 2.49,
+      "nota_bruta": 2.49,
+      "blocos": {
+        "bloco_a": 5.09,
+        "bloco_b": 0.2,
+        "bloco_c": -2.8
+      },
+      "indicadores": {
+        "v_nota": 2.54,
+        "pre_nota": 9.35,
+        "pl_pontos": 0.2,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 6.79,
+        "d_nota": 9.19,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 4,
+        "faltas_nao_justificadas": 1,
+        "faltas_totais": 5,
+        "total_sessoes": 46,
+        "percentual_presenca": 89.1,
+        "gasto_ceap_reais": 258939.3,
+        "gasto_gabinete_reais": 610000.0,
+        "gasto_total_reais": 868939.3
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Sim",
+          "np_obtido": 55,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Não",
+          "np_obtido": 15,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Sim",
+          "np_obtido": 70,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Não",
+          "np_obtido": 65,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Sim",
+          "np_obtido": 75,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 38,
+      "id_camara": 166402,
+      "nome": "Magda Mofatto",
+      "partido": "PL",
+      "uf": "GO",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/166402.jpg",
+      "nota_final": 2.42,
+      "nota_bruta": 2.42,
+      "blocos": {
+        "bloco_a": 5.41,
+        "bloco_b": 0.0,
+        "bloco_c": -3.0
+      },
+      "indicadores": {
+        "v_nota": 3.08,
+        "pre_nota": 8.8,
+        "pl_pontos": 0.0,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 7.3,
+        "d_nota": 10.0,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 5,
+        "faltas_nao_justificadas": 3,
+        "faltas_totais": 8,
+        "total_sessoes": 46,
+        "percentual_presenca": 82.6,
+        "gasto_ceap_reais": 301345.75,
+        "gasto_gabinete_reais": 640000.0,
+        "gasto_total_reais": 941345.75
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Não",
+          "np_obtido": 15,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Sim",
+          "np_obtido": 90,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 39,
+      "id_camara": 220637,
+      "nome": "Marina Silva",
+      "partido": "REDE",
+      "uf": "SP",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/220637.jpg",
+      "nota_final": 1.74,
+      "nota_bruta": 1.74,
+      "blocos": {
+        "bloco_a": 2.48,
+        "bloco_b": 0.0,
+        "bloco_c": -0.74
+      },
+      "indicadores": {
+        "v_nota": 0.0,
+        "pre_nota": 8.26,
+        "pl_pontos": 0.0,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 0.0,
+        "d_nota": 4.93,
+        "pri_nota": 0.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 16,
+        "faltas_nao_justificadas": 0,
+        "faltas_totais": 16,
+        "total_sessoes": 46,
+        "percentual_presenca": 65.2,
+        "gasto_ceap_reais": 144204.6,
+        "gasto_gabinete_reais": 210000.0,
+        "gasto_total_reais": 354204.6
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    },
+    {
+      "posicao": 40,
+      "id_camara": 160601,
+      "nome": "Pr. Marco Feliciano",
+      "partido": "PL",
+      "uf": "SP",
+      "foto_url": "https://www.camara.leg.br/internet/deputado/bandep/160601.jpg",
+      "nota_final": 1.68,
+      "nota_bruta": 1.68,
+      "blocos": {
+        "bloco_a": 4.68,
+        "bloco_b": 0.0,
+        "bloco_c": -3.0
+      },
+      "indicadores": {
+        "v_nota": 2.19,
+        "pre_nota": 9.02,
+        "pl_pontos": 0.0,
+        "al_pontos": 0.0,
+        "pro_desconto": 0.0,
+        "g_nota": 7.3,
+        "d_nota": 10.0,
+        "pri_nota": 2.0
+      },
+      "resumo_visual": {
+        "faltas_justificadas": 5,
+        "faltas_nao_justificadas": 2,
+        "faltas_totais": 7,
+        "total_sessoes": 46,
+        "percentual_presenca": 84.8,
+        "gasto_ceap_reais": 328186.67,
+        "gasto_gabinete_reais": 640000.0,
+        "gasto_total_reais": 968186.67
+      },
+      "detalhe_votos": [
+        {
+          "codigo": "PEC 45/2019",
+          "titulo": "Reforma Tributária (2º Turno)",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 93/2023",
+          "titulo": "Novo Arcabouço Fiscal",
+          "voto": "Não",
+          "np_obtido": 45,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PLP 68/2024",
+          "titulo": "Regulamentação da Reforma Tributária",
+          "voto": "Não",
+          "np_obtido": 20,
+          "rp": 1.0
+        },
+        {
+          "codigo": "PL 1087/2025",
+          "titulo": "Isenção do IR até R$ 5 mil",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 914/2024",
+          "titulo": "Programa Mover / Taxa das Blusinhas",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 3626/2023",
+          "titulo": "Regulamentação e Taxação das Bets",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 4173/2023",
+          "titulo": "Taxação de Offshores e Fundos Exclusivos",
+          "voto": "Não",
+          "np_obtido": 30,
+          "rp": 0.6
+        },
+        {
+          "codigo": "PL 2903/2023",
+          "titulo": "Marco Temporal das Terras Indígenas",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.4
+        },
+        {
+          "codigo": "PL 4614/2024",
+          "titulo": "Pacote de Corte de Gastos / BPC",
+          "voto": "Não",
+          "np_obtido": 35,
+          "rp": 0.7
+        },
+        {
+          "codigo": "PL 2162/2023",
+          "titulo": "PL da Dosimetria / Revisão de Penas",
+          "voto": "Sim",
+          "np_obtido": 15,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PEC 18/2025",
+          "titulo": "PEC da Segurança Pública (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 60,
+          "rp": 0.8
+        },
+        {
+          "codigo": "PL 5582/2025",
+          "titulo": "Marco Legal contra o Crime Organizado",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.95
+        },
+        {
+          "codigo": "PEC 9/2023",
+          "titulo": "PEC da Anistia Partidária (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PEC 3/2021",
+          "titulo": "PEC das Prerrogativas (2º Turno)",
+          "voto": "Sim",
+          "np_obtido": 10,
+          "rp": 0.9
+        },
+        {
+          "codigo": "PL 2159/2021",
+          "titulo": "Lei Geral do Licenciamento Ambiental",
+          "voto": "Sim",
+          "np_obtido": 45,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PL 5230/2023",
+          "titulo": "Reforma do Novo Ensino Médio",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 136/2023",
+          "titulo": "Compensação do ICMS aos Estados",
+          "voto": "Ausente",
+          "np_obtido": 0,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PL 2384/2023",
+          "titulo": "Voto de Qualidade no CARF (Destaque)",
+          "voto": "Sim",
+          "np_obtido": 35,
+          "rp": 0.75
+        },
+        {
+          "codigo": "PLP 210/2024",
+          "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+          "voto": "Não",
+          "np_obtido": 25,
+          "rp": 0.85
+        },
+        {
+          "codigo": "PLP 128/2025",
+          "titulo": "Revisão de Benefícios Fiscais e JCP",
+          "voto": "Obstrução",
+          "np_obtido": 0,
+          "rp": 0.8
+        }
+      ]
+    }
+  ]
+}
