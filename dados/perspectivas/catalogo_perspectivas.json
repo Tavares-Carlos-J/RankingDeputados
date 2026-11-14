@@ -1,0 +1,86 @@
+{
+  "versao": "1.0-teste",
+  "perspectivas": [
+    {
+      "id_perspectiva": "visao_dono",
+      "titulo": "Visão do Dono (Legado)",
+      "resumo_criterio": "Gabarito original do MVP migrado de dados/projetos.json.",
+      "gabarito": {
+        "PEC 45/2019": { "gabarito": "Sim", "rp": 1.0, "justificativa": "Gabarito legado MVP (np_sim=80)." },
+        "PLP 93/2023": { "gabarito": "Sim", "rp": 1.0, "justificativa": "Gabarito legado MVP (np_sim=55)." },
+        "PLP 68/2024": { "gabarito": "Sim", "rp": 1.0, "justificativa": "Gabarito legado MVP (np_sim=80)." },
+        "PL 1087/2025": { "gabarito": "Sim", "rp": 0.8, "justificativa": "Gabarito legado MVP (np_sim=90)." },
+        "PL 914/2024": { "gabarito": "Sim", "rp": 0.8, "justificativa": "Gabarito legado MVP (np_sim=60)." },
+        "PL 3626/2023": { "gabarito": "Sim", "rp": 0.6, "justificativa": "Gabarito legado MVP (np_sim=85)." },
+        "PL 4173/2023": { "gabarito": "Sim", "rp": 0.6, "justificativa": "Gabarito legado MVP (np_sim=70)." },
+        "PL 2903/2023": { "gabarito": "Não", "rp": 0.4, "justificativa": "Gabarito legado MVP (np_nao=65)." },
+        "PL 4614/2024": { "gabarito": "Sim", "rp": 0.7, "justificativa": "Gabarito legado MVP (np_sim=65)." },
+        "PL 2162/2023": { "gabarito": "Não", "rp": 0.85, "justificativa": "Gabarito legado MVP (np_nao=85)." },
+        "PEC 18/2025": { "gabarito": "Sim", "rp": 0.8, "justificativa": "Gabarito legado MVP (np_sim=60)." },
+        "PL 5582/2025": { "gabarito": "Sim", "rp": 0.95, "justificativa": "Gabarito legado MVP (np_sim=90)." },
+        "PEC 9/2023": { "gabarito": "Não", "rp": 0.9, "justificativa": "Gabarito legado MVP (np_nao=90)." },
+        "PEC 3/2021": { "gabarito": "Não", "rp": 0.9, "justificativa": "Gabarito legado MVP (np_nao=90)." },
+        "PL 2159/2021": { "gabarito": "Não", "rp": 0.85, "justificativa": "Gabarito legado MVP (np_nao=55)." },
+        "PL 5230/2023": { "gabarito": "Sim", "rp": 0.85, "justificativa": "Gabarito legado MVP (np_sim=80)." },
+        "PLP 136/2023": { "gabarito": "Sim", "rp": 0.75, "justificativa": "Gabarito legado MVP (np_sim=75)." },
+        "PL 2384/2023": { "gabarito": "Não", "rp": 0.75, "justificativa": "Gabarito legado MVP (np_nao=65)." },
+        "PLP 210/2024": { "gabarito": "Sim", "rp": 0.85, "justificativa": "Gabarito legado MVP (np_sim=75)." },
+        "PLP 128/2025": { "gabarito": "Sim", "rp": 0.8, "justificativa": "Gabarito legado MVP (np_sim=70)." }
+      }
+    },
+    {
+      "id_perspectiva": "povo",
+      "titulo": "Povo",
+      "resumo_criterio": "Prioriza poder de compra, justiça tributária, proteção social, serviços públicos e integridade institucional.",
+      "gabarito": {
+        "PEC 45/2019": { "gabarito": "Sim", "rp": 1.0, "justificativa": "Simplifica impostos sobre consumo e prevê cesta básica." },
+        "PLP 93/2023": { "gabarito": "Sim", "rp": 1.0, "justificativa": "Substitui teto rígido permitindo investimentos sociais mínimos." },
+        "PLP 68/2024": { "gabarito": "Sim", "rp": 1.0, "justificativa": "Isenta cesta básica e cria cashback tributário para baixa renda." },
+        "PL 1087/2025": { "gabarito": "Sim", "rp": 0.8, "justificativa": "Amplia isenção do IR até R$ 5 mil aliviando trabalhadores." },
+        "PL 914/2024": { "gabarito": "Não", "rp": 0.8, "justificativa": "Tributa compras internacionais populares até US$ 50." },
+        "PL 3626/2023": { "gabarito": "Sim", "rp": 0.6, "justificativa": "Regulamenta apostas online e protege apostadores." },
+        "PL 4173/2023": { "gabarito": "Sim", "rp": 0.6, "justificativa": "Aumenta progressividade tributando offshores e fundos exclusivos." },
+        "PL 2903/2023": { "gabarito": "Não", "rp": 0.4, "justificativa": "Restringe direitos constitucionais de povos indígenas." },
+        "PL 4614/2024": { "gabarito": "Não", "rp": 0.7, "justificativa": "Restringe acesso ao BPC e limita ganho real do salário mínimo." },
+        "PL 2162/2023": { "gabarito": "Não", "rp": 0.85, "justificativa": "Reduz rigor penal em condenações contra o Estado democrático." },
+        "PEC 18/2025": { "gabarito": "Sim", "rp": 0.8, "justificativa": "Integra forças policiais para ampliar segurança pública." },
+        "PL 5582/2025": { "gabarito": "Sim", "rp": 0.95, "justificativa": "Endurece combate a facções criminosas e milícias." },
+        "PEC 9/2023": { "gabarito": "Não", "rp": 0.9, "justificativa": "Perdoa multas por descumprimento de cotas raciais e de gênero." },
+        "PEC 3/2021": { "gabarito": "Não", "rp": 0.9, "justificativa": "Amplia blindagem e dificulta responsabilização de parlamentares." },
+        "PL 2159/2021": { "gabarito": "Não", "rp": 0.85, "justificativa": "Flexibiliza licenciamento ambiental aumentando risco socioambiental." },
+        "PL 5230/2023": { "gabarito": "Sim", "rp": 0.85, "justificativa": "Amplia carga horária da formação geral básica no ensino médio." },
+        "PLP 136/2023": { "gabarito": "Sim", "rp": 0.75, "justificativa": "Recomposição de ICMS preserva orçamento de saúde e educação nos estados." },
+        "PL 2384/2023": { "gabarito": "Não", "rp": 0.75, "justificativa": "Rejeita supressão do voto de qualidade da Fazenda contra grandes devedores." },
+        "PLP 210/2024": { "gabarito": "Sim", "rp": 0.85, "justificativa": "Permite bloqueio de emendas para preservar equilíbrio orçamentário." },
+        "PLP 128/2025": { "gabarito": "Sim", "rp": 0.8, "justificativa": "Corta privilégios tributários setoriais em favor de justiça fiscal." }
+      }
+    },
+    {
+      "id_perspectiva": "mercado",
+      "titulo": "Mercado",
+      "resumo_criterio": "Prioriza previsibilidade fiscal, segurança jurídica, menor carga sobre produção e capital e destravamento de investimentos.",
+      "gabarito": {
+        "PEC 45/2019": { "gabarito": "Sim", "rp": 1.0, "justificativa": "Elimina cumulatividade tributária e reduz contencioso empresarial." },
+        "PLP 93/2023": { "gabarito": "Sim", "rp": 1.0, "justificativa": "Estabelece regra fiscal previsível em substituição ao vácuo do teto." },
+        "PLP 68/2024": { "gabarito": "Sim", "rp": 1.0, "justificativa": "Regulamenta transição e operacionalização do IBS/CBS." },
+        "PL 1087/2025": { "gabarito": "Não", "rp": 0.8, "justificativa": "Cria tributação mínima sobre altas rendas e dividendos." },
+        "PL 914/2024": { "gabarito": "Sim", "rp": 0.8, "justificativa": "Incentiva indústria automotiva e dá isonomia ao varejo nacional." },
+        "PL 3626/2023": { "gabarito": "Sim", "rp": 0.6, "justificativa": "Cria marco regulatório e segurança jurídica para o setor de apostas." },
+        "PL 4173/2023": { "gabarito": "Não", "rp": 0.6, "justificativa": "Eleva tributação periódica sobre capital e fundos exclusivos." },
+        "PL 2903/2023": { "gabarito": "Sim", "rp": 0.4, "justificativa": "Traz previsibilidade fundiária para agronegócio e infraestrutura." },
+        "PL 4614/2024": { "gabarito": "Sim", "rp": 0.7, "justificativa": "Contém expansão de despesas obrigatórias para equilíbrio fiscal." },
+        "PL 2162/2023": { "gabarito": "Não", "rp": 0.85, "justificativa": "Insegurança institucional pode elevar prêmio de risco." },
+        "PEC 18/2025": { "gabarito": "Sim", "rp": 0.8, "justificativa": "Melhora coordenação de segurança pública e ambiente de negócios." },
+        "PL 5582/2025": { "gabarito": "Sim", "rp": 0.95, "justificativa": "Combate crime organizado que afeta cadeias produtivas e patrimônio." },
+        "PEC 9/2023": { "gabarito": "Não", "rp": 0.9, "justificativa": "Enfraquece governança institucional e cumprimento de regras." },
+        "PEC 3/2021": { "gabarito": "Não", "rp": 0.9, "justificativa": "Reduz accountability institucional e transparência pública." },
+        "PL 2159/2021": { "gabarito": "Sim", "rp": 0.85, "justificativa": "Agiliza licenciamento ambiental para obras de infraestrutura e agro." },
+        "PL 5230/2023": { "gabarito": "Sim", "rp": 0.85, "justificativa": "Estrutura formação básica e técnica para produtividade futura." },
+        "PLP 136/2023": { "gabarito": "Sim", "rp": 0.75, "justificativa": "Pacifica litígios federativos de ICMS entre estados e União." },
+        "PL 2384/2023": { "gabarito": "Sim", "rp": 0.75, "justificativa": "Destaque suprime voto de qualidade da Fazenda, favorecendo contribuintes no CARF." },
+        "PLP 210/2024": { "gabarito": "Sim", "rp": 0.85, "justificativa": "Reforça gatilhos fiscais e controle de gastos em déficit." },
+        "PLP 128/2025": { "gabarito": "Não", "rp": 0.8, "justificativa": "Aumenta alíquotas sobre JCP, fintechs e reduz incentivos setoriais." }
+      }
+    }
+  ]
+}

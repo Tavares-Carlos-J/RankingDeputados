@@ -69,12 +69,12 @@ flowchart LR
 - **Aceite:** 2 deputados calculados à mão e conferidos até a 2ª casa decimal; `calcular.py` gera `public/ranking_final.json` válido.
 
 ### Etapa 1.2 — Curadoria inicial das 3 perspectivas de teste (Dono, Povo e Mercado)
-- [ ] Criar `dados/perspectivas/README.md` e `dados/perspectivas/INSTRUCAO_PENSAMENTO.md` com os critérios analíticos para avaliar projetos sem cair em títulos enganosos `[PE §6.2]`.
-- [ ] Criar `dados/perspectivas/catalogo_perspectivas.json` `[PE §6.1]` contendo, para as **20 leis atuais**, as 3 perspectivas iniciais de teste:
+- [x] Criar `dados/perspectivas/README.md` e `dados/perspectivas/INSTRUCAO_PENSAMENTO.md` com os critérios analíticos para avaliar projetos sem cair em títulos enganosos `[PE §6.2]`.
+- [x] Criar `dados/perspectivas/catalogo_perspectivas.json` `[PE §6.1]` contendo, para as **20 leis atuais**, as 3 perspectivas iniciais de teste:
   1. **Visão do Dono** (`visao_dono` — migrada do gabarito antigo de `dados/projetos.json`);
   2. **Povo** (`povo` — critério voltado ao cidadão/consumidor/trabalhador);
   3. **Mercado** (`mercado` — critério voltado ao setor produtivo, ambiente de negócios e previsibilidade fiscal).
-- [ ] Reexecutar `scripts/calcular.py` gerando `notas_por_perspectiva` para as 3 visões em `public/ranking_final.json`.
+- [x] Reexecutar `scripts/calcular.py` gerando `notas_por_perspectiva` para as 3 visões em `public/ranking_final.json`.
 - **Aceite:** alternar entre as 3 perspectivas produz notas e ordenações coerentes e auditáveis nas 20 leis.
 
 ### Etapa 1.3 — Mudança de HTML e CSS (`public/index.html` e `public/style.css`)
