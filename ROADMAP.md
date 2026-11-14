@@ -60,12 +60,12 @@ flowchart LR
 > **Escopo desta fase:** validar toda a experiência de cálculo, perspectivas e interface **antes** de reestruturar a base de dados. Continuam em uso os **40 deputados** e as **20 leis** atuais.
 
 ### Etapa 1.1 — Novo motor de cálculo e nova análise de custos (`scripts/calcular.py`)
-- [ ] Implementar a nova fórmula oficial `[PE §5.1–5.3]` sobre os 40 deputados e 20 leis atuais:
+- [x] Implementar a nova fórmula oficial `[PE §5.1–5.3]` sobre os 40 deputados e 20 leis atuais:
   - **Nota da Perspectiva ($N_P$, peso `0,7`):** voto binário estilo prova (`1` = acertou o gabarito $G_{P,i}$; `0` = errou, ausente, abstenção ou obstrução desalinhada), média ponderada por $RP_i$ convertida para `0` a `10` (com trava `0,00` se $\sum RP_i = 0$).
   - **Nota Fixa de Custo e Conduta ($N_{CC}$, peso `0,3`):** unificada de `0` a `10`, combinando Economia de Recursos Públicos ($E_{custo}$) e Assiduidade/Conduta Disciplinar ($E_{conduta}$).
   - **Nota Final:** $NF_P = (0{,}7 \times N_P) + (0{,}3 \times N_{CC})$.
-- [ ] Implementar os **5 critérios oficiais de desempate** `[PE §5.4]`: (1) menor nº de faltas não justificadas → (2) menor nº de faltas totais → (3) maior nº de projetos aprovados → (4) menor custo total ao povo → (5) ordem alfabética.
-- [ ] Adicionar no JSON exportado os blocos para **nova análise de custos** (custo mensal médio por parlamentar, % do teto da UF e custo médio por partido) e **visão do partido** (orientação/alinhamento × voto real dos deputados do partido na amostra).
+- [x] Implementar os **5 critérios oficiais de desempate** `[PE §5.4]`: (1) menor nº de faltas não justificadas → (2) menor nº de faltas totais → (3) maior nº de projetos aprovados → (4) menor custo total ao povo → (5) ordem alfabética.
+- [x] Adicionar no JSON exportado os blocos para **nova análise de custos** (custo mensal médio por parlamentar, % do teto da UF e custo médio por partido) e **visão do partido** (orientação/alinhamento × voto real dos deputados do partido na amostra).
 - **Aceite:** 2 deputados calculados à mão e conferidos até a 2ª casa decimal; `calcular.py` gera `public/ranking_final.json` válido.
 
 ### Etapa 1.2 — Curadoria inicial das 3 perspectivas de teste (Dono, Povo e Mercado)

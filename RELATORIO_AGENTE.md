@@ -9,6 +9,13 @@
 
 ## Registro de Execuções
 
+### Entrada #6
+- **Versão do Projeto:** `v0.2.0`
+- **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)
+- **Data e Hora da Ação:** 2026-11-14 14:18
+- **O que foi feito:** Executada a Etapa 1.1: reescrito `scripts/calcular.py` com a fórmula `NF_P = 0.7·N_P + 0.3·N_CC`, os 5 critérios oficiais de desempate, `analise_custos`, `resumo_custos` e `visao_partidos` (14 partidos). Regerado `public/ranking_final.json` e validados `#1 Tabata Amaral` (`7.74`) e `#20 Jeferson Rodrigues` (`5.43`) até a 2ª casa decimal.
+- **Próximo Passo:** Executar **Fase 1 — Etapa 1.2 (Curadoria inicial das 3 perspectivas de teste: Dono, Povo e Mercado)** do `ROADMAP.md`.
+
 ### Entrada #5
 - **Versão do Projeto:** `v0.2.0`
 - **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)
