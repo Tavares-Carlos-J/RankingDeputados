@@ -78,11 +78,11 @@ flowchart LR
 - **Aceite:** alternar entre as 3 perspectivas produz notas e ordenações coerentes e auditáveis nas 20 leis.
 
 ### Etapa 1.3 — Mudança de HTML e CSS (`public/index.html` e `public/style.css`)
-- [ ] Adicionar banner visual fixo de **Dados de Teste / Calibragem** informando o início oficial em `01/01/2027` `[PE §3.1]`.
-- [ ] Adicionar seletor global de **Perspectiva** (Visão do Dono / Povo / Mercado / apenas Custo & Conduta) `[PE §6.1]`.
-- [ ] Atualizar a estrutura da **nova visão de ranking**: exibir claramente Nota da Perspectiva ($N_P$, 70%), Nota Fixa de Custo & Conduta ($N_{CC}$, 30%) e Nota Final ($NF_P$), além de filtros por Estado (UF), Partido e Projeto.
-- [ ] Adicionar seção/aba de **Visão do Partido** (orientação/sugestão do partido × divergência interna dos deputados, coerência e custo médio por partido) e **Nova Análise de Custos** (comparativo de gasto × teto da UF e média partidária).
-- [ ] Atualizar `public/style.css` mantendo HTML5/CSS3 puros (sem frameworks), tokens existentes, `:focus-visible` e responsividade mobile.
+- [x] Adicionar banner visual fixo de **Dados de Teste / Calibragem** informando o início oficial em `01/01/2027` `[PE §3.1]`.
+- [x] Adicionar seletor global de **Perspectiva** (Visão do Dono / Povo / Mercado / apenas Custo & Conduta) `[PE §6.1]`.
+- [x] Atualizar a estrutura da **nova visão de ranking**: exibir claramente Nota da Perspectiva ($N_P$, 70%), Nota Fixa de Custo & Conduta ($N_{CC}$, 30%) e Nota Final ($NF_P$), além de filtros por Estado (UF), Partido e Projeto.
+- [x] Adicionar seção/aba de **Visão do Partido** (orientação/sugestão do partido × divergência interna dos deputados, coerência e custo médio por partido) e **Nova Análise de Custos** (comparativo de gasto × teto da UF e média partidária).
+- [x] Atualizar `public/style.css` mantendo HTML5/CSS3 puros (sem frameworks), tokens existentes, `:focus-visible` e responsividade mobile.
 - **Aceite:** layout aprovado em desktop e mobile (`390×844`) sem overflow horizontal.
 
 ### Etapa 1.4 — Lógica da nova interface (`public/app.js`)

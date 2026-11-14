@@ -3,19 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Ranking Parlamentar (MVP — 57ª Legislatura): avaliação experimental de 40 deputados federais em 20 votações nominais, presença e custos com dados abertos da Câmara." />
+  <meta name="description" content="Ranking Parlamentar (Ambiente de Teste — 57ª Legislatura): avaliação multiperspectiva (Visão do Dono, Povo e Mercado), análise partidária e custos públicos." />
   <meta name="theme-color" content="#0f172a" />
-  <title>Ranking Parlamentar — MVP 57ª Legislatura</title>
+  <title>Ranking Parlamentar — Multiperspectiva (Modo Teste)</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f172a'/%3E%3Cpath d='M8 22V14h4v8H8zm6 0V9h4v13h-4zm6 0v-6h4v6h-4z' fill='%2393c5fd'/%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://www.camara.leg.br" crossorigin />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+
+  <div class="test-mode-banner" id="test-mode-banner" role="region" aria-label="Aviso de ambiente de teste">
+    <div class="container test-banner-inner">
+      <span class="test-pill">DADOS DE TESTE</span>
+      <p id="aviso-legal-texto">
+        Ambiente de homologação e calibragem metodológica (40 deputados e 20 leis da 57ª Legislatura). O ranking oficial inicia em <strong>01/01/2027</strong> com notas zeradas.
+      </p>
+    </div>
+  </div>
+
   <header class="site-header" id="site-header">
     <div class="container header-content">
       <div>
-        <span class="eyebrow">Observatório Legislativo • MVP</span>
+        <span class="eyebrow">Observatório Legislativo • Calibragem v2</span>
         <h1>Ranking Parlamentar</h1>
         <p class="subtitle" id="periodo-referencia">Avaliação experimental de 40 deputados em 20 votações nominais</p>
       </div>
@@ -27,9 +37,23 @@
   </header>
 
   <main id="conteudo-principal" class="container">
+    <section class="perspective-bar" aria-label="Seletor de perspectiva">
+      <div class="perspective-select-wrap">
+        <label for="seletor-perspectiva">Perspectiva de avaliação</label>
+        <select id="seletor-perspectiva" name="perspectiva"></select>
+      </div>
+      <p class="perspective-desc" id="perspectiva-descricao">
+        Carregando critério da perspectiva…
+      </p>
+      <div class="formula-badges" aria-label="Composição da nota">
+        <span class="formula-pill">Votos (<abbr title="Nota da Perspectiva">N<sub>P</sub></abbr>): <strong>70%</strong></span>
+        <span class="formula-pill">Custo &amp; Conduta (<abbr title="Nota Fixa de Custo e Conduta">N<sub>CC</sub></abbr>): <strong>30%</strong></span>
+      </div>
+    </section>
+
     <section class="summary-grid" aria-label="Resumo do experimento">
       <article class="summary-card">
-        <span class="card-label">Média das Notas</span>
+        <span class="card-label" id="label-media-notas">Média na Perspectiva</span>
         <strong class="card-value" id="media-notas">—</strong>
         <span class="card-hint" id="total-avaliados">0 parlamentares avaliados</span>
       </article>
@@ -45,41 +69,62 @@
       </article>
     </section>
 
-    <section class="controls-bar" aria-label="Controles e filtros">
-      <div class="control-group control-search">
-        <label for="filtro-busca">Buscar parlamentar</label>
-        <input type="search" id="filtro-busca" name="busca" placeholder="Digite o nome do deputado…" autocomplete="off" />
-      </div>
-      <div class="control-group">
-        <label for="filtro-partido">Partido</label>
-        <select id="filtro-partido" name="partido">
-          <option value="">Todos os partidos</option>
-        </select>
-      </div>
-      <div class="control-group">
-        <label for="filtro-uf">UF</label>
-        <select id="filtro-uf" name="uf">
-          <option value="">Todas as UFs</option>
-        </select>
-      </div>
-      <div class="control-group">
-        <label for="ordenacao">Ordenação</label>
-        <select id="ordenacao" name="ordenacao">
-          <option value="nota_desc">Maior Nota (Ranking Oficial)</option>
-          <option value="nota_asc">Menor Nota</option>
-          <option value="faltas_desc">Mais Faltas</option>
-          <option value="gasto_desc">Maior Gasto Total</option>
-          <option value="gasto_asc">Menor Gasto Total</option>
-        </select>
-      </div>
-    </section>
+    <nav class="view-tabs" role="tablist" aria-label="Visões de análise">
+      <button type="button" role="tab" id="tab-ranking" class="tab-btn" aria-selected="true" aria-controls="painel-ranking" data-tab="ranking">
+        Ranking Geral
+      </button>
+      <button type="button" role="tab" id="tab-partidos" class="tab-btn" aria-selected="false" aria-controls="painel-partidos" data-tab="partidos">
+        Visão do Partido
+      </button>
+      <button type="button" role="tab" id="tab-custos" class="tab-btn" aria-selected="false" aria-controls="painel-custos" data-tab="custos">
+        Análise de Custos
+      </button>
+    </nav>
 
-    <section class="table-section" aria-label="Tabela de classificação">
+    <!-- ABA 1: RANKING -->
+    <section id="painel-ranking" class="tab-panel" role="tabpanel" aria-labelledby="tab-ranking">
+      <section class="controls-bar" aria-label="Controles e filtros">
+        <div class="control-group control-search">
+          <label for="filtro-busca">Buscar parlamentar</label>
+          <input type="search" id="filtro-busca" name="busca" placeholder="Digite o nome do deputado…" autocomplete="off" />
+        </div>
+        <div class="control-group">
+          <label for="filtro-partido">Partido</label>
+          <select id="filtro-partido" name="partido">
+            <option value="">Todos os partidos</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="filtro-uf">UF</label>
+          <select id="filtro-uf" name="uf">
+            <option value="">Todas as UFs</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="filtro-projeto">Projeto (Filtro por lei)</label>
+          <select id="filtro-projeto" name="projeto">
+            <option value="">Todos os projetos</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="ordenacao">Ordenação</label>
+          <select id="ordenacao" name="ordenacao">
+            <option value="nota_desc">Maior Nota (Ranking Oficial)</option>
+            <option value="nota_asc">Menor Nota</option>
+            <option value="cc_desc">Maior Custo &amp; Conduta (Ncc)</option>
+            <option value="faltas_desc">Mais Faltas</option>
+            <option value="gasto_desc">Maior Gasto Total</option>
+            <option value="gasto_asc">Menor Gasto Total</option>
+          </select>
+        </div>
+      </section>
+
       <div class="results-bar">
         <span id="contagem-resultados" class="results-count" aria-live="polite"></span>
         <button type="button" id="btn-limpar-filtros" class="btn-clear" hidden>Limpar filtros</button>
       </div>
       <div id="estado-mensagem" class="status-banner" role="status" aria-live="polite" hidden></div>
+
       <div class="table-wrapper">
         <table class="ranking-table">
           <thead>
@@ -87,6 +132,7 @@
               <th class="col-pos">Posição</th>
               <th class="col-parlamentar">Parlamentar</th>
               <th class="col-nota">Nota Final</th>
+              <th class="col-decomp">Votos (70%) / C&amp;C (30%)</th>
               <th class="col-faltas">Faltas</th>
               <th class="col-gastos">Gastos</th>
             </tr>
@@ -95,12 +141,114 @@
         </table>
       </div>
     </section>
+
+    <!-- ABA 2: VISÃO DO PARTIDO -->
+    <section id="painel-partidos" class="tab-panel" role="tabpanel" aria-labelledby="tab-partidos" hidden>
+      <div class="panel-intro">
+        <div>
+          <h2>Visão do Partido — Coerência, Divergência e Custo Médio</h2>
+          <p class="panel-sub">
+            Compara a orientação majoritária da bancada nos 20 projetos com o voto individual de seus deputados e consolida o custo médio por legenda.
+          </p>
+        </div>
+        <div class="control-group party-detail-select">
+          <label for="seletor-partido-detalhe">Auditar votações do partido</label>
+          <select id="seletor-partido-detalhe" name="partido_detalhe"></select>
+        </div>
+      </div>
+
+      <div class="table-wrapper">
+        <table class="ranking-table parties-table">
+          <thead>
+            <tr>
+              <th>Partido</th>
+              <th>Bancada (Amostra)</th>
+              <th>Alinhamento Interno</th>
+              <th>Divergência</th>
+              <th>Coesão (Rice)</th>
+              <th>Nota Média (Persp.)</th>
+              <th>Custo Médio / Dep.</th>
+            </tr>
+          </thead>
+          <tbody id="partidos-tbody"></tbody>
+        </table>
+      </div>
+
+      <section class="party-votes-card" aria-label="Detalhamento de votações do partido selecionado">
+        <div class="party-votes-head">
+          <h3 id="titulo-partido-detalhe">Orientação × Voto Real por Projeto</h3>
+          <span class="badge-party" id="meta-partido-detalhe">Selecione um partido</span>
+        </div>
+        <div class="audit-table-wrapper">
+          <table class="audit-table">
+            <thead>
+              <tr>
+                <th>Proposição</th>
+                <th>Orientação (Maioria)</th>
+                <th class="num">Sim</th>
+                <th class="num">Não/Obst.</th>
+                <th class="num">Aus./Abst.</th>
+                <th class="num">Divergentes</th>
+                <th class="num">Coesão (Rice)</th>
+              </tr>
+            </thead>
+            <tbody id="partido-projetos-tbody"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
+    <!-- ABA 3: ANÁLISE DE CUSTOS -->
+    <section id="painel-custos" class="tab-panel" role="tabpanel" aria-labelledby="tab-custos" hidden>
+      <div class="panel-intro">
+        <div>
+          <h2>Nova Análise de Custos — CEAP, Gabinete e Uso do Teto</h2>
+          <p class="panel-sub">
+            Média mensal por parlamentar, comparação percentual contra o teto estadual da CEAP e peso na nota fixa de Custo &amp; Conduta (<abbr title="Nota de Custo e Conduta">N<sub>CC</sub></abbr>).
+          </p>
+        </div>
+      </div>
+
+      <div class="summary-grid costs-kpis" id="custos-kpis">
+        <article class="summary-card">
+          <span class="card-label">Custo Médio / Deputado</span>
+          <strong class="card-value" id="custo-medio-deputado">—</strong>
+          <span class="card-hint">Acumulado no período (CEAP + Gabinete)</span>
+        </article>
+        <article class="summary-card">
+          <span class="card-label">Custo Mensal Médio</span>
+          <strong class="card-value" id="custo-mensal-medio">—</strong>
+          <span class="card-hint">Média mensal por parlamentar (6 meses)</span>
+        </article>
+        <article class="summary-card">
+          <span class="card-label">Total CEAP vs. Gabinete</span>
+          <strong class="card-value" id="custo-ceap-total">—</strong>
+          <span class="card-hint" id="custo-gabinete-total">Gabinete: —</span>
+        </article>
+      </div>
+
+      <div class="table-wrapper">
+        <table class="ranking-table costs-table">
+          <thead>
+            <tr>
+              <th>Parlamentar</th>
+              <th>Custo Mensal Médio</th>
+              <th>CEAP (% do Teto UF)</th>
+              <th>Gabinete (% do Teto)</th>
+              <th>Gasto Total</th>
+              <th>Nota C&amp;C (Ncc)</th>
+            </tr>
+          </thead>
+          <tbody id="custos-tbody"></tbody>
+        </table>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer" id="site-footer">
     <div class="container footer-content">
-      <p>Dados coletados via API Dados Abertos da Câmara dos Deputados (57ª Legislatura) e curadoria documental do MVP.</p>
-      <p>Nota final em escala [0,00 – 10,00] composta por Bloco A (Atividade), Bloco B (Bônus/Penalidades) e Bloco C (Custos).</p>
+      <p>Dados da API Dados Abertos da Câmara (57ª Legislatura • Modo Teste). Reset oficial em 01/01/2027.</p>
+      <p>Fórmula v2: NF = (0,7 × Nota da Perspectiva) + (0,3 × Custo e Conduta Fixa) em escala [0,00 – 10,00].</p>
     </div>
   </footer>
 
@@ -128,44 +276,45 @@
 
       <div class="modal-body">
         <section class="modal-section">
-          <h3>Decomposição da Nota</h3>
+          <h3>Composição da Nota (<span id="modal-perspectiva-nome">Perspectiva</span>)</h3>
           <div class="blocks-grid">
             <div class="block-card block-a">
-              <span class="block-title">Bloco A — Atividade</span>
-              <strong class="block-score" id="modal-bloco-a">+0,00</strong>
-              <span class="block-sub" id="modal-bloco-a-sub">V: 0,00 • PRE: 0,00</span>
-              <div class="mini-bar"><span id="bar-bloco-a"></span></div>
+              <span class="block-title">Nota da Perspectiva (70%)</span>
+              <strong class="block-score" id="modal-np">0,00</strong>
+              <span class="block-sub" id="modal-np-sub">0/20 acertos na prova</span>
+              <div class="mini-bar"><span id="bar-np"></span></div>
             </div>
             <div class="block-card block-b">
-              <span class="block-title">Bloco B — Bônus / Penalidades</span>
-              <strong class="block-score" id="modal-bloco-b">+0,00</strong>
-              <span class="block-sub" id="modal-bloco-b-sub">PL: 0,00 • AL: 0,00 • PRO: 0,00</span>
-              <div class="mini-bar"><span id="bar-bloco-b"></span></div>
+              <span class="block-title">Custo &amp; Conduta Fixa (30%)</span>
+              <strong class="block-score" id="modal-ncc">0,00</strong>
+              <span class="block-sub" id="modal-ncc-sub">Custo: 0,00 • Conduta: 0,00</span>
+              <div class="mini-bar"><span id="bar-ncc"></span></div>
             </div>
             <div class="block-card block-c">
-              <span class="block-title">Bloco C — Custos</span>
-              <strong class="block-score" id="modal-bloco-c">-0,00</strong>
-              <span class="block-sub" id="modal-bloco-c-sub">G: 0,00 • D: 0,00 • PRI: 0,00</span>
-              <div class="mini-bar"><span id="bar-bloco-c"></span></div>
+              <span class="block-title">Custo Mensal &amp; Teto CEAP</span>
+              <strong class="block-score" id="modal-custo-mensal">R$ 0,00</strong>
+              <span class="block-sub" id="modal-custo-sub">0% do teto CEAP</span>
+              <div class="mini-bar"><span id="bar-custo"></span></div>
             </div>
             <div class="block-card block-final">
-              <span class="block-title">Nota Final Travada [0–10]</span>
+              <span class="block-title">Nota Final [0–10]</span>
               <strong class="block-score" id="modal-nota-final">0,00</strong>
-              <span class="block-sub" id="modal-nota-bruta">Nota bruta: 0,00</span>
+              <span class="block-sub" id="modal-nota-formula">0,7×Np + 0,3×Ncc</span>
             </div>
           </div>
         </section>
 
         <section class="modal-section">
-          <h3>Auditoria dos 20 Projetos</h3>
+          <h3>Auditoria dos 20 Projetos (Gabarito da Perspectiva)</h3>
           <div class="audit-table-wrapper">
             <table class="audit-table">
               <thead>
                 <tr>
                   <th>Proposição</th>
-                  <th class="num">Peso (RP)</th>
-                  <th>Voto Registrado</th>
-                  <th class="num">Pontuação (NP)</th>
+                  <th class="num">Peso</th>
+                  <th>Gabarito</th>
+                  <th>Voto</th>
+                  <th class="num">Prova</th>
                 </tr>
               </thead>
               <tbody id="modal-votos-tbody"></tbody>

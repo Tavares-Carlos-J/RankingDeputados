@@ -9,6 +9,13 @@
 
 ## Registro de Execuções
 
+### Entrada #8
+- **Versão do Projeto:** `v0.2.0`
+- **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)
+- **Data e Hora da Ação:** 2026-11-14 14:46
+- **O que foi feito:** Executada a Etapa 1.3: atualizados `public/index.html` e `public/style.css` com banner fixo de `DADOS DE TESTE`, seletor global de perspectiva, 3 abas (`Ranking Geral`, `Visão do Partido`, `Análise de Custos`), colunas `N_P` (70%), `N_CC` (30%) e `NF_P`, filtro de projeto, modal atualizado e responsividade mobile.
+- **Próximo Passo:** Executar **Fase 1 — Etapa 1.4 (Lógica da nova interface em `public/app.js`)** do `ROADMAP.md`.
+
 ### Entrada #7
 - **Versão do Projeto:** `v0.2.0`
 - **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)
