@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "atualizado_em": "2026-11-14T14:31:09-03:00",
+    "atualizado_em": "2026-11-14T15:05:32-03:00",
     "modo_operacao": "DADOS_DE_TESTE",
     "aviso_legal": "Ambiente de homologação e calibragem metodológica (57ª Legislatura). O ranking oficial terá início em 01/01/2027 com notas zeradas.",
     "formula": {
@@ -14,22 +14,448 @@
         "nome_asc"
       ]
     },
-    "perspectiva_padrao": "visao_dono",
+    "perspectiva_padrao": "visao_banca",
     "perspectivas_disponiveis": [
       {
-        "id_perspectiva": "visao_dono",
-        "titulo": "Visão do Dono (Legado)",
-        "resumo_criterio": "Gabarito original do MVP migrado de dados/projetos.json."
+        "id_perspectiva": "visao_banca",
+        "titulo": "Visão da Banca",
+        "resumo_criterio": "Critério editorial principal da Banca avaliadora nos 20 projetos de referência.",
+        "criterios_projetos": [
+          {
+            "codigo": "PEC 45/2019",
+            "titulo": "Reforma Tributária (2º Turno)",
+            "voto_esperado": "Sim",
+            "rp": 1.0,
+            "justificativa": "Posição de referência da Banca (peso 1,0)."
+          },
+          {
+            "codigo": "PLP 93/2023",
+            "titulo": "Novo Arcabouço Fiscal",
+            "voto_esperado": "Sim",
+            "rp": 1.0,
+            "justificativa": "Posição de referência da Banca (peso 1,0)."
+          },
+          {
+            "codigo": "PLP 68/2024",
+            "titulo": "Regulamentação da Reforma Tributária",
+            "voto_esperado": "Sim",
+            "rp": 1.0,
+            "justificativa": "Posição de referência da Banca (peso 1,0)."
+          },
+          {
+            "codigo": "PL 1087/2025",
+            "titulo": "Isenção do IR até R$ 5 mil",
+            "voto_esperado": "Sim",
+            "rp": 0.8,
+            "justificativa": "Posição de referência da Banca (peso 0,8)."
+          },
+          {
+            "codigo": "PL 914/2024",
+            "titulo": "Programa Mover / Taxa das Blusinhas",
+            "voto_esperado": "Sim",
+            "rp": 0.8,
+            "justificativa": "Posição de referência da Banca (peso 0,8)."
+          },
+          {
+            "codigo": "PL 3626/2023",
+            "titulo": "Regulamentação e Taxação das Bets",
+            "voto_esperado": "Sim",
+            "rp": 0.6,
+            "justificativa": "Posição de referência da Banca (peso 0,6)."
+          },
+          {
+            "codigo": "PL 4173/2023",
+            "titulo": "Taxação de Offshores e Fundos Exclusivos",
+            "voto_esperado": "Sim",
+            "rp": 0.6,
+            "justificativa": "Posição de referência da Banca (peso 0,6)."
+          },
+          {
+            "codigo": "PL 2903/2023",
+            "titulo": "Marco Temporal das Terras Indígenas",
+            "voto_esperado": "Não",
+            "rp": 0.4,
+            "justificativa": "Posição de referência da Banca (peso 0,4)."
+          },
+          {
+            "codigo": "PL 4614/2024",
+            "titulo": "Pacote de Corte de Gastos / BPC",
+            "voto_esperado": "Sim",
+            "rp": 0.7,
+            "justificativa": "Posição de referência da Banca (peso 0,7)."
+          },
+          {
+            "codigo": "PL 2162/2023",
+            "titulo": "PL da Dosimetria / Revisão de Penas",
+            "voto_esperado": "Não",
+            "rp": 0.85,
+            "justificativa": "Posição de referência da Banca (peso 0,85)."
+          },
+          {
+            "codigo": "PEC 18/2025",
+            "titulo": "PEC da Segurança Pública (2º Turno)",
+            "voto_esperado": "Sim",
+            "rp": 0.8,
+            "justificativa": "Posição de referência da Banca (peso 0,8)."
+          },
+          {
+            "codigo": "PL 5582/2025",
+            "titulo": "Marco Legal contra o Crime Organizado",
+            "voto_esperado": "Sim",
+            "rp": 0.95,
+            "justificativa": "Posição de referência da Banca (peso 0,95)."
+          },
+          {
+            "codigo": "PEC 9/2023",
+            "titulo": "PEC da Anistia Partidária (2º Turno)",
+            "voto_esperado": "Não",
+            "rp": 0.9,
+            "justificativa": "Posição de referência da Banca (peso 0,9)."
+          },
+          {
+            "codigo": "PEC 3/2021",
+            "titulo": "PEC das Prerrogativas (2º Turno)",
+            "voto_esperado": "Não",
+            "rp": 0.9,
+            "justificativa": "Posição de referência da Banca (peso 0,9)."
+          },
+          {
+            "codigo": "PL 2159/2021",
+            "titulo": "Lei Geral do Licenciamento Ambiental",
+            "voto_esperado": "Não",
+            "rp": 0.85,
+            "justificativa": "Posição de referência da Banca (peso 0,85)."
+          },
+          {
+            "codigo": "PL 5230/2023",
+            "titulo": "Reforma do Novo Ensino Médio",
+            "voto_esperado": "Sim",
+            "rp": 0.85,
+            "justificativa": "Posição de referência da Banca (peso 0,85)."
+          },
+          {
+            "codigo": "PLP 136/2023",
+            "titulo": "Compensação do ICMS aos Estados",
+            "voto_esperado": "Sim",
+            "rp": 0.75,
+            "justificativa": "Posição de referência da Banca (peso 0,75)."
+          },
+          {
+            "codigo": "PL 2384/2023",
+            "titulo": "Voto de Qualidade no CARF (Destaque)",
+            "voto_esperado": "Não",
+            "rp": 0.75,
+            "justificativa": "Posição de referência da Banca (peso 0,75)."
+          },
+          {
+            "codigo": "PLP 210/2024",
+            "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+            "voto_esperado": "Sim",
+            "rp": 0.85,
+            "justificativa": "Posição de referência da Banca (peso 0,85)."
+          },
+          {
+            "codigo": "PLP 128/2025",
+            "titulo": "Revisão de Benefícios Fiscais e JCP",
+            "voto_esperado": "Sim",
+            "rp": 0.8,
+            "justificativa": "Posição de referência da Banca (peso 0,8)."
+          }
+        ]
       },
       {
         "id_perspectiva": "povo",
         "titulo": "Povo",
-        "resumo_criterio": "Prioriza poder de compra, justiça tributária, proteção social, serviços públicos e integridade institucional."
+        "resumo_criterio": "Prioriza poder de compra, justiça tributária, proteção social, serviços públicos e integridade institucional.",
+        "criterios_projetos": [
+          {
+            "codigo": "PEC 45/2019",
+            "titulo": "Reforma Tributária (2º Turno)",
+            "voto_esperado": "Sim",
+            "rp": 1.0,
+            "justificativa": "Simplifica impostos sobre consumo e prevê cesta básica."
+          },
+          {
+            "codigo": "PLP 93/2023",
+            "titulo": "Novo Arcabouço Fiscal",
+            "voto_esperado": "Sim",
+            "rp": 1.0,
+            "justificativa": "Substitui teto rígido permitindo investimentos sociais mínimos."
+          },
+          {
+            "codigo": "PLP 68/2024",
+            "titulo": "Regulamentação da Reforma Tributária",
+            "voto_esperado": "Sim",
+            "rp": 1.0,
+            "justificativa": "Isenta cesta básica e cria cashback tributário para baixa renda."
+          },
+          {
+            "codigo": "PL 1087/2025",
+            "titulo": "Isenção do IR até R$ 5 mil",
+            "voto_esperado": "Sim",
+            "rp": 0.8,
+            "justificativa": "Amplia isenção do IR até R$ 5 mil aliviando trabalhadores."
+          },
+          {
+            "codigo": "PL 914/2024",
+            "titulo": "Programa Mover / Taxa das Blusinhas",
+            "voto_esperado": "Não",
+            "rp": 0.8,
+            "justificativa": "Tributa compras internacionais populares até US$ 50."
+          },
+          {
+            "codigo": "PL 3626/2023",
+            "titulo": "Regulamentação e Taxação das Bets",
+            "voto_esperado": "Sim",
+            "rp": 0.6,
+            "justificativa": "Regulamenta apostas online e protege apostadores."
+          },
+          {
+            "codigo": "PL 4173/2023",
+            "titulo": "Taxação de Offshores e Fundos Exclusivos",
+            "voto_esperado": "Sim",
+            "rp": 0.6,
+            "justificativa": "Aumenta progressividade tributando offshores e fundos exclusivos."
+          },
+          {
+            "codigo": "PL 2903/2023",
+            "titulo": "Marco Temporal das Terras Indígenas",
+            "voto_esperado": "Não",
+            "rp": 0.4,
+            "justificativa": "Restringe direitos constitucionais de povos indígenas."
+          },
+          {
+            "codigo": "PL 4614/2024",
+            "titulo": "Pacote de Corte de Gastos / BPC",
+            "voto_esperado": "Não",
+            "rp": 0.7,
+            "justificativa": "Restringe acesso ao BPC e limita ganho real do salário mínimo."
+          },
+          {
+            "codigo": "PL 2162/2023",
+            "titulo": "PL da Dosimetria / Revisão de Penas",
+            "voto_esperado": "Não",
+            "rp": 0.85,
+            "justificativa": "Reduz rigor penal em condenações contra o Estado democrático."
+          },
+          {
+            "codigo": "PEC 18/2025",
+            "titulo": "PEC da Segurança Pública (2º Turno)",
+            "voto_esperado": "Sim",
+            "rp": 0.8,
+            "justificativa": "Integra forças policiais para ampliar segurança pública."
+          },
+          {
+            "codigo": "PL 5582/2025",
+            "titulo": "Marco Legal contra o Crime Organizado",
+            "voto_esperado": "Sim",
+            "rp": 0.95,
+            "justificativa": "Endurece combate a facções criminosas e milícias."
+          },
+          {
+            "codigo": "PEC 9/2023",
+            "titulo": "PEC da Anistia Partidária (2º Turno)",
+            "voto_esperado": "Não",
+            "rp": 0.9,
+            "justificativa": "Perdoa multas por descumprimento de cotas raciais e de gênero."
+          },
+          {
+            "codigo": "PEC 3/2021",
+            "titulo": "PEC das Prerrogativas (2º Turno)",
+            "voto_esperado": "Não",
+            "rp": 0.9,
+            "justificativa": "Amplia blindagem e dificulta responsabilização de parlamentares."
+          },
+          {
+            "codigo": "PL 2159/2021",
+            "titulo": "Lei Geral do Licenciamento Ambiental",
+            "voto_esperado": "Não",
+            "rp": 0.85,
+            "justificativa": "Flexibiliza licenciamento ambiental aumentando risco socioambiental."
+          },
+          {
+            "codigo": "PL 5230/2023",
+            "titulo": "Reforma do Novo Ensino Médio",
+            "voto_esperado": "Sim",
+            "rp": 0.85,
+            "justificativa": "Amplia carga horária da formação geral básica no ensino médio."
+          },
+          {
+            "codigo": "PLP 136/2023",
+            "titulo": "Compensação do ICMS aos Estados",
+            "voto_esperado": "Sim",
+            "rp": 0.75,
+            "justificativa": "Recomposição de ICMS preserva orçamento de saúde e educação nos estados."
+          },
+          {
+            "codigo": "PL 2384/2023",
+            "titulo": "Voto de Qualidade no CARF (Destaque)",
+            "voto_esperado": "Não",
+            "rp": 0.75,
+            "justificativa": "Rejeita supressão do voto de qualidade da Fazenda contra grandes devedores."
+          },
+          {
+            "codigo": "PLP 210/2024",
+            "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+            "voto_esperado": "Sim",
+            "rp": 0.85,
+            "justificativa": "Permite bloqueio de emendas para preservar equilíbrio orçamentário."
+          },
+          {
+            "codigo": "PLP 128/2025",
+            "titulo": "Revisão de Benefícios Fiscais e JCP",
+            "voto_esperado": "Sim",
+            "rp": 0.8,
+            "justificativa": "Corta privilégios tributários setoriais em favor de justiça fiscal."
+          }
+        ]
       },
       {
         "id_perspectiva": "mercado",
         "titulo": "Mercado",
-        "resumo_criterio": "Prioriza previsibilidade fiscal, segurança jurídica, menor carga sobre produção e capital e destravamento de investimentos."
+        "resumo_criterio": "Prioriza previsibilidade fiscal, segurança jurídica, menor carga sobre produção e capital e destravamento de investimentos.",
+        "criterios_projetos": [
+          {
+            "codigo": "PEC 45/2019",
+            "titulo": "Reforma Tributária (2º Turno)",
+            "voto_esperado": "Sim",
+            "rp": 1.0,
+            "justificativa": "Elimina cumulatividade tributária e reduz contencioso empresarial."
+          },
+          {
+            "codigo": "PLP 93/2023",
+            "titulo": "Novo Arcabouço Fiscal",
+            "voto_esperado": "Sim",
+            "rp": 1.0,
+            "justificativa": "Estabelece regra fiscal previsível em substituição ao vácuo do teto."
+          },
+          {
+            "codigo": "PLP 68/2024",
+            "titulo": "Regulamentação da Reforma Tributária",
+            "voto_esperado": "Sim",
+            "rp": 1.0,
+            "justificativa": "Regulamenta transição e operacionalização do IBS/CBS."
+          },
+          {
+            "codigo": "PL 1087/2025",
+            "titulo": "Isenção do IR até R$ 5 mil",
+            "voto_esperado": "Não",
+            "rp": 0.8,
+            "justificativa": "Cria tributação mínima sobre altas rendas e dividendos."
+          },
+          {
+            "codigo": "PL 914/2024",
+            "titulo": "Programa Mover / Taxa das Blusinhas",
+            "voto_esperado": "Sim",
+            "rp": 0.8,
+            "justificativa": "Incentiva indústria automotiva e dá isonomia ao varejo nacional."
+          },
+          {
+            "codigo": "PL 3626/2023",
+            "titulo": "Regulamentação e Taxação das Bets",
+            "voto_esperado": "Sim",
+            "rp": 0.6,
+            "justificativa": "Cria marco regulatório e segurança jurídica para o setor de apostas."
+          },
+          {
+            "codigo": "PL 4173/2023",
+            "titulo": "Taxação de Offshores e Fundos Exclusivos",
+            "voto_esperado": "Não",
+            "rp": 0.6,
+            "justificativa": "Eleva tributação periódica sobre capital e fundos exclusivos."
+          },
+          {
+            "codigo": "PL 2903/2023",
+            "titulo": "Marco Temporal das Terras Indígenas",
+            "voto_esperado": "Sim",
+            "rp": 0.4,
+            "justificativa": "Traz previsibilidade fundiária para agronegócio e infraestrutura."
+          },
+          {
+            "codigo": "PL 4614/2024",
+            "titulo": "Pacote de Corte de Gastos / BPC",
+            "voto_esperado": "Sim",
+            "rp": 0.7,
+            "justificativa": "Contém expansão de despesas obrigatórias para equilíbrio fiscal."
+          },
+          {
+            "codigo": "PL 2162/2023",
+            "titulo": "PL da Dosimetria / Revisão de Penas",
+            "voto_esperado": "Não",
+            "rp": 0.85,
+            "justificativa": "Insegurança institucional pode elevar prêmio de risco."
+          },
+          {
+            "codigo": "PEC 18/2025",
+            "titulo": "PEC da Segurança Pública (2º Turno)",
+            "voto_esperado": "Sim",
+            "rp": 0.8,
+            "justificativa": "Melhora coordenação de segurança pública e ambiente de negócios."
+          },
+          {
+            "codigo": "PL 5582/2025",
+            "titulo": "Marco Legal contra o Crime Organizado",
+            "voto_esperado": "Sim",
+            "rp": 0.95,
+            "justificativa": "Combate crime organizado que afeta cadeias produtivas e patrimônio."
+          },
+          {
+            "codigo": "PEC 9/2023",
+            "titulo": "PEC da Anistia Partidária (2º Turno)",
+            "voto_esperado": "Não",
+            "rp": 0.9,
+            "justificativa": "Enfraquece governança institucional e cumprimento de regras."
+          },
+          {
+            "codigo": "PEC 3/2021",
+            "titulo": "PEC das Prerrogativas (2º Turno)",
+            "voto_esperado": "Não",
+            "rp": 0.9,
+            "justificativa": "Reduz accountability institucional e transparência pública."
+          },
+          {
+            "codigo": "PL 2159/2021",
+            "titulo": "Lei Geral do Licenciamento Ambiental",
+            "voto_esperado": "Sim",
+            "rp": 0.85,
+            "justificativa": "Agiliza licenciamento ambiental para obras de infraestrutura e agro."
+          },
+          {
+            "codigo": "PL 5230/2023",
+            "titulo": "Reforma do Novo Ensino Médio",
+            "voto_esperado": "Sim",
+            "rp": 0.85,
+            "justificativa": "Estrutura formação básica e técnica para produtividade futura."
+          },
+          {
+            "codigo": "PLP 136/2023",
+            "titulo": "Compensação do ICMS aos Estados",
+            "voto_esperado": "Sim",
+            "rp": 0.75,
+            "justificativa": "Pacifica litígios federativos de ICMS entre estados e União."
+          },
+          {
+            "codigo": "PL 2384/2023",
+            "titulo": "Voto de Qualidade no CARF (Destaque)",
+            "voto_esperado": "Sim",
+            "rp": 0.75,
+            "justificativa": "Destaque suprime voto de qualidade da Fazenda, favorecendo contribuintes no CARF."
+          },
+          {
+            "codigo": "PLP 210/2024",
+            "titulo": "Ajuste Fiscal e Gatilhos do Arcabouço",
+            "voto_esperado": "Sim",
+            "rp": 0.85,
+            "justificativa": "Reforça gatilhos fiscais e controle de gastos em déficit."
+          },
+          {
+            "codigo": "PLP 128/2025",
+            "titulo": "Revisão de Benefícios Fiscais e JCP",
+            "voto_esperado": "Não",
+            "rp": 0.8,
+            "justificativa": "Aumenta alíquotas sobre JCP, fintechs e reduz incentivos setoriais."
+          }
+        ]
       }
     ],
     "total_deputados": 40,
@@ -64,7 +490,7 @@
       "media_percentual_teto_ceap": 85.0,
       "nota_media_custo_conduta": 5.35,
       "notas_medias_perspectiva": {
-        "visao_dono": 3.45,
+        "visao_banca": 3.45,
         "povo": 3.29,
         "mercado": 4.08
       },
@@ -336,7 +762,7 @@
       "media_percentual_teto_ceap": 68.0,
       "nota_media_custo_conduta": 6.05,
       "notas_medias_perspectiva": {
-        "visao_dono": 6.13,
+        "visao_banca": 6.13,
         "povo": 5.55,
         "mercado": 5.71
       },
@@ -608,7 +1034,7 @@
       "media_percentual_teto_ceap": 86.8,
       "nota_media_custo_conduta": 5.37,
       "notas_medias_perspectiva": {
-        "visao_dono": 6.72,
+        "visao_banca": 6.72,
         "povo": 6.07,
         "mercado": 5.3
       },
@@ -878,7 +1304,7 @@
       "media_percentual_teto_ceap": 73.1,
       "nota_media_custo_conduta": 5.62,
       "notas_medias_perspectiva": {
-        "visao_dono": 6.04,
+        "visao_banca": 6.04,
         "povo": 6.02,
         "mercado": 4.8
       },
@@ -1148,7 +1574,7 @@
       "media_percentual_teto_ceap": 80.6,
       "nota_media_custo_conduta": 5.59,
       "notas_medias_perspectiva": {
-        "visao_dono": 5.63,
+        "visao_banca": 5.63,
         "povo": 5.3,
         "mercado": 5.23
       },
@@ -1418,7 +1844,7 @@
       "media_percentual_teto_ceap": 79.5,
       "nota_media_custo_conduta": 6.12,
       "notas_medias_perspectiva": {
-        "visao_dono": 4.04,
+        "visao_banca": 4.04,
         "povo": 4.0,
         "mercado": 4.66
       },
@@ -1687,7 +2113,7 @@
       "media_percentual_teto_ceap": 66.5,
       "nota_media_custo_conduta": 5.9,
       "notas_medias_perspectiva": {
-        "visao_dono": 5.45,
+        "visao_banca": 5.45,
         "povo": 5.27,
         "mercado": 4.5
       },
@@ -1957,7 +2383,7 @@
       "media_percentual_teto_ceap": 65.8,
       "nota_media_custo_conduta": 5.45,
       "notas_medias_perspectiva": {
-        "visao_dono": 5.46,
+        "visao_banca": 5.46,
         "povo": 5.13,
         "mercado": 4.92
       },
@@ -2226,7 +2652,7 @@
       "media_percentual_teto_ceap": 100.8,
       "nota_media_custo_conduta": 5.17,
       "notas_medias_perspectiva": {
-        "visao_dono": 5.12,
+        "visao_banca": 5.12,
         "povo": 5.09,
         "mercado": 4.17
       },
@@ -2495,7 +2921,7 @@
       "media_percentual_teto_ceap": 95.2,
       "nota_media_custo_conduta": 4.95,
       "notas_medias_perspectiva": {
-        "visao_dono": 4.34,
+        "visao_banca": 4.34,
         "povo": 4.0,
         "mercado": 4.36
       },
@@ -2764,7 +3190,7 @@
       "media_percentual_teto_ceap": 49.3,
       "nota_media_custo_conduta": 6.9,
       "notas_medias_perspectiva": {
-        "visao_dono": 2.07,
+        "visao_banca": 2.07,
         "povo": 2.07,
         "mercado": 2.07
       },
@@ -3033,7 +3459,7 @@
       "media_percentual_teto_ceap": 51.6,
       "nota_media_custo_conduta": 7.48,
       "notas_medias_perspectiva": {
-        "visao_dono": 4.89,
+        "visao_banca": 4.89,
         "povo": 4.54,
         "mercado": 5.69
       },
@@ -3302,7 +3728,7 @@
       "media_percentual_teto_ceap": 102.8,
       "nota_media_custo_conduta": 5.43,
       "notas_medias_perspectiva": {
-        "visao_dono": 7.74,
+        "visao_banca": 7.74,
         "povo": 7.7,
         "mercado": 6.25
       },
@@ -3571,7 +3997,7 @@
       "media_percentual_teto_ceap": 91.9,
       "nota_media_custo_conduta": 4.98,
       "notas_medias_perspectiva": {
-        "visao_dono": 3.57,
+        "visao_banca": 3.57,
         "povo": 3.53,
         "mercado": 3.36
       },
@@ -3840,7 +4266,7 @@
       "nota_custo_conduta": 5.43,
       "projetos_aprovados": 3,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 8.73,
           "nota_custo_conduta": 5.43,
           "nota_final": 7.74,
@@ -4648,7 +5074,7 @@
       "nota_custo_conduta": 5.3,
       "projetos_aprovados": 4,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 8.48,
           "nota_custo_conduta": 5.3,
           "nota_final": 7.53,
@@ -5456,7 +5882,7 @@
       "nota_custo_conduta": 8.06,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 7.31,
           "nota_custo_conduta": 8.06,
           "nota_final": 7.53,
@@ -6264,7 +6690,7 @@
       "nota_custo_conduta": 5.19,
       "projetos_aprovados": 2,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 7.86,
           "nota_custo_conduta": 5.19,
           "nota_final": 7.06,
@@ -7072,7 +7498,7 @@
       "nota_custo_conduta": 5.76,
       "projetos_aprovados": 2,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 7.31,
           "nota_custo_conduta": 5.76,
           "nota_final": 6.84,
@@ -7880,7 +8306,7 @@
       "nota_custo_conduta": 5.41,
       "projetos_aprovados": 2,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 7.4,
           "nota_custo_conduta": 5.41,
           "nota_final": 6.8,
@@ -8688,7 +9114,7 @@
       "nota_custo_conduta": 5.06,
       "projetos_aprovados": 3,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 7.52,
           "nota_custo_conduta": 5.06,
           "nota_final": 6.78,
@@ -9496,7 +9922,7 @@
       "nota_custo_conduta": 5.01,
       "projetos_aprovados": 0,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 6.97,
           "nota_custo_conduta": 5.01,
           "nota_final": 6.38,
@@ -10304,7 +10730,7 @@
       "nota_custo_conduta": 5.05,
       "projetos_aprovados": 2,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 6.81,
           "nota_custo_conduta": 5.05,
           "nota_final": 6.28,
@@ -11112,7 +11538,7 @@
       "nota_custo_conduta": 6.89,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 5.79,
           "nota_custo_conduta": 6.89,
           "nota_final": 6.12,
@@ -11920,7 +12346,7 @@
       "nota_custo_conduta": 5.51,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 6.25,
           "nota_custo_conduta": 5.51,
           "nota_final": 6.03,
@@ -12728,7 +13154,7 @@
       "nota_custo_conduta": 5.94,
       "projetos_aprovados": 2,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 6.01,
           "nota_custo_conduta": 5.94,
           "nota_final": 5.99,
@@ -13536,7 +13962,7 @@
       "nota_custo_conduta": 5.07,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 6.35,
           "nota_custo_conduta": 5.07,
           "nota_final": 5.96,
@@ -14344,7 +14770,7 @@
       "nota_custo_conduta": 5.42,
       "projetos_aprovados": 2,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 6.1,
           "nota_custo_conduta": 5.42,
           "nota_final": 5.9,
@@ -15152,7 +15578,7 @@
       "nota_custo_conduta": 5.56,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 6.01,
           "nota_custo_conduta": 5.56,
           "nota_final": 5.87,
@@ -15960,7 +16386,7 @@
       "nota_custo_conduta": 5.47,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 5.98,
           "nota_custo_conduta": 5.47,
           "nota_final": 5.82,
@@ -16768,7 +17194,7 @@
       "nota_custo_conduta": 5.47,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 5.7,
           "nota_custo_conduta": 5.47,
           "nota_final": 5.63,
@@ -17576,7 +18002,7 @@
       "nota_custo_conduta": 5.21,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 5.79,
           "nota_custo_conduta": 5.21,
           "nota_final": 5.62,
@@ -18384,7 +18810,7 @@
       "nota_custo_conduta": 5.65,
       "projetos_aprovados": 3,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 5.51,
           "nota_custo_conduta": 5.65,
           "nota_final": 5.55,
@@ -19192,7 +19618,7 @@
       "nota_custo_conduta": 5.11,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 5.57,
           "nota_custo_conduta": 5.11,
           "nota_final": 5.43,
@@ -20000,7 +20426,7 @@
       "nota_custo_conduta": 5.55,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 5.29,
           "nota_custo_conduta": 5.55,
           "nota_final": 5.37,
@@ -20808,7 +21234,7 @@
       "nota_custo_conduta": 4.83,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 5.39,
           "nota_custo_conduta": 4.83,
           "nota_final": 5.22,
@@ -21616,7 +22042,7 @@
       "nota_custo_conduta": 5.52,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 4.8,
           "nota_custo_conduta": 5.52,
           "nota_final": 5.01,
@@ -22424,7 +22850,7 @@
       "nota_custo_conduta": 6.38,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 4.4,
           "nota_custo_conduta": 6.38,
           "nota_final": 4.99,
@@ -23232,7 +23658,7 @@
       "nota_custo_conduta": 7.48,
       "projetos_aprovados": 3,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 3.78,
           "nota_custo_conduta": 7.48,
           "nota_final": 4.89,
@@ -24040,7 +24466,7 @@
       "nota_custo_conduta": 7.11,
       "projetos_aprovados": 2,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 3.72,
           "nota_custo_conduta": 7.11,
           "nota_final": 4.73,
@@ -24848,7 +25274,7 @@
       "nota_custo_conduta": 5.89,
       "projetos_aprovados": 3,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 3.96,
           "nota_custo_conduta": 5.89,
           "nota_final": 4.54,
@@ -25656,7 +26082,7 @@
       "nota_custo_conduta": 5.79,
       "projetos_aprovados": 2,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 3.47,
           "nota_custo_conduta": 5.79,
           "nota_final": 4.16,
@@ -26464,7 +26890,7 @@
       "nota_custo_conduta": 5.34,
       "projetos_aprovados": 2,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 3.59,
           "nota_custo_conduta": 5.34,
           "nota_final": 4.12,
@@ -27272,7 +27698,7 @@
       "nota_custo_conduta": 5.35,
       "projetos_aprovados": 2,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 3.44,
           "nota_custo_conduta": 5.35,
           "nota_final": 4.01,
@@ -28080,7 +28506,7 @@
       "nota_custo_conduta": 5.69,
       "projetos_aprovados": 0,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 3.16,
           "nota_custo_conduta": 5.69,
           "nota_final": 3.92,
@@ -28888,7 +29314,7 @@
       "nota_custo_conduta": 5.36,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 3.16,
           "nota_custo_conduta": 5.36,
           "nota_final": 3.82,
@@ -29696,7 +30122,7 @@
       "nota_custo_conduta": 6.01,
       "projetos_aprovados": 0,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 2.6,
           "nota_custo_conduta": 6.01,
           "nota_final": 3.62,
@@ -30504,7 +30930,7 @@
       "nota_custo_conduta": 4.98,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 2.97,
           "nota_custo_conduta": 4.98,
           "nota_final": 3.57,
@@ -31312,7 +31738,7 @@
       "nota_custo_conduta": 5.14,
       "projetos_aprovados": 1,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 2.6,
           "nota_custo_conduta": 5.14,
           "nota_final": 3.36,
@@ -32120,7 +32546,7 @@
       "nota_custo_conduta": 6.1,
       "projetos_aprovados": 2,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 2.07,
           "nota_custo_conduta": 6.1,
           "nota_final": 3.28,
@@ -32928,7 +33354,7 @@
       "nota_custo_conduta": 4.78,
       "projetos_aprovados": 0,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 2.6,
           "nota_custo_conduta": 4.78,
           "nota_final": 3.25,
@@ -33736,7 +34162,7 @@
       "nota_custo_conduta": 4.42,
       "projetos_aprovados": 0,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 2.07,
           "nota_custo_conduta": 4.42,
           "nota_final": 2.78,
@@ -34544,7 +34970,7 @@
       "nota_custo_conduta": 6.9,
       "projetos_aprovados": 0,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 0.0,
           "nota_custo_conduta": 6.9,
           "nota_final": 2.07,
@@ -35352,7 +35778,7 @@
       "nota_custo_conduta": 4.5,
       "projetos_aprovados": 0,
       "notas_por_perspectiva": {
-        "visao_dono": {
+        "visao_banca": {
           "nota_perspectiva": 0.99,
           "nota_custo_conduta": 4.5,
           "nota_final": 2.04,

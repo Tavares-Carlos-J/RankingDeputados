@@ -144,6 +144,107 @@ body {
   color: #94a3b8;
 }
 
+.header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.top-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(15, 23, 42, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  padding: 0.25rem;
+}
+
+.top-nav-link {
+  text-decoration: none;
+  color: #cbd5e1;
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 0.45rem 0.9rem;
+  border-radius: 7px;
+  touch-action: manipulation;
+  transition: background-color 0.14s ease, color 0.14s ease;
+}
+
+.top-nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.top-nav-link[aria-current="page"] {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+.top-nav-link:focus-visible {
+  outline: 2px solid #93c5fd;
+  outline-offset: 2px;
+}
+
+.select-with-eye {
+  display: flex;
+  align-items: stretch;
+  gap: 0.4rem;
+}
+
+.select-with-eye select {
+  flex: 1;
+  min-width: 0;
+}
+
+.btn-eye {
+  width: 42px;
+  min-width: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-muted);
+  color: var(--primary);
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: background-color 0.14s ease, border-color 0.14s ease;
+}
+
+.btn-eye:hover {
+  background: var(--primary-soft);
+  border-color: #93c5fd;
+}
+
+.btn-eye:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.criterios-summary-box {
+  background: var(--surface-muted);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.criterios-summary-box p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.criterios-formula {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
 /* Seletor de Perspectiva */
 .perspective-bar {
   background: var(--surface);

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Visão do Partido — Coerência interna, divergência nas votações e custo médio por legenda (Ambiente de Teste — 57ª Legislatura)." />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Partidos — Ranking Parlamentar (Modo Teste)</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f172a'/%3E%3Cpath d='M8 22V14h4v8H8zm6 0V9h4v13h-4zm6 0v-6h4v6h-4z' fill='%2393c5fd'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+
+  <div class="test-mode-banner" id="test-mode-banner" role="region" aria-label="Aviso de ambiente de teste">
+    <div class="container test-banner-inner">
+      <span class="test-pill">DADOS DE TESTE</span>
+      <p id="aviso-legal-texto">
+        Ambiente de homologação e calibragem metodológica (40 deputados e 20 leis da 57ª Legislatura). O ranking oficial inicia em <strong>01/01/2027</strong> com notas zeradas.
+      </p>
+    </div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-content">
+      <div>
+        <span class="eyebrow">Observatório Legislativo • Calibragem v2</span>
+        <h1>Visão do Partido</h1>
+        <p class="subtitle" id="periodo-referencia">Coerência interna, divergência nas votações e custo médio por legenda</p>
+      </div>
+      <div class="header-actions">
+        <nav class="top-nav" aria-label="Navegação principal">
+          <a href="index.html" class="top-nav-link">Ranking</a>
+          <a href="partidos.html" class="top-nav-link" aria-current="page">Partidos</a>
+        </nav>
+        <div class="meta-badge">
+          <span class="meta-label">Última atualização</span>
+          <strong id="atualizado-em">—</strong>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo-principal" class="container" style="margin-top: 1.5rem; margin-bottom: 3rem;">
+    <section class="panel-intro" aria-label="Controles da visão partidária">
+      <div>
+        <h2>Coerência, Divergência e Custo Médio por Legenda</h2>
+        <p class="panel-sub">
+          Compara a orientação majoritária da bancada nos 20 projetos com o voto individual de seus deputados e consolida o custo médio por partido.
+        </p>
+      </div>
+      <div class="header-actions">
+        <div class="control-group party-detail-select">
+          <label for="seletor-perspectiva">Visão de referência</label>
+          <div class="select-with-eye">
+            <select id="seletor-perspectiva" name="perspectiva"></select>
+            <button
+              type="button"
+              id="btn-criterios-visao"
+              class="btn-eye"
+              aria-label="Ver critérios da nota e votos esperados da visão selecionada"
+              title="Ver critérios e votos esperados"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="control-group party-detail-select">
+          <label for="seletor-partido-detalhe">Auditar votações do partido</label>
+          <select id="seletor-partido-detalhe" name="partido_detalhe"></select>
+        </div>
+      </div>
+    </section>
+
+    <div id="estado-mensagem" class="status-banner" role="status" aria-live="polite" hidden></div>
+
+    <div class="table-wrapper">
+      <table class="ranking-table parties-table">
+        <thead>
+          <tr>
+            <th>Partido</th>
+            <th>Bancada (Amostra)</th>
+            <th>Alinhamento Interno</th>
+            <th>Divergência</th>
+            <th>Coesão (Rice)</th>
+            <th>Nota Média (Visão)</th>
+            <th>Custo Médio / Dep.</th>
+          </tr>
+        </thead>
+        <tbody id="partidos-tbody"></tbody>
+      </table>
+    </div>
+
+    <section class="party-votes-card" aria-label="Detalhamento de votações do partido selecionado">
+      <div class="party-votes-head">
+        <h3 id="titulo-partido-detalhe">Orientação × Voto Real por Projeto</h3>
+        <span class="badge-party" id="meta-partido-detalhe">Selecione um partido</span>
+      </div>
+      <div class="audit-table-wrapper">
+        <table class="audit-table">
+          <thead>
+            <tr>
+              <th>Proposição</th>
+              <th>Orientação (Maioria)</th>
+              <th class="num">Sim</th>
+              <th class="num">Não/Obst.</th>
+              <th class="num">Aus./Abst.</th>
+              <th class="num">Divergentes</th>
+              <th class="num">Coesão (Rice)</th>
+            </tr>
+          </thead>
+          <tbody id="partido-projetos-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer">
+    <div class="container footer-content">
+      <p>Dados da API Dados Abertos da Câmara (57ª Legislatura • Modo Teste). Reset oficial em 01/01/2027.</p>
+      <p>Fórmula v2: NF = (0,7 × Nota da Perspectiva) + (0,3 × Custo e Conduta Fixa) em escala [0,00 – 10,00].</p>
+    </div>
+  </footer>
+
+  <!-- MODAL CRITÉRIOS DA VISÃO (BOTÃO DE OLHO) -->
+  <div id="modal-criterios-backdrop" class="modal-backdrop" hidden>
+    <div
+      id="modal-criterios"
+      class="modal-dialog"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-criterios-titulo"
+    >
+      <header class="modal-header">
+        <div>
+          <span class="eyebrow" style="color: var(--primary); margin-bottom: 0.15rem;">Critérios da Nota</span>
+          <h2 id="modal-criterios-titulo" style="margin: 0; font-size: 1.25rem;">Visão da Banca</h2>
+        </div>
+        <button type="button" id="modal-criterios-fechar" class="btn-close" aria-label="Fechar critérios da visão">&times;</button>
+      </header>
+
+      <div class="modal-body">
+        <div class="criterios-summary-box">
+          <p id="modal-criterios-resumo">—</p>
+          <span class="criterios-formula" id="modal-criterios-formula">Fórmula: 70% alinhamento nas votações (Np) + 30% Custo &amp; Conduta (Ncc)</span>
+        </div>
+
+        <section class="modal-section" id="modal-criterios-tabela-wrap">
+          <h3>Votos Esperados e Pesos por Proposição</h3>
+          <div class="audit-table-wrapper">
+            <table class="audit-table">
+              <thead>
+                <tr>
+                  <th>Proposição</th>
+                  <th class="num">Peso (RP)</th>
+                  <th>Voto Esperado</th>
+                  <th>Critério</th>
+                </tr>
+              </thead>
+              <tbody id="modal-criterios-tbody"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script src="partidos.js" defer></script>
+</body>
+</html>

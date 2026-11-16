@@ -3,19 +3,14 @@
 (() => {
   const DATA_URL = "ranking_final.json";
 
-  const PESOS_NOTA = {
-    perspectiva: 0.7,
-    custoConduta: 0.3,
-  };
-
   const PERSPECTIVA_CC_ONLY = {
     id_perspectiva: "apenas_cc",
     titulo: "Apenas Custo & Conduta (Ncc)",
     resumo_criterio:
-      "Avalia exclusivamente economia de recursos públicos (CEAP e Gabinete) e assiduidade/conduta, sem considerar alinhamento ideológico nos projetos.",
+      "Avalia exclusivamente economia de recursos públicos (CEAP e Gabinete) e assiduidade/conduta, sem considerar alinhamento nos projetos.",
   };
 
-  const VALID_TABS = new Set(["ranking", "partidos", "custos"]);
+  const VALID_TABS = new Set(["ranking", "custos"]);
   const VALID_ORDERS = new Set([
     "nota_desc",
     "nota_asc",
@@ -54,15 +49,12 @@
   const state = {
     rawData: null,
     perspectivas: [],
-    projetosCatalogo: [],
-    perspectiva: "visao_dono",
+    perspectiva: "visao_banca",
     tab: "ranking",
     busca: "",
     partido: "",
     uf: "",
-    projeto: "",
     ordem: "nota_desc",
-    partidoDetalhe: "",
   };
 
   let lastFocusedElement = null;
@@ -77,7 +69,7 @@
     atualizadoEm: document.getElementById("atualizado-em"),
 
     seletorPerspectiva: document.getElementById("seletor-perspectiva"),
-    perspectivaDescricao: document.getElementById("perspectiva-descricao"),
+    btnCriteriosVisao: document.getElementById("btn-criterios-visao"),
 
     labelMediaNotas: document.getElementById("label-media-notas"),
     mediaNotas: document.getElementById("media-notas"),
@@ -90,25 +82,17 @@
     tabButtons: Array.from(document.querySelectorAll('.tab-btn[role="tab"]')),
     tabPanels: {
       ranking: document.getElementById("painel-ranking"),
-      partidos: document.getElementById("painel-partidos"),
       custos: document.getElementById("painel-custos"),
     },
 
     filtroBusca: document.getElementById("filtro-busca"),
     filtroPartido: document.getElementById("filtro-partido"),
     filtroUf: document.getElementById("filtro-uf"),
-    filtroProjeto: document.getElementById("filtro-projeto"),
     ordenacao: document.getElementById("ordenacao"),
     contagemResultados: document.getElementById("contagem-resultados"),
     btnLimparFiltros: document.getElementById("btn-limpar-filtros"),
     estadoMensagem: document.getElementById("estado-mensagem"),
     rankingTbody: document.getElementById("ranking-tbody"),
-
-    seletorPartidoDetalhe: document.getElementById("seletor-partido-detalhe"),
-    partidosTbody: document.getElementById("partidos-tbody"),
-    tituloPartidoDetalhe: document.getElementById("titulo-partido-detalhe"),
-    metaPartidoDetalhe: document.getElementById("meta-partido-detalhe"),
-    partidoProjetosTbody: document.getElementById("partido-projetos-tbody"),
 
     custoMedioDeputado: document.getElementById("custo-medio-deputado"),
     custoMensalMedio: document.getElementById("custo-mensal-medio"),
@@ -117,7 +101,6 @@
     custosTbody: document.getElementById("custos-tbody"),
 
     modalBackdrop: document.getElementById("modal-backdrop"),
-    modalDetalhes: document.getElementById("modal-detalhes"),
     modalFoto: document.getElementById("modal-foto"),
     modalPosicao: document.getElementById("modal-posicao"),
     modalNome: document.getElementById("modal-nome"),
@@ -136,6 +119,14 @@
     modalNotaFinal: document.getElementById("modal-nota-final"),
     modalNotaFormula: document.getElementById("modal-nota-formula"),
     modalVotosTbody: document.getElementById("modal-votos-tbody"),
+
+    modalCriteriosBackdrop: document.getElementById("modal-criterios-backdrop"),
+    modalCriteriosTitulo: document.getElementById("modal-criterios-titulo"),
+    modalCriteriosFechar: document.getElementById("modal-criterios-fechar"),
+    modalCriteriosResumo: document.getElementById("modal-criterios-resumo"),
+    modalCriteriosFormula: document.getElementById("modal-criterios-formula"),
+    modalCriteriosTabelaWrap: document.getElementById("modal-criterios-tabela-wrap"),
+    modalCriteriosTbody: document.getElementById("modal-criterios-tbody"),
   };
 
   function escapeHtml(value) {
@@ -199,8 +190,6 @@
         notaPerspectiva: null,
         notaCustoConduta: ncc,
         notaFinal: ncc,
-        acertos: null,
-        totalAvaliados: deputy.detalhe_votos?.length ?? 20,
         detalheVotos: deputy.detalhe_votos || [],
       };
     }
@@ -210,10 +199,10 @@
       return {
         isCcOnly: false,
         notaPerspectiva: Number(pData.nota_perspectiva ?? 0),
-        notaCustoConduta: Number(pData.nota_custo_conduta ?? deputy.nota_custo_conduta ?? 0),
+        notaCustoConduta: Number(
+          pData.nota_custo_conduta ?? deputy.nota_custo_conduta ?? 0
+        ),
         notaFinal: Number(pData.nota_final ?? 0),
-        acertos: Number(pData.acertos ?? 0),
-        totalAvaliados: Number(pData.total_avaliados ?? pData.detalhe_votos?.length ?? 20),
         detalheVotos: pData.detalhe_votos || deputy.detalhe_votos || [],
       };
     }
@@ -223,8 +212,6 @@
       notaPerspectiva: Number(deputy.nota_perspectiva ?? 0),
       notaCustoConduta: Number(deputy.nota_custo_conduta ?? 0),
       notaFinal: Number(deputy.nota_final ?? 0),
-      acertos: null,
-      totalAvaliados: deputy.detalhe_votos?.length ?? 20,
       detalheVotos: deputy.detalhe_votos || [],
     };
   }
@@ -273,7 +260,7 @@
   function syncUrlFromState() {
     const params = new URLSearchParams();
     const defaultPersp =
-      state.rawData?.metadata?.perspectiva_padrao || "visao_dono";
+      state.rawData?.metadata?.perspectiva_padrao || "visao_banca";
 
     if (state.perspectiva && state.perspectiva !== defaultPersp) {
       params.set("persp", state.perspectiva);
@@ -284,12 +271,8 @@
     if (state.busca) params.set("busca", state.busca);
     if (state.partido) params.set("partido", state.partido);
     if (state.uf) params.set("uf", state.uf);
-    if (state.projeto) params.set("projeto", state.projeto);
     if (state.ordem && state.ordem !== "nota_desc") {
       params.set("ordem", state.ordem);
-    }
-    if (state.partidoDetalhe && state.tab === "partidos") {
-      params.set("partido_detalhe", state.partidoDetalhe);
     }
 
     const qs = params.toString();
@@ -305,14 +288,16 @@
       state.perspectivas.map((p) => p.id_perspectiva)
     );
 
-    const perspParam = params.get("persp");
+    let perspParam = params.get("persp");
+    if (perspParam === "visao_dono") perspParam = "visao_banca";
+
     const defaultPersp =
-      state.rawData?.metadata?.perspectiva_padrao || "visao_dono";
+      state.rawData?.metadata?.perspectiva_padrao || "visao_banca";
     state.perspectiva = validPerspIds.has(perspParam)
       ? perspParam
       : validPerspIds.has(defaultPersp)
         ? defaultPersp
-        : state.perspectivas[0]?.id_perspectiva || "visao_dono";
+        : state.perspectivas[0]?.id_perspectiva || "visao_banca";
 
     const tabParam = params.get("tab");
     state.tab = VALID_TABS.has(tabParam) ? tabParam : "ranking";
@@ -320,21 +305,12 @@
     state.busca = params.get("busca") || "";
     state.partido = params.get("partido") || "";
     state.uf = params.get("uf") || "";
-    state.projeto = params.get("projeto") || "";
 
     const ordemParam = params.get("ordem");
     state.ordem = VALID_ORDERS.has(ordemParam) ? ordemParam : "nota_desc";
-
-    const partidos = state.rawData?.visao_partidos || [];
-    const partidoDetParam = params.get("partido_detalhe");
-    const hasPartidoDet = partidos.some((p) => p.partido === partidoDetParam);
-    state.partidoDetalhe = hasPartidoDet
-      ? partidoDetParam
-      : partidos[0]?.partido || "";
   }
 
   function populateSelectors() {
-    // Perspectivas
     dom.seletorPerspectiva.innerHTML = state.perspectivas
       .map(
         (p) =>
@@ -343,7 +319,6 @@
       .join("");
     dom.seletorPerspectiva.value = state.perspectiva;
 
-    // Partidos e UFs no filtro de Ranking
     const ranking = state.rawData?.ranking || [];
     const partidos = Array.from(new Set(ranking.map((d) => d.partido)))
       .filter(Boolean)
@@ -364,33 +339,6 @@
         .map((u) => `<option value="${escapeHtml(u)}">${escapeHtml(u)}</option>`)
         .join("");
 
-    // Projetos (20 leis)
-    const sampleVotes = ranking[0]?.detalhe_votos || [];
-    state.projetosCatalogo = sampleVotes.map((v) => ({
-      codigo: v.codigo,
-      titulo: v.titulo,
-      rp: v.rp,
-    }));
-
-    dom.filtroProjeto.innerHTML =
-      '<option value="">Todos os projetos</option>' +
-      state.projetosCatalogo
-        .map(
-          (proj) =>
-            `<option value="${escapeHtml(proj.codigo)}">${escapeHtml(proj.codigo)} — ${escapeHtml(proj.titulo)}</option>`
-        )
-        .join("");
-
-    // Seletor de partido na aba Visão do Partido
-    const visaoPartidos = state.rawData?.visao_partidos || [];
-    dom.seletorPartidoDetalhe.innerHTML = visaoPartidos
-      .map(
-        (p) =>
-          `<option value="${escapeHtml(p.partido)}">${escapeHtml(p.partido)} (${p.total_deputados} dep.)</option>`
-      )
-      .join("");
-
-    // Aplicar valores iniciais hidratados da URL
     dom.filtroBusca.value = state.busca;
     dom.filtroPartido.value = partidos.includes(state.partido)
       ? state.partido
@@ -400,14 +348,7 @@
     dom.filtroUf.value = ufs.includes(state.uf) ? state.uf : "";
     if (dom.filtroUf.value !== state.uf) state.uf = "";
 
-    const validProjeto = state.projetosCatalogo.some(
-      (p) => p.codigo === state.projeto
-    );
-    dom.filtroProjeto.value = validProjeto ? state.projeto : "";
-    if (!validProjeto) state.projeto = "";
-
     dom.ordenacao.value = state.ordem;
-    dom.seletorPartidoDetalhe.value = state.partidoDetalhe;
   }
 
   function renderHeaderAndPerspective() {
@@ -421,7 +362,6 @@
     dom.atualizadoEm.textContent = formatDateTime(meta.atualizado_em);
 
     const pAtual = getPerspectivaAtual();
-    dom.perspectivaDescricao.textContent = pAtual.resumo_criterio || "";
     dom.labelMediaNotas.textContent =
       state.perspectiva === "apenas_cc"
         ? "Média em Custo & Conduta"
@@ -524,39 +464,11 @@
     dom.detalheGastosGrupo.textContent = `CEAP: ${fmtCurrencyCompact.format(somaCeap)} • Gab.: ${fmtCurrencyCompact.format(somaGab)}`;
   }
 
-  function renderStatusBanner(rankedList) {
-    if (!state.projeto) {
-      dom.estadoMensagem.hidden = true;
-      dom.estadoMensagem.textContent = "";
-      return;
-    }
-
-    const sampleDeputy = rankedList[0];
-    const projVote = sampleDeputy?._view.detalheVotos.find(
-      (v) => v.codigo === state.projeto
-    );
-    if (!projVote) {
-      dom.estadoMensagem.hidden = true;
-      return;
-    }
-
-    const gabaritoTxt =
-      state.perspectiva === "apenas_cc"
-        ? "Modo apenas Custo & Conduta (sem gabarito)"
-        : `Gabarito na perspectiva: ${projVote.gabarito || "—"}`;
-
-    dom.estadoMensagem.hidden = false;
-    dom.estadoMensagem.innerHTML = `<strong>Filtro por Projeto:</strong> ${escapeHtml(projVote.codigo)} — ${escapeHtml(projVote.titulo)} (Peso RP: ${escapeHtml(projVote.rp)}) • <strong>${escapeHtml(gabaritoTxt)}</strong>`;
-  }
-
   function renderRankingTable(rankedList) {
     const filtered = filterAndSortRanking(rankedList);
     renderSummary(filtered);
-    renderStatusBanner(rankedList);
 
-    const hasFilters = Boolean(
-      state.busca || state.partido || state.uf || state.projeto
-    );
+    const hasFilters = Boolean(state.busca || state.partido || state.uf);
     dom.btnLimparFiltros.hidden = !hasFilters;
     dom.contagemResultados.textContent = `Exibindo ${filtered.length} de ${rankedList.length} parlamentares`;
 
@@ -581,35 +493,15 @@
         const rv = d.resumo_visual || {};
         const ac = d.analise_custos || {};
 
-        let decompHtml = "";
-        if (state.projeto) {
-          const projVote = d._view.detalheVotos.find(
-            (v) => v.codigo === state.projeto
-          );
-          if (projVote) {
-            const votoCss = getVotoClass(projVote.voto);
-            const provaTxt =
-              state.perspectiva === "apenas_cc"
-                ? "Sem gabarito (Ncc)"
-                : projVote.acertou
-                  ? "Acertou (1)"
-                  : "Errou (0)";
-            decompHtml = `
-              <span class="voto-pill ${votoCss}">${escapeHtml(projVote.voto)}</span>
-              <span class="cell-sub" style="display:block; margin-top:0.2rem;">${escapeHtml(provaTxt)} • Ncc ${fmtNumber.format(d._view.notaCustoConduta)}</span>
-            `;
-          }
-        } else if (d._view.isCcOnly) {
-          decompHtml = `
+        const decompHtml = d._view.isCcOnly
+          ? `
             <span class="cell-main">Ncc: ${fmtNumber.format(d._view.notaCustoConduta)}</span>
             <span class="cell-sub">Modo 100% Custo &amp; Conduta</span>
-          `;
-        } else {
-          decompHtml = `
+          `
+          : `
             <span class="cell-main">Np ${fmtNumber.format(d._view.notaPerspectiva)} • Ncc ${fmtNumber.format(d._view.notaCustoConduta)}</span>
-            <span class="cell-sub">${d._view.acertos ?? 0}/${d._view.totalAvaliados} acertos na prova</span>
+            <span class="cell-sub">Peso: 70% Votos • 30% C&amp;C</span>
           `;
-        }
 
         return `
           <tr data-id="${escapeHtml(d.id_camara)}" tabindex="0" aria-label="Ver auditoria de ${escapeHtml(d.nome)}, ${pos}º lugar, nota ${fmtNumber.format(notaFinal)}">
@@ -663,114 +555,6 @@
         if (img.src !== FALLBACK_AVATAR) img.src = FALLBACK_AVATAR;
       });
     });
-  }
-
-  function renderPartyDetail(partidoNome) {
-    const partidos = state.rawData?.visao_partidos || [];
-    const party =
-      partidos.find((p) => p.partido === partidoNome) || partidos[0];
-
-    if (!party) {
-      dom.tituloPartidoDetalhe.textContent = "Orientação × Voto Real por Projeto";
-      dom.metaPartidoDetalhe.textContent = "Sem dados partidários";
-      dom.partidoProjetosTbody.innerHTML = "";
-      return;
-    }
-
-    state.partidoDetalhe = party.partido;
-    dom.seletorPartidoDetalhe.value = party.partido;
-    dom.tituloPartidoDetalhe.textContent = `Orientação × Voto Real — ${party.partido}`;
-    dom.metaPartidoDetalhe.textContent = `${party.total_deputados} dep. • Alinhamento ${fmtPercent.format(party.coerencia?.taxa_alinhamento_pct ?? 0)}% • Coesão Rice ${fmtNumber.format(party.coerencia?.indice_rice_medio ?? 0)}`;
-
-    const rowsHtml = (party.detalhe_projetos || [])
-      .map((proj) => {
-        const naoObst = (proj.nao ?? 0) + (proj.obstrucao ?? 0);
-        const ausAbst = (proj.ausente ?? 0) + (proj.abstencao ?? 0);
-        const orientacaoClass = getVotoClass(proj.orientacao_proxy);
-        return `
-          <tr>
-            <td>
-              <strong>${escapeHtml(proj.codigo)}</strong>
-              <span class="cell-sub" style="display:block;">${escapeHtml(proj.titulo)}</span>
-            </td>
-            <td><span class="voto-pill ${orientacaoClass}">${escapeHtml(proj.orientacao_proxy)}</span></td>
-            <td class="num">${proj.sim ?? 0}</td>
-            <td class="num">${naoObst}</td>
-            <td class="num">${ausAbst}</td>
-            <td class="num">${proj.divergentes ?? 0}</td>
-            <td class="num">${fmtNumber.format(proj.indice_coesao_rice ?? 0)}</td>
-          </tr>
-        `;
-      })
-      .join("");
-
-    dom.partidoProjetosTbody.innerHTML = rowsHtml;
-  }
-
-  function renderPartiesView() {
-    const partidos = [...(state.rawData?.visao_partidos || [])];
-    const pId = state.perspectiva;
-
-    partidos.sort((a, b) => {
-      const notaA =
-        pId === "apenas_cc"
-          ? a.nota_media_custo_conduta
-          : a.notas_medias_perspectiva?.[pId] ?? a.nota_media_custo_conduta;
-      const notaB =
-        pId === "apenas_cc"
-          ? b.nota_media_custo_conduta
-          : b.notas_medias_perspectiva?.[pId] ?? b.nota_media_custo_conduta;
-      return (
-        notaB - notaA ||
-        (b.coerencia?.taxa_alinhamento_pct ?? 0) -
-          (a.coerencia?.taxa_alinhamento_pct ?? 0) ||
-        a.partido.localeCompare(b.partido, "pt-BR")
-      );
-    });
-
-    const rowsHtml = partidos
-      .map((p) => {
-        const notaPersp =
-          pId === "apenas_cc"
-            ? p.nota_media_custo_conduta
-            : p.notas_medias_perspectiva?.[pId] ?? 0;
-        const faixaClass = getFaixaClass(notaPersp);
-        const coer = p.coerencia || {};
-        return `
-          <tr>
-            <td data-label="Partido">
-              <button type="button" class="btn-party-row" data-party="${escapeHtml(p.partido)}">
-                ${escapeHtml(p.partido)}
-              </button>
-            </td>
-            <td data-label="Bancada (Amostra)">
-              <span class="cell-main">${p.total_deputados} ${p.total_deputados === 1 ? "deputado" : "deputados"}</span>
-              <span class="cell-sub">UFs: ${escapeHtml((p.ufs || []).join(", "))}</span>
-            </td>
-            <td data-label="Alinhamento Interno">
-              <span class="cell-main">${fmtPercent.format(coer.taxa_alinhamento_pct ?? 0)}%</span>
-              <span class="cell-sub">${coer.votos_alinhados ?? 0}/${coer.votos_comparaveis ?? 0} votos alinhados</span>
-            </td>
-            <td data-label="Divergência">
-              <span class="cell-main">${fmtPercent.format(coer.taxa_divergencia_pct ?? 0)}%</span>
-            </td>
-            <td data-label="Coesão (Rice)">
-              <span class="cell-main">${fmtNumber.format(coer.indice_rice_medio ?? 0)}</span>
-            </td>
-            <td data-label="Nota Média (Persp.)">
-              <span class="nota-valor ${faixaClass}">${fmtNumber.format(notaPersp)}</span>
-            </td>
-            <td data-label="Custo Médio / Dep.">
-              <span class="cell-main">${fmtCurrencyCompact.format(p.custo_medio_deputado_reais ?? 0)}</span>
-              <span class="cell-sub">${fmtCurrencyCompact.format(p.custo_mensal_medio_deputado_reais ?? 0)}/mês • ${fmtPercent.format(p.media_percentual_teto_ceap ?? 0)}% teto</span>
-            </td>
-          </tr>
-        `;
-      })
-      .join("");
-
-    dom.partidosTbody.innerHTML = rowsHtml;
-    renderPartyDetail(state.partidoDetalhe);
   }
 
   function renderCostsView(rankedList) {
@@ -870,7 +654,6 @@
     renderHeaderAndPerspective();
     const rankedList = getRankedDeputies();
     renderRankingTable(rankedList);
-    renderPartiesView();
     renderCostsView(rankedList);
     switchTab(state.tab, false);
   }
@@ -913,10 +696,10 @@
       dom.modalNp.textContent = "—";
       dom.modalNpSub.textContent = "Desativada no modo Custo & Conduta";
       dom.barNp.style.width = "0%";
-      dom.modalNotaFormula.textContent = "100% Ncc (sem peso ideológico)";
+      dom.modalNotaFormula.textContent = "100% Ncc";
     } else {
       dom.modalNp.textContent = fmtNumber.format(view.notaPerspectiva);
-      dom.modalNpSub.textContent = `${view.acertos ?? 0}/${view.totalAvaliados} acertos na prova`;
+      dom.modalNpSub.textContent = "Peso 70% na nota final";
       dom.barNp.style.width = `${clampPct(view.notaPerspectiva * 10)}%`;
       dom.modalNotaFormula.textContent = `0,7×${fmtNumber.format(view.notaPerspectiva)} + 0,3×${fmtNumber.format(view.notaCustoConduta)}`;
     }
@@ -936,12 +719,12 @@
     dom.modalVotosTbody.innerHTML = view.detalheVotos
       .map((v) => {
         const votoClass = getVotoClass(v.voto);
-        const gabClass = getVotoClass(v.gabarito);
-        const provaText = view.isCcOnly
+        const criterioClass = getVotoClass(v.gabarito);
+        const alinhamentoTxt = view.isCcOnly
           ? "—"
           : v.acertou
-            ? "1 (Acertou)"
-            : "0 (Errou)";
+            ? "Alinhado"
+            : "Divergente";
         return `
           <tr>
             <td>
@@ -950,10 +733,10 @@
             </td>
             <td class="num">${escapeHtml(v.rp)}</td>
             <td>
-              ${view.isCcOnly ? "—" : `<span class="voto-pill ${gabClass}">${escapeHtml(v.gabarito)}</span>`}
+              ${view.isCcOnly ? "—" : `<span class="voto-pill ${criterioClass}">${escapeHtml(v.gabarito)}</span>`}
             </td>
             <td><span class="voto-pill ${votoClass}">${escapeHtml(v.voto)}</span></td>
-            <td class="num">${escapeHtml(provaText)}</td>
+            <td class="num">${escapeHtml(alinhamentoTxt)}</td>
           </tr>
         `;
       })
@@ -974,11 +757,67 @@
     lastFocusedElement = null;
   }
 
+  function openCriteriosModal() {
+    lastFocusedElement = document.activeElement;
+    const pAtual = getPerspectivaAtual();
+    const isCcOnly = pAtual.id_perspectiva === "apenas_cc";
+
+    dom.modalCriteriosTitulo.textContent = pAtual.titulo;
+    dom.modalCriteriosResumo.textContent = pAtual.resumo_criterio || "";
+    dom.modalCriteriosFormula.textContent = isCcOnly
+      ? "Fórmula: 100% Custo & Conduta Fixa (Ncc = economia CEAP/Gabinete + assiduidade/conduta)."
+      : "Fórmula: NF = (0,7 × Nota da Perspectiva) + (0,3 × Custo e Conduta Fixa).";
+
+    if (isCcOnly) {
+      dom.modalCriteriosTabelaWrap.hidden = true;
+      dom.modalCriteriosTbody.innerHTML = "";
+    } else {
+      dom.modalCriteriosTabelaWrap.hidden = false;
+      const criterios = pAtual.criterios_projetos || [];
+      dom.modalCriteriosTbody.innerHTML = criterios
+        .map((item) => {
+          const votoClass = getVotoClass(item.voto_esperado);
+          return `
+            <tr>
+              <td>
+                <strong>${escapeHtml(item.codigo)}</strong>
+                <span class="cell-sub" style="display:block;">${escapeHtml(item.titulo)}</span>
+              </td>
+              <td class="num">${escapeHtml(item.rp)}</td>
+              <td><span class="voto-pill ${votoClass}">${escapeHtml(item.voto_esperado)}</span></td>
+              <td>${escapeHtml(item.justificativa || "—")}</td>
+            </tr>
+          `;
+        })
+        .join("");
+    }
+
+    setBackgroundInert(true);
+    dom.modalCriteriosBackdrop.hidden = false;
+    dom.modalCriteriosFechar.focus();
+  }
+
+  function closeCriteriosModal() {
+    if (dom.modalCriteriosBackdrop.hidden) return;
+    dom.modalCriteriosBackdrop.hidden = true;
+    setBackgroundInert(false);
+    if (lastFocusedElement && typeof lastFocusedElement.focus === "function") {
+      lastFocusedElement.focus();
+    }
+    lastFocusedElement = null;
+  }
+
   function bindEvents() {
     dom.seletorPerspectiva.addEventListener("change", (e) => {
       state.perspectiva = e.target.value;
       syncUrlFromState();
       renderAll();
+    });
+
+    dom.btnCriteriosVisao.addEventListener("click", openCriteriosModal);
+    dom.modalCriteriosFechar.addEventListener("click", closeCriteriosModal);
+    dom.modalCriteriosBackdrop.addEventListener("click", (e) => {
+      if (e.target === dom.modalCriteriosBackdrop) closeCriteriosModal();
     });
 
     dom.tabButtons.forEach((btn, idx) => {
@@ -1022,12 +861,6 @@
       renderRankingTable(getRankedDeputies());
     });
 
-    dom.filtroProjeto.addEventListener("change", (e) => {
-      state.projeto = e.target.value;
-      syncUrlFromState();
-      renderRankingTable(getRankedDeputies());
-    });
-
     dom.ordenacao.addEventListener("change", (e) => {
       state.ordem = e.target.value;
       syncUrlFromState();
@@ -1038,16 +871,13 @@
       state.busca = "";
       state.partido = "";
       state.uf = "";
-      state.projeto = "";
       dom.filtroBusca.value = "";
       dom.filtroPartido.value = "";
       dom.filtroUf.value = "";
-      dom.filtroProjeto.value = "";
       syncUrlFromState();
       renderRankingTable(getRankedDeputies());
     });
 
-    // Delegação para abrir modal nas tabelas de Ranking e Custos
     [dom.rankingTbody, dom.custosTbody].forEach((tbody) => {
       tbody.addEventListener("click", (e) => {
         const row = e.target.closest("tr[data-id]");
@@ -1064,33 +894,14 @@
       });
     });
 
-    // Visão do Partido: seletor e clique na linha
-    dom.seletorPartidoDetalhe.addEventListener("change", (e) => {
-      state.partidoDetalhe = e.target.value;
-      syncUrlFromState();
-      renderPartyDetail(state.partidoDetalhe);
-    });
-
-    dom.partidosTbody.addEventListener("click", (e) => {
-      const btn = e.target.closest("button[data-party]");
-      if (!btn) return;
-      state.partidoDetalhe = btn.dataset.party;
-      syncUrlFromState();
-      renderPartyDetail(state.partidoDetalhe);
-      dom.tituloPartidoDetalhe.scrollIntoView({
-        behavior: "smooth",
-        block: "nearest",
-      });
-    });
-
-    // Modal fechar
     dom.modalFechar.addEventListener("click", closeDeputyModal);
     dom.modalBackdrop.addEventListener("click", (e) => {
       if (e.target === dom.modalBackdrop) closeDeputyModal();
     });
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && !dom.modalBackdrop.hidden) {
-        closeDeputyModal();
+      if (e.key === "Escape") {
+        if (!dom.modalBackdrop.hidden) closeDeputyModal();
+        if (!dom.modalCriteriosBackdrop.hidden) closeCriteriosModal();
       }
     });
   }

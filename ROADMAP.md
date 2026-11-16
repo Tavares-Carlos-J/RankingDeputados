@@ -94,8 +94,15 @@ flowchart LR
 
 ### Etapa 1.5 — 🔍 Revisão da Fase 1
 - [x] Executar o checklist do `PROMPT_GERAL.md` §10, incluindo auditoria completa via `web-design-guidelines` e `playwright-cli` (desktop e mobile `390×844`, 0 erros de console, 0 overflow).
-- [ ] Validar com o usuário os resultados das 3 perspectivas (Dono, Povo, Mercado), da visão de partido e da análise de custos antes de reestruturar os dados.
+- [x] Validar com o usuário os resultados das 3 perspectivas (Dono, Povo, Mercado), da visão de partido e da análise de custos antes de reestruturar os dados.
 - [x] Atualizar a versão para `v0.3.0` no `RELATORIO_AGENTE.md` e obter aprovação do usuário para iniciar a Fase 2.
+
+### Etapa 1.6 — Correção de Nomenclatura, Navegação e Critérios (pós-teste Fase 1)
+- [x] Renomear `Visão do Dono` para **`Visão da Banca`** (`visao_banca`) no catálogo de perspectivas, no motor de cálculo e na interface, definindo-a como perspectiva principal padrão ao entrar no site.
+- [x] Remover todas as referências públicas a "prova", "acertos na prova" e "gabarito" do site (mantendo apenas o conceito referencial no cálculo interno), usando linguagem de alinhamento/critério da perspectiva.
+- [x] Separar a **Visão do Partido** em uma página própria (`public/partidos.html`) acessível por navegação no topo do site (`Ranking` / `Partidos`).
+- [x] Mover o seletor de **Visão do Ranking (Perspectiva)** do topo para a barra de filtros no lugar de `Projeto (Filtro por lei)`, acompanhado de um **botão em formato de olho** que abre os critérios da nota e os votos esperados da visão selecionada.
+- **Aceite:** navegação entre `index.html` e `partidos.html` funcionando, `Visão da Banca` como padrão, botão de olho exibindo critérios e votos esperados, zero menções a "prova/acertos" no site e auditoria Playwright sem erros.
 
 ---
 

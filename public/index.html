@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Ranking Parlamentar (Ambiente de Teste — 57ª Legislatura): avaliação multiperspectiva (Visão do Dono, Povo e Mercado), análise partidária e custos públicos." />
+  <meta name="description" content="Ranking Parlamentar (Ambiente de Teste — 57ª Legislatura): avaliação multiperspectiva (Visão da Banca, Povo e Mercado), análise partidária e custos públicos." />
   <meta name="theme-color" content="#0f172a" />
   <title>Ranking Parlamentar — Multiperspectiva (Modo Teste)</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f172a'/%3E%3Cpath d='M8 22V14h4v8H8zm6 0V9h4v13h-4zm6 0v-6h4v6h-4z' fill='%2393c5fd'/%3E%3C/svg%3E" />
@@ -29,31 +29,23 @@
         <h1>Ranking Parlamentar</h1>
         <p class="subtitle" id="periodo-referencia">Avaliação experimental de 40 deputados em 20 votações nominais</p>
       </div>
-      <div class="meta-badge">
-        <span class="meta-label">Última atualização</span>
-        <strong id="atualizado-em">—</strong>
+      <div class="header-actions">
+        <nav class="top-nav" aria-label="Navegação principal">
+          <a href="index.html" class="top-nav-link" aria-current="page">Ranking</a>
+          <a href="partidos.html" class="top-nav-link">Partidos</a>
+        </nav>
+        <div class="meta-badge">
+          <span class="meta-label">Última atualização</span>
+          <strong id="atualizado-em">—</strong>
+        </div>
       </div>
     </div>
   </header>
 
   <main id="conteudo-principal" class="container">
-    <section class="perspective-bar" aria-label="Seletor de perspectiva">
-      <div class="perspective-select-wrap">
-        <label for="seletor-perspectiva">Perspectiva de avaliação</label>
-        <select id="seletor-perspectiva" name="perspectiva"></select>
-      </div>
-      <p class="perspective-desc" id="perspectiva-descricao">
-        Carregando critério da perspectiva…
-      </p>
-      <div class="formula-badges" aria-label="Composição da nota">
-        <span class="formula-pill">Votos (<abbr title="Nota da Perspectiva">N<sub>P</sub></abbr>): <strong>70%</strong></span>
-        <span class="formula-pill">Custo &amp; Conduta (<abbr title="Nota Fixa de Custo e Conduta">N<sub>CC</sub></abbr>): <strong>30%</strong></span>
-      </div>
-    </section>
-
-    <section class="summary-grid" aria-label="Resumo do experimento">
+    <section class="summary-grid" aria-label="Resumo do experimento" style="margin-top: 1.5rem;">
       <article class="summary-card">
-        <span class="card-label" id="label-media-notas">Média na Perspectiva</span>
+        <span class="card-label" id="label-media-notas">Média (Visão da Banca)</span>
         <strong class="card-value" id="media-notas">—</strong>
         <span class="card-hint" id="total-avaliados">0 parlamentares avaliados</span>
       </article>
@@ -69,12 +61,9 @@
       </article>
     </section>
 
-    <nav class="view-tabs" role="tablist" aria-label="Visões de análise">
+    <nav class="view-tabs" role="tablist" aria-label="Visões do ranking">
       <button type="button" role="tab" id="tab-ranking" class="tab-btn" aria-selected="true" aria-controls="painel-ranking" data-tab="ranking">
         Ranking Geral
-      </button>
-      <button type="button" role="tab" id="tab-partidos" class="tab-btn" aria-selected="false" aria-controls="painel-partidos" data-tab="partidos">
-        Visão do Partido
       </button>
       <button type="button" role="tab" id="tab-custos" class="tab-btn" aria-selected="false" aria-controls="painel-custos" data-tab="custos">
         Análise de Custos
@@ -100,11 +89,23 @@
             <option value="">Todas as UFs</option>
           </select>
         </div>
-        <div class="control-group">
-          <label for="filtro-projeto">Projeto (Filtro por lei)</label>
-          <select id="filtro-projeto" name="projeto">
-            <option value="">Todos os projetos</option>
-          </select>
+        <div class="control-group control-perspective">
+          <label for="seletor-perspectiva">Visão do Ranking</label>
+          <div class="select-with-eye">
+            <select id="seletor-perspectiva" name="perspectiva"></select>
+            <button
+              type="button"
+              id="btn-criterios-visao"
+              class="btn-eye"
+              aria-label="Ver critérios da nota e votos esperados da visão selecionada"
+              title="Ver critérios e votos esperados"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </button>
+          </div>
         </div>
         <div class="control-group">
           <label for="ordenacao">Ordenação</label>
@@ -142,63 +143,7 @@
       </div>
     </section>
 
-    <!-- ABA 2: VISÃO DO PARTIDO -->
-    <section id="painel-partidos" class="tab-panel" role="tabpanel" aria-labelledby="tab-partidos" hidden>
-      <div class="panel-intro">
-        <div>
-          <h2>Visão do Partido — Coerência, Divergência e Custo Médio</h2>
-          <p class="panel-sub">
-            Compara a orientação majoritária da bancada nos 20 projetos com o voto individual de seus deputados e consolida o custo médio por legenda.
-          </p>
-        </div>
-        <div class="control-group party-detail-select">
-          <label for="seletor-partido-detalhe">Auditar votações do partido</label>
-          <select id="seletor-partido-detalhe" name="partido_detalhe"></select>
-        </div>
-      </div>
-
-      <div class="table-wrapper">
-        <table class="ranking-table parties-table">
-          <thead>
-            <tr>
-              <th>Partido</th>
-              <th>Bancada (Amostra)</th>
-              <th>Alinhamento Interno</th>
-              <th>Divergência</th>
-              <th>Coesão (Rice)</th>
-              <th>Nota Média (Persp.)</th>
-              <th>Custo Médio / Dep.</th>
-            </tr>
-          </thead>
-          <tbody id="partidos-tbody"></tbody>
-        </table>
-      </div>
-
-      <section class="party-votes-card" aria-label="Detalhamento de votações do partido selecionado">
-        <div class="party-votes-head">
-          <h3 id="titulo-partido-detalhe">Orientação × Voto Real por Projeto</h3>
-          <span class="badge-party" id="meta-partido-detalhe">Selecione um partido</span>
-        </div>
-        <div class="audit-table-wrapper">
-          <table class="audit-table">
-            <thead>
-              <tr>
-                <th>Proposição</th>
-                <th>Orientação (Maioria)</th>
-                <th class="num">Sim</th>
-                <th class="num">Não/Obst.</th>
-                <th class="num">Aus./Abst.</th>
-                <th class="num">Divergentes</th>
-                <th class="num">Coesão (Rice)</th>
-              </tr>
-            </thead>
-            <tbody id="partido-projetos-tbody"></tbody>
-          </table>
-        </div>
-      </section>
-    </section>
-
-    <!-- ABA 3: ANÁLISE DE CUSTOS -->
+    <!-- ABA 2: ANÁLISE DE CUSTOS -->
     <section id="painel-custos" class="tab-panel" role="tabpanel" aria-labelledby="tab-custos" hidden>
       <div class="panel-intro">
         <div>
@@ -252,6 +197,7 @@
     </div>
   </footer>
 
+  <!-- MODAL DETALHES DO PARLAMENTAR -->
   <div id="modal-backdrop" class="modal-backdrop" hidden>
     <div
       id="modal-detalhes"
@@ -276,12 +222,12 @@
 
       <div class="modal-body">
         <section class="modal-section">
-          <h3>Composição da Nota (<span id="modal-perspectiva-nome">Perspectiva</span>)</h3>
+          <h3>Composição da Nota (<span id="modal-perspectiva-nome">Visão da Banca</span>)</h3>
           <div class="blocks-grid">
             <div class="block-card block-a">
               <span class="block-title">Nota da Perspectiva (70%)</span>
               <strong class="block-score" id="modal-np">0,00</strong>
-              <span class="block-sub" id="modal-np-sub">0/20 acertos na prova</span>
+              <span class="block-sub" id="modal-np-sub">Peso 70% na nota final</span>
               <div class="mini-bar"><span id="bar-np"></span></div>
             </div>
             <div class="block-card block-b">
@@ -305,19 +251,62 @@
         </section>
 
         <section class="modal-section">
-          <h3>Auditoria dos 20 Projetos (Gabarito da Perspectiva)</h3>
+          <h3>Auditoria dos 20 Projetos</h3>
           <div class="audit-table-wrapper">
             <table class="audit-table">
               <thead>
                 <tr>
                   <th>Proposição</th>
                   <th class="num">Peso</th>
-                  <th>Gabarito</th>
+                  <th>Critério da Visão</th>
                   <th>Voto</th>
-                  <th class="num">Prova</th>
+                  <th class="num">Alinhamento</th>
                 </tr>
               </thead>
               <tbody id="modal-votos-tbody"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL CRITÉRIOS DA VISÃO (BOTÃO DE OLHO) -->
+  <div id="modal-criterios-backdrop" class="modal-backdrop" hidden>
+    <div
+      id="modal-criterios"
+      class="modal-dialog"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-criterios-titulo"
+    >
+      <header class="modal-header">
+        <div>
+          <span class="eyebrow" style="color: var(--primary); margin-bottom: 0.15rem;">Critérios da Nota</span>
+          <h2 id="modal-criterios-titulo" style="margin: 0; font-size: 1.25rem;">Visão da Banca</h2>
+        </div>
+        <button type="button" id="modal-criterios-fechar" class="btn-close" aria-label="Fechar critérios da visão">&times;</button>
+      </header>
+
+      <div class="modal-body">
+        <div class="criterios-summary-box">
+          <p id="modal-criterios-resumo">—</p>
+          <span class="criterios-formula" id="modal-criterios-formula">Fórmula: 70% alinhamento nas votações (Np) + 30% Custo &amp; Conduta (Ncc)</span>
+        </div>
+
+        <section class="modal-section" id="modal-criterios-tabela-wrap">
+          <h3>Votos Esperados e Pesos por Proposição</h3>
+          <div class="audit-table-wrapper">
+            <table class="audit-table">
+              <thead>
+                <tr>
+                  <th>Proposição</th>
+                  <th class="num">Peso (RP)</th>
+                  <th>Voto Esperado</th>
+                  <th>Critério</th>
+                </tr>
+              </thead>
+              <tbody id="modal-criterios-tbody"></tbody>
             </table>
           </div>
         </section>

@@ -70,14 +70,14 @@ def normalizar_gabarito(voto: str | None) -> str:
 
 
 def carregar_perspectivas(projetos_cfg: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Carrega catálogo de perspectivas ou deriva `visao_dono` de `projetos.json`."""
+    """Carrega catálogo de perspectivas ou deriva `visao_banca` de `projetos.json`."""
     if CATALOGO_PERSPECTIVAS_PATH.exists():
         catalogo = load_json(CATALOGO_PERSPECTIVAS_PATH)
         perspectivas = catalogo.get("perspectivas", [])
         if perspectivas:
             return perspectivas
 
-    gabarito_dono = {
+    gabarito_banca = {
         proj["codigo"]: {
             "gabarito": "Sim" if float(proj["np_sim"]) >= float(proj["np_nao"]) else "Não",
             "rp": float(proj["rp"]),
@@ -86,10 +86,10 @@ def carregar_perspectivas(projetos_cfg: list[dict[str, Any]]) -> list[dict[str, 
     }
     return [
         {
-            "id_perspectiva": "visao_dono",
-            "titulo": "Visão do Dono (Legado)",
-            "resumo_criterio": "Gabarito inicial do projeto baseado nas notas originais de curadoria.",
-            "gabarito": gabarito_dono,
+            "id_perspectiva": "visao_banca",
+            "titulo": "Visão da Banca",
+            "resumo_criterio": "Critério editorial principal da Banca avaliadora.",
+            "gabarito": gabarito_banca,
         }
     ]
 
@@ -502,6 +502,16 @@ def processar_ranking(
                     "id_perspectiva": p["id_perspectiva"],
                     "titulo": p["titulo"],
                     "resumo_criterio": p.get("resumo_criterio", ""),
+                    "criterios_projetos": [
+                        {
+                            "codigo": proj["codigo"],
+                            "titulo": proj["titulo"],
+                            "voto_esperado": p.get("gabarito", {}).get(proj["codigo"], {}).get("gabarito", "Sim"),
+                            "rp": p.get("gabarito", {}).get(proj["codigo"], {}).get("rp", float(proj["rp"])),
+                            "justificativa": p.get("gabarito", {}).get(proj["codigo"], {}).get("justificativa", ""),
+                        }
+                        for proj in projetos_cfg
+                    ],
                 }
                 for p in perspectivas
             ],

@@ -9,6 +9,13 @@
 
 ## Registro de Execuções
 
+### Entrada #11
+- **Versão do Projeto:** `v0.3.1`
+- **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)
+- **Data e Hora da Ação:** 2026-11-16 12:36
+- **O que foi feito:** Executada a Etapa 1.6 (correção pós-teste Fase 1): renomeada `Visão do Dono` para `Visão da Banca` (`visao_banca`, padrão ao abrir), removidas todas as menções a "prova/acertos/gabarito" da UI, separada a Visão do Partido em `public/partidos.html` com navegação no topo (`Ranking` / `Partidos`) e movido o seletor de visão para a barra de filtros com botão de olho para critérios e votos esperados. Validado via `playwright-cli` sem erros ou overflow.
+- **Próximo Passo:** Validar alterações no `vercel.app` e iniciar **Fase 2 — Etapa 2.1 (Eliminação dos micro-arquivos JSON)** do `ROADMAP.md` após aprovação do usuário.
+
 ### Entrada #10
 - **Versão do Projeto:** `v0.3.0`
 - **Agente Utilizado:** Antigravity (Gemini 4 Hydrogen)
